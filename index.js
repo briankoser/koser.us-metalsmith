@@ -1,7 +1,8 @@
 var Metalsmith = require('metalsmith'),
     inplace = require('metalsmith-in-place'),
     markdown = require('metalsmith-markdown')
-    serve = require('metalsmith-serve');
+    serve = require('metalsmith-serve'),
+    watch = require('metalsmith-watch');;
 
 Metalsmith(__dirname)
     .source('src')
@@ -12,6 +13,9 @@ Metalsmith(__dirname)
     }))
     .use(markdown())
     .use(serve())
+    .use(watch({
+        livereload: true
+    }))
     .build(function(err){
         if (err) throw err;
     });
