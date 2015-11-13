@@ -64,7 +64,8 @@ footer {
     font-size: 0.75rem;
 }
 
-nav {
+nav,
+.footer-container {
     background-color: #000;
     margin: 0;
 }
@@ -80,7 +81,8 @@ nav li {
     padding: 0 1rem 0 0;
 }
 
-nav li a {
+nav li a,
+.footer-container {
     color: #fff;
     text-decoration: none;
 }
@@ -559,6 +561,14 @@ hr {
     display: block;
     margin-left: -1rem;
     padding-left: 0.5rem;
+}
+
+.footer-container {
+    padding: 1em 0;
+}
+
+.footer-container a {
+    color: #fff;
 }
 
 .gist table {
