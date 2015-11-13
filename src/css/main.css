@@ -3,7 +3,9 @@
 ******************************
   *, @viewport
 ******************************************************************************/
-*, *:before, *:after {
+*, 
+*:before, 
+*:after {
        -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
             box-sizing: border-box;
@@ -31,7 +33,7 @@
 ******************************************************************************/
 html {
     color: #444;
-    font: 18px/1.4 'Source Serif Pro', Georgia, sans-serif;
+    font: 26px/1.4 'Source Serif Pro', Georgia, sans-serif;
     /*Turn on kerning, standard ligatures, and proportional, oldstyle numerals
       Turn off all other ligatures, tabular, lining numerals, and alternates */
     -webkit-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
@@ -40,28 +42,49 @@ html {
 }
 
 body {
-    margin: 0 auto 1.4em;
-    max-width: 33em;
+    margin: 0 0 1.4rem 0;
+}
+
+footer,
+nav ul,
+main,
+.site-title {
+    margin: 0 auto;
+    max-width: 33rem;
 }
 
 header {
     position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
     vertical-align: text-top;
 }
 
-header h1 {
-    display: inline-block;
+footer {
+    text-align: right;
+    font-size: 0.75rem;
+}
+
+nav,
+.footer-container {
+    background-color: #000;
+    margin: 0;
 }
 
 nav ul {
-    margin: 0.5em 0 0.25em 0;
     padding: 0;
 }
 
-nav ul li {
+nav li {
     display: inline-block;
     list-style-type: none;
-    padding-right: 0.75em;
+    margin: 0;
+    padding: 0 1rem 0 0;
+}
+
+nav li a,
+.footer-container {
+    color: #fff;
+    text-decoration: none;
 }
 
 main {
@@ -71,20 +94,19 @@ main {
             hyphens: auto;
 }
 
-main nav,
+nav,
 small {
     font-size: 0.75rem;
 }
 
 p a {
-    border-bottom: solid 1px #006b9f;
-    color: #006b9f;
+    border-bottom: solid 1px #4f93f9;
     text-decoration: none;
 }
 
 p a:hover {
-    -webkit-transition: border-bottom-width 300ms cubic-bezier(1, 0, 0, 1);
-            transition: border-bottom-width 300ms cubic-bezier(1, 0, 0, 1);
+    -webkit-transition: border-bottom-width 100ms cubic-bezier(1, 0, 0, 1);
+            transition: border-bottom-width 100ms cubic-bezier(1, 0, 0, 1);
     border-bottom-width: 3px;
 }
 
@@ -162,13 +184,11 @@ h3 {
 }
 
 h1 {
-    font-size: 19px;
-    margin-bottom: 6.2px;
+    font-size: 1.5rem;
 }
 
 h2 {
-    font-size: 18.5px;
-    margin-bottom: 6.7px;
+    font-size: 1.25rem;
 }
 
 h3,
@@ -295,7 +315,7 @@ td {
 }
 
 th {
-    background-color: #006b9f;
+    background-color: #4f93f9;
     color: #fff;
 }
 
@@ -308,6 +328,10 @@ th {
   cite, data, progress, time, meter, code, var, samp, kbd, keygen, bdi, bdo, 
   ruby, rt, rp, span
 ******************************************************************************/
+a {
+    color: #000;
+}
+
 em {
     font-style: italic;
 }
@@ -385,9 +409,9 @@ var,
 code,
 var {
     background-color: rgba(0,107,159,0.04);
-    border: 1px solid #006b9f;
+    border: 1px solid #4f93f9;
     border-radius: 2px;
-    color: #006b9f;
+    color: #4f93f9;
     margin: 0 0.15em;
     padding: 0 0.3em;
 }
@@ -417,83 +441,23 @@ kbd {
 ******************************************************************************/
 hr {
     border: 0;
-    border-top: 1px solid #3d3987;
+    border-top: 1px solid #4f93f9;
     display: block;
     height: 1px;
     padding: 0;
 }
 
 ::-moz-selection {
-    background: #3d3987;
+    background: #4f93f9;
     color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background-color: #3d3987;
+    background-color: #4f93f9;
     color: #fff;
     text-shadow: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* from H5BP responsive: evaluate */
-div[role=main] {
-  padding: 1em;
-  background: #FFF;
-  border: 1px solid #b3b3b3;
-  border-radius: 4px;
-  margin: 0 auto;
-  box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
-}
-div[role=main] img {
-  position: relative;
-  width: 100%;
-}
-footer {
-  text-align: center;
-  font-size: 0.75em;
-}
-h1 {
-  text-align: center;
-  font-size: 3em;
-  margin: 0.5em 0 0 0;
-  padding: 0;
-  color: rgba(225, 55, 56, 0.9);
-}
-.navbar {
-  display: block;
-  list-style: none;
-  padding: 0;
-  margin: 0.5em 0 0.67em 0;
-  text-align: center;
-}
-.navbar li {
-  display: inline-block;
-  margin: 0 0.5em;
-}
-.navbar li a {
-  font-size: 1.5em;
-  text-decoration: none;
-  color: #737373;
-}
-
-
-
-
-
-
-
 
 
 
@@ -599,6 +563,14 @@ h1 {
     padding-left: 0.5rem;
 }
 
+.footer-container {
+    padding: 1em 0;
+}
+
+.footer-container a {
+    color: #fff;
+}
+
 .gist table {
     margin-bottom: 0;
 }
@@ -607,8 +579,20 @@ h1 {
     background-color: #f8f8ff;
 }
 
+.header-container {
+    background-color: #4f93f9;
+    color: #fff;
+    padding-top: 1em;
+}
+
 .license {
     text-align: right;
+}
+
+.paper {
+    border: 1px solid #b3b3b3;
+    box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+    padding: 1em;
 }
 
 .post {
@@ -625,7 +609,6 @@ h1 {
 }
 
 .site-title {
-    color: #006b9f;
     font-weight: bold;
 }
 
@@ -640,8 +623,15 @@ h1 {
 /******************************************************************************
   MEDIA QUERIES
 ******************************************************************************/
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 35em) {
+    header,
+    main {
+        padding-left: 1em;
+    }
+
+    .desktop-only {
+        display: none;
+    }
 }
 
 @media print,
@@ -655,7 +645,8 @@ h1 {
 
 /******************************************************************************
   PRINT STYLES
-******************************************************************************/@media print {
+******************************************************************************/
+@media print {
     *,
     *:before,
     *:after {
