@@ -18,3 +18,4 @@ $RECYCLE.BIN/
 *.lnk
 
 build/
+npm-debug.log
