@@ -1,5 +1,6 @@
 var Metalsmith = require('metalsmith'),
     inplace = require('metalsmith-in-place'),
+    layouts = require('metalsmith-layouts'),
     markdown = require('metalsmith-markdown'),
     permalinks = require('metalsmith-permalinks'),
     serve = require('metalsmith-serve'),
@@ -14,6 +15,10 @@ Metalsmith(__dirname)
         pattern: '**/*.md'
     }))
     .use(markdown())
+    .use(layouts({
+        engine: 'handlebars',
+        default: 'default.html'
+    }))
     .use(serve())
     .use(watch({
         livereload: true
