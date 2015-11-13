@@ -19,7 +19,8 @@ Metalsmith(__dirname)
     .use(markdown())
     .use(layouts({
         engine: 'handlebars',
-        default: 'default.html'
+        default: 'default.html',
+        pattern: '**/*.html'
     }))
     .use(serve())
     .use(watch({
