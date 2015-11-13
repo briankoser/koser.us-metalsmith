@@ -1,0 +1,7 @@
+{
+  "name": "koser.us-metalsmith",
+  "private": true,
+  "dependencies": {
+    "metalsmith": "^1.0.0"
+  }
+}
