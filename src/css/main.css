@@ -3,7 +3,9 @@
 ******************************
   *, @viewport
 ******************************************************************************/
-*, *:before, *:after {
+*, 
+*:before, 
+*:after {
        -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
             box-sizing: border-box;
@@ -31,7 +33,7 @@
 ******************************************************************************/
 html {
     color: #444;
-    font: 18px/1.4 'Source Serif Pro', Georgia, sans-serif;
+    font: 26px/1.4 'Source Serif Pro', Georgia, sans-serif;
     /*Turn on kerning, standard ligatures, and proportional, oldstyle numerals
       Turn off all other ligatures, tabular, lining numerals, and alternates */
     -webkit-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
@@ -40,8 +42,15 @@ html {
 }
 
 body {
+    margin: 0;
+}
+
+footer,
+nav,
+main,
+.site-title {
     margin: 0 auto 1.4em;
-    max-width: 33em;
+    max-width: 33rem;
 }
 
 header {
@@ -49,8 +58,15 @@ header {
     vertical-align: text-top;
 }
 
-header h1 {
-    display: inline-block;
+header nav {
+    margin-top: 0;
+}
+
+
+
+footer {
+    text-align: right;
+    font-size: 0.75rem;
 }
 
 nav ul {
@@ -77,8 +93,7 @@ small {
 }
 
 p a {
-    border-bottom: solid 1px #006b9f;
-    color: #006b9f;
+    border-bottom: solid 1px #3d3987;
     text-decoration: none;
 }
 
@@ -162,13 +177,11 @@ h3 {
 }
 
 h1 {
-    font-size: 19px;
-    margin-bottom: 6.2px;
+    font-size: 1.5rem;
 }
 
 h2 {
-    font-size: 18.5px;
-    margin-bottom: 6.7px;
+    font-size: 1.25rem;
 }
 
 h3,
@@ -295,7 +308,7 @@ td {
 }
 
 th {
-    background-color: #006b9f;
+    background-color: #3d3987;
     color: #fff;
 }
 
@@ -308,6 +321,10 @@ th {
   cite, data, progress, time, meter, code, var, samp, kbd, keygen, bdi, bdo, 
   ruby, rt, rp, span
 ******************************************************************************/
+a {
+    color: #3d3987;
+}
+
 em {
     font-style: italic;
 }
@@ -385,9 +402,9 @@ var,
 code,
 var {
     background-color: rgba(0,107,159,0.04);
-    border: 1px solid #006b9f;
+    border: 1px solid #3d3987;
     border-radius: 2px;
-    color: #006b9f;
+    color: #3d3987;
     margin: 0 0.15em;
     padding: 0 0.3em;
 }
@@ -448,29 +465,9 @@ hr {
 
 
 /* from H5BP responsive: evaluate */
-div[role=main] {
-  padding: 1em;
-  background: #FFF;
-  border: 1px solid #b3b3b3;
-  border-radius: 4px;
-  margin: 0 auto;
-  box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
-}
-div[role=main] img {
-  position: relative;
-  width: 100%;
-}
-footer {
-  text-align: center;
-  font-size: 0.75em;
-}
-h1 {
-  text-align: center;
-  font-size: 3em;
-  margin: 0.5em 0 0 0;
-  padding: 0;
-  color: rgba(225, 55, 56, 0.9);
-}
+
+
+
 .navbar {
   display: block;
   list-style: none;
@@ -611,6 +608,12 @@ h1 {
     text-align: right;
 }
 
+.paper {
+    border: 1px solid #b3b3b3;
+    box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+    padding: 1em;
+}
+
 .post {
     margin-bottom: 2.8em;
 }
@@ -625,8 +628,13 @@ h1 {
 }
 
 .site-title {
-    color: #006b9f;
     font-weight: bold;
+}
+
+.site-title-container {
+    background-color: #3d3987;
+    color: #fff;
+    padding-top: 1em;
 }
 
 .terminal {
