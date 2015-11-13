@@ -9,7 +9,9 @@ var Metalsmith = require('metalsmith'),
 Metalsmith(__dirname)
     .source('src')
     .destination('build')
-    .use(permalinks())
+    .use(permalinks({
+        relative: false
+    }))
     .use(inplace({
         engine: 'handlebars',
         pattern: '**/*.md'
