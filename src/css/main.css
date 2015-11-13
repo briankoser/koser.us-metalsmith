@@ -42,42 +42,47 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 0 0 1.4rem 0;
 }
 
 footer,
-nav,
+nav ul,
 main,
 .site-title {
-    margin: 0 auto 1.4em;
+    margin: 0 auto;
     max-width: 33rem;
 }
 
 header {
     position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
     vertical-align: text-top;
 }
-
-header nav {
-    margin-top: 0;
-}
-
-
 
 footer {
     text-align: right;
     font-size: 0.75rem;
 }
 
+nav {
+    background-color: #000;
+    margin: 0;
+}
+
 nav ul {
-    margin: 0.5em 0 0.25em 0;
     padding: 0;
 }
 
-nav ul li {
+nav li {
     display: inline-block;
     list-style-type: none;
-    padding-right: 0.75em;
+    margin: 0;
+    padding: 0 1rem 0 0;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 main {
@@ -87,7 +92,7 @@ main {
             hyphens: auto;
 }
 
-main nav,
+nav,
 small {
     font-size: 0.75rem;
 }
@@ -98,8 +103,8 @@ p a {
 }
 
 p a:hover {
-    -webkit-transition: border-bottom-width 300ms cubic-bezier(1, 0, 0, 1);
-            transition: border-bottom-width 300ms cubic-bezier(1, 0, 0, 1);
+    -webkit-transition: border-bottom-width 100ms cubic-bezier(1, 0, 0, 1);
+            transition: border-bottom-width 100ms cubic-bezier(1, 0, 0, 1);
     border-bottom-width: 3px;
 }
 
@@ -454,46 +459,6 @@ hr {
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* from H5BP responsive: evaluate */
-
-
-
-.navbar {
-  display: block;
-  list-style: none;
-  padding: 0;
-  margin: 0.5em 0 0.67em 0;
-  text-align: center;
-}
-.navbar li {
-  display: inline-block;
-  margin: 0 0.5em;
-}
-.navbar li a {
-  font-size: 1.5em;
-  text-decoration: none;
-  color: #737373;
-}
-
-
-
-
-
-
-
-
-
-
 /******************************************************************************
   HELPER CLASSES
 ******************************************************************************/
@@ -604,6 +569,12 @@ hr {
     background-color: #f8f8ff;
 }
 
+.header-container {
+    background-color: #3d3987;
+    color: #fff;
+    padding-top: 1em;
+}
+
 .license {
     text-align: right;
 }
@@ -629,12 +600,6 @@ hr {
 
 .site-title {
     font-weight: bold;
-}
-
-.site-title-container {
-    background-color: #3d3987;
-    color: #fff;
-    padding-top: 1em;
 }
 
 .terminal {
