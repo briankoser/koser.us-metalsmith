@@ -502,6 +502,10 @@ hr {
     visibility: hidden;
 }
 
+.no-list-type {
+    list-style-type: none;
+}
+
 .no-margin,
 .no-margin li {
     margin: 0;
