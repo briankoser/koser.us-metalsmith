@@ -45,6 +45,12 @@ body {
     margin: 0 0 1.4rem 0;
 }
 
+header {
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    vertical-align: text-top;
+}
+
 footer,
 nav ul,
 main,
@@ -53,15 +59,9 @@ main,
     max-width: 33rem;
 }
 
-header {
-    position: relative;
-    font-family: 'Source Sans Pro', sans-serif;
-    vertical-align: text-top;
-}
-
 footer {
-    text-align: right;
     font-size: 0.75rem;
+    text-align: right;
 }
 
 nav,
@@ -70,21 +70,33 @@ nav,
     margin: 0;
 }
 
+.js nav {
+    max-height: none;
+}
+
 nav ul {
-    padding: 0;
+    border: 0;
+    -webkit-padding-start: 0;
 }
 
 nav li {
     display: inline-block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0 1rem 0 0;
+    margin: 0 0.25em;
+    padding-left: 0;
 }
 
+nav li + li {
+    padding-left: 1em;
+}
+            
 nav li a,
 .footer-container {
     color: #fff;
     text-decoration: none;
+}
+
+nav li a {
+    border: 0;
 }
 
 main {
@@ -330,6 +342,10 @@ th {
 ******************************************************************************/
 a {
     color: #000;
+}
+
+a.menu-link {
+   display: none;
 }
 
 em {
@@ -627,10 +643,62 @@ hr {
 /******************************************************************************
   MEDIA QUERIES
 ******************************************************************************/
-@media only screen and (max-width: 35em) {
+@media only screen and (max-width: 48em) {
     header,
     main {
         padding-left: 1em;
+    }
+    
+    footer {
+        padding-right: 1rem;
+    }
+    
+    nav {
+        clear: both;
+        -webkit-transition: all 0.3s ease-out;  
+           -moz-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+             -o-transition: all 0.3s ease-out;
+                transition: all 0.3s ease-out;
+    }
+
+    .js nav {
+        overflow: hidden;
+        max-height: 0;
+    }
+
+    nav.active {
+        max-height: 15em;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid #808080;
+    }
+
+    nav li {
+        display: list-item;
+        list-style-type: none;
+        margin: 0;
+        padding: 0 1rem 0 0;
+    }
+
+    nav li + li {
+        padding-left: 0;
+    }
+    
+    nav li a {
+        display: block;
+        padding: 0.8em;
+        border-bottom: 1px solid #808080;
+    }
+    
+    a.menu-link {
+        
+        display: block;
+        margin: 0;
+        padding: .7em 0;
     }
 
     .desktop-only {
