@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "Top Ten Punctuation Marks"
+title: Top Ten Punctuation Marks
+description: Brian Koser's top ten favorite punctuation marks
 tags: typography english
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  "Adulthood"
+title:  Adulthood
+description: Brian Koser reflects on adulthood and maturity
 tags: philosophy
 ---
 
