@@ -52,7 +52,10 @@ header {
 }
 
 footer,
-small {
+small,
+.milli,
+.post-author,
+.post-date {
     font-size: 0.714rem;
 }
 
@@ -94,7 +97,8 @@ nav li + li {
 }
             
 nav li a,
-.footer-container {
+.footer-container,
+.site-title a {
     color: #fff;
     text-decoration: none;
 }
@@ -108,6 +112,10 @@ main {
        -moz-hyphens: auto;
         -ms-hyphens: auto;
             hyphens: auto;
+}
+
+article header {
+    font-family: 'Source Serif Pro', Georgia, sans-serif;
 }
 
 p a {
@@ -176,20 +184,20 @@ address {
 ************
   hgroup, h1, h2, h3, h4, h5, h6
 ******************************************************************************/
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6 {
+h1, .alpha,
+h2, .beta,
+h3, .gamma,
+h4, .delta,
+h5, .epsilon
+h6, .zeta {
     font-weight: bold;
-    margin: 1rem 0 0 0;
+    margin: 1.4rem 0 0 0;
 }
 
 /* Turn on discretionary ligatures for larger headings */
-h1,
-h2,
-h3 {
+h1, .alpha,
+h2, .beta,
+h3, .gamma {
     -webkit-font-feature-settings: 'dlig', 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
        -moz-font-feature-settings: 'dlig', 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
             font-feature-settings: 'dlig', 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
@@ -201,18 +209,18 @@ h3 + p {
     margin-top: 0;
 }
 
-h1 {
+h1, .alpha {
     font-size: 1.618rem;
 }
 
-h2 {
+h2, .beta {
     font-size: 1.4rem;
 }
 
-h3,
-h4,
-h5,
-h6 {
+h3, .gamma,
+h4, .delta,
+h5, .epsilon,
+h6, .zeta {
     font-size: 1rem;
 }
 
@@ -615,13 +623,8 @@ hr {
     padding: 1em;
 }
 
-.post-date,
-.post-title {
-    margin: 0;
-}
-
-.post-date {
-    color: #aaa;
+.post-date::before {
+    content: ' · ';
 }
 
 .site-title {
@@ -634,6 +637,15 @@ hr {
     background-color: #333;
     color: #fff;
 }
+
+
+
+/******************************************************************************
+  STYLE CLASSES
+******************************************************************************/
+.giga { font-size: font-size: 3.5rem; }
+.mega { font-size: font-size: 3rem; }
+.kilo { font-size: font-size: 2rem; }
 
 
 
