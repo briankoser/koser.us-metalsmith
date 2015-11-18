@@ -1,4 +1,6 @@
 var Metalsmith = require('metalsmith'),
+    collections = require('metalsmith-collections'),
+    excerpts = require('metalsmith-excerpts'),
     inplace = require('metalsmith-in-place'),
     layouts = require('metalsmith-layouts'),
     markdown = require('metalsmith-markdown'),
@@ -9,23 +11,39 @@ var Metalsmith = require('metalsmith'),
 Metalsmith(__dirname)
     .source('src')
     .destination('build')
+    
     .use(permalinks({
         relative: false
     }))
+    
     .use(inplace({
-        engine: 'handlebars',
+        engine: 'swig',
         pattern: '**/*.md'
     }))
+    
     .use(markdown())
+    
+    .use(excerpts())
+    
+    .use(collections({
+        posts: {
+            pattern: 'blog/**.html',
+            sortBy: 'date',
+            reverse: true
+        }
+    }))
+    
     .use(layouts({
-        engine: 'handlebars',
-        default: 'default.html',
+        engine: 'swig',
+        default: 'default.swig',
         pattern: '**/*.html'
     }))
+    
     .use(serve())
     .use(watch({
         livereload: true
     }))
+    
     .build(function(err){
         if (err) throw err;
     });

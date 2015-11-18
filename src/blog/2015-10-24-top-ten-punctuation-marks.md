@@ -1,5 +1,8 @@
 ---
+layout: blog.swig
 title: Top Ten Punctuation Marks
+author: Brian Koser
+pubdate: 2015-10-24
 description: Brian Koser's top ten favorite punctuation marks
 tags: typography english
 ---

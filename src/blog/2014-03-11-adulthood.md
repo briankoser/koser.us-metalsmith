@@ -1,5 +1,8 @@
 ---
-title:  Adulthood
+layout: blog.swig
+title: Adulthood
+author: Brian Koser
+pubdate: 2014-03-11
 description: Brian Koser reflects on adulthood and maturity
 tags: philosophy
 ---
@@ -7,7 +10,7 @@ tags: philosophy
 Children are always watching their parents. I remember watching my dad as he watched the nightly news on TV. I would sit there and think, “Why would you watch the news when you could watch cartoons? When I’m an adult, I’m going to stay up late and watch cartoons.”
 
 <figure>
-    <img alt="Looney Tunes logo" src="/images/looney tunes careta.png" />
+    <img alt="Looney Tunes logo" src="/img/blog/looney-tunes.png" />
     <figcaption>Looney Tunes title card</figcaption>
 </figure>
 
