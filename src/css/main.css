@@ -31,8 +31,12 @@
   html, body, header, footer, nav, main, article, aside, section, p, pre,
   blockquote, figure, figcaption, address, summary, details, div
 ******************************************************************************/
+html,
+a {
+    color: #333;
+}
+
 html {
-    color: #444;
     font: 26px/1.4 'Source Serif Pro', Georgia, sans-serif;
     /*Turn on kerning, standard ligatures, and proportional, oldstyle numerals
       Turn off all other ligatures, tabular, lining numerals, and alternates */
@@ -73,7 +77,7 @@ footer {
 
 nav,
 .footer-container {
-    background-color: #000;
+    background-color: #333;
     margin: 0;
 }
 
@@ -97,10 +101,17 @@ nav li + li {
 }
             
 nav li a,
+h1 a,
+h2 a,
+h3 a,
+.footer-container {
+    text-decoration: none;
+}
+
+nav li a,
 .footer-container,
 .site-title a {
     color: #fff;
-    text-decoration: none;
 }
 
 nav li a {
@@ -354,10 +365,6 @@ th {
   cite, data, progress, time, meter, code, var, samp, kbd, keygen, bdi, bdo, 
   ruby, rt, rp, span
 ******************************************************************************/
-a {
-    color: #000;
-}
-
 a.menu-link {
    display: none;
 }
@@ -428,7 +435,7 @@ var,
 .line-numbers,
 .line-pre,
 .terminal { 
-    font: 14px/1.3 'Source Code Pro', Consolas, monospace !important;
+    font: 14px/1.3 'Source Code Pro', Consolas, Inconsolata, "Liberation Mono", Courier, monospace !important;
 }
 
 code,
@@ -625,6 +632,10 @@ hr {
 
 .post-date::before {
     content: ' · ';
+}
+
+.post-excerpt {
+    margin-top: .25rem;
 }
 
 .site-title {

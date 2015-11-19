@@ -12,22 +12,25 @@ Metalsmith(__dirname)
     .source('src')
     .destination('build')
     
-    .use(inplace({
-        engine: 'swig',
-        pattern: '**/*.md'
-    }))
-    
-    .use(markdown())
-    
-    .use(excerpts())
-    
+    /* collections before inplace so we can loop over them in swig */
+    /* collections before markdown so we can just get posts */
     .use(collections({
         posts: {
-            pattern: 'blog/**.html',
+            pattern: 'blog/**.md',
             sortBy: 'date',
             reverse: true
         }
     }))
+    
+    .use(markdown())
+    
+    /* inplace before layouts because that's how it is in all examples */
+    .use(inplace({
+        engine: 'swig',
+        pattern: '**/*.html'
+    }))
+    
+    .use(excerpts())
     
     .use(permalinks({
         relative: false
