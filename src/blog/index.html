@@ -8,10 +8,10 @@ paginate: posts
 {% for post in collections.posts %}
     <article>
         <header>
-            <h2 class="post-title"><a href="{{ post.path }}">{{ post.title }}</a></h2>
+            <h2 class="post-title"><a href="/{{ post.path }}">{{ post.title }}</a></h2>
             <span class="post-author">by {{ post.author }}</span>
             <span class="post-date">{{ post.pubdate|date('Y-m-d') }}</span>
         </header>
-        <p class="post-excerpt">{{ post.excerpt|striptags }}… (<a href="{{ post.path }}">more</a>)</p>
+        <p class="post-excerpt">{{ post.excerpt|striptags }} (<a href="/{{ post.path }}">more</a>)</p>
     </article>
 {% endfor %}

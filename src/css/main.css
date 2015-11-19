@@ -64,8 +64,8 @@ small,
 }
 
 footer,
-nav ul,
 main,
+.site-nav ul,
 .site-title {
     margin: 0 auto;
     max-width: 33rem;
@@ -75,47 +75,12 @@ footer {
     text-align: right;
 }
 
-nav,
-.footer-container {
-    background-color: #333;
-    margin: 0;
-}
-
-.js nav {
-    max-height: none;
-}
-
-nav ul {
-    border: 0;
-    -webkit-padding-start: 0;
-}
-
-nav li {
-    display: inline-block;
-    margin: 0;
-    padding-left: 0;
-}
-
-nav li + li {
-    padding-left: 1em;
-}
-            
-nav li a,
+nav a,
 h1 a,
 h2 a,
 h3 a,
 .footer-container {
     text-decoration: none;
-}
-
-nav li a,
-.footer-container,
-.site-title a {
-    color: #fff;
-}
-
-nav li a {
-    border: 0;
 }
 
 main {
@@ -127,6 +92,14 @@ main {
 
 article header {
     font-family: 'Source Serif Pro', Georgia, sans-serif;
+}
+
+article footer {
+    font-size: 1rem;
+}
+
+article footer nav a {
+    margin-top: 0;
 }
 
 p a {
@@ -599,6 +572,17 @@ hr {
     padding-left: 0.5rem;
 }
 
+.footer-container,
+.site-nav li a,
+.site-title a {
+    color: #fff;
+}
+
+.footer-container,
+.site-nav {
+    background-color: #333;
+}
+
 .footer-container {
     padding: 1em 0;
 }
@@ -620,6 +604,10 @@ hr {
     color: #fff;
 }
 
+.js .site-nav {
+    max-height: none;
+}
+
 .license {
     text-align: right;
 }
@@ -638,6 +626,29 @@ hr {
     margin-top: .25rem;
 }
 
+.site-nav ul {
+    border: 0;
+    -webkit-padding-start: 0;
+}
+
+.site-nav li {
+    display: inline-block;
+    margin: 0;
+    padding-left: 0;
+}
+
+.site-nav li + li {
+    padding-left: 1em;
+}
+
+.site-nav li a {
+    border: 0;
+}
+
+.site-nav {
+    margin: 0;
+}
+
 .site-title {
     font-size: 1.96rem;
     font-weight: bold;
@@ -652,7 +663,7 @@ hr {
 
 
 /******************************************************************************
-  STYLE CLASSES
+  SIZE CLASSES
 ******************************************************************************/
 .giga { font-size: 3.5rem; }
 .mega { font-size: 3rem; }

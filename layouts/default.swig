@@ -22,7 +22,7 @@
                 <h1 class="site-title"><a href="/">koser.us</a></h1>
                 
                 <a href="#menu" class="menu-link">≡ Menu</a>
-                <nav id="menu" role="navigation">
+                <nav id="menu" role="navigation" class="site-nav">
                     <ul>
                         <li><a href="/blog/">Blog</a></li>
                         <li><a href="/boardgames/">Games</a></li>

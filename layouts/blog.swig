@@ -7,19 +7,17 @@
             <span class="post-author">by {{author}}</span>
             <span class="post-date">{{pubdate|date('Y-m-d')}}</span>
         </header>
-    
+        
         {{contents|safe}}
         
         <footer>
             <nav>
-                <!-- jekyll blog nav
-                {% if page.previous %}
-                    <a class="left" rel="prev" href="{{ page.previous.url }}">« {{ page.previous.title }}</a>
+                {% if next %}
+                    <a class="float-left" rel="prev" href="/{{ next.path }}">« {{ next.title }}</a>
                 {% endif %}
-                {% if page.next %}
-                    <a class="right" rel="next" href="{{ page.next.url }}">{{ page.next.title }} »</a>
+                {% if previous %}
+                    <a class="float-right" rel="next" href="/{{ previous.path }}">{{ previous.title }} »</a>
                 {% endif %}
-                -->
             </nav>
         </footer>
     </article>
