@@ -15,6 +15,8 @@
         
         <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/main.css">
+        
+        {% block css %}{% endblock %}
     </head>
     <body>
         <div class="header-container">
@@ -49,5 +51,6 @@
         <script src="/js/plugins.js"></script>
         <script src="/js/main.js"></script>
         <script src="http://localhost:35729/livereload.js"></script>
+        {% block js %}{% endblock %}
     </body>
 </html>

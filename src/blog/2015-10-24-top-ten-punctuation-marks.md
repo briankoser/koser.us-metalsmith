@@ -5,6 +5,7 @@ author: Brian Koser
 pubdate: 2015-10-24
 description: Brian Koser's top ten favorite punctuation marks
 tags: typography english
+customcss: toptenpunctuation
 ---
 
 I like punctuation marks. Why? Well…maybe because they shape language so much while going mostly unnoticed. Maybe because they’re never spoken* and their names are unknown to laymen, giving them a mysterious air. Probably just because they look nice. Here’s my favorite ten, from 10 to 1.

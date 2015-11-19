@@ -1,5 +1,32 @@
 {% extends "default.swig" %}
 
+{% block title %}{{title}} · {% parent %} {% endblock %}
+
+{% block css %}
+    {% if customcss == 'toptenpunctuation' %}
+        <link rel="stylesheet" href="/css/blog.2015-10-24-top-ten-punctuation-marks.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lora&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Merriweather&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Serif&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Bitter&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oxygen&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Alegreya&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Alice&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Alex+Brush&text=¶' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Varela+Round&text=¶' rel='stylesheet' type='text/css'>
+    {% endif %}
+{% endblock %}
+
 {% block body%}
     <article>
         <header>
