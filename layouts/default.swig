@@ -10,7 +10,7 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&text=koser.uChitmaLGRcpMn' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&text=koser.uBlgGamRcip' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700' rel='stylesheet' type='text/css'>
         
         <link rel="stylesheet" href="/css/normalize.css">
@@ -24,7 +24,7 @@
                 <a href="#menu" class="menu-link">≡ Menu</a>
                 <nav id="menu" role="navigation">
                     <ul>
-                        <li><a href="/christmas/">Christmas Letters</a></li>
+                        <li><a href="/blog/">Blog</a></li>
                         <li><a href="/boardgames/">Games</a></li>
                         <li><a href="/recipes/">Recipes</a></li>
                     </ul>
