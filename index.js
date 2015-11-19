@@ -12,10 +12,6 @@ Metalsmith(__dirname)
     .source('src')
     .destination('build')
     
-    .use(permalinks({
-        relative: false
-    }))
-    
     .use(inplace({
         engine: 'swig',
         pattern: '**/*.md'
@@ -31,6 +27,10 @@ Metalsmith(__dirname)
             sortBy: 'date',
             reverse: true
         }
+    }))
+    
+    .use(permalinks({
+        relative: false
     }))
     
     .use(layouts({
