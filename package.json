@@ -4,6 +4,7 @@
   "dependencies": {
     "metalsmith": "1.7.x",
     "metalsmith-collections": "0.7.x",
+    "metalsmith-define": "1.0.x",
     "metalsmith-excerpts": "1.0.x",
     "metalsmith-in-place": "1.3.x",
     "metalsmith-layouts": "1.4.x",

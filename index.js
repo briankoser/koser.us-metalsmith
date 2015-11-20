@@ -1,5 +1,6 @@
 var Metalsmith = require('metalsmith'),
     collections = require('metalsmith-collections'),
+    define = require('metalsmith-define'),
     excerpts = require('metalsmith-excerpts'),
     inplace = require('metalsmith-in-place'),
     layouts = require('metalsmith-layouts'),
@@ -11,6 +12,11 @@ var Metalsmith = require('metalsmith'),
 Metalsmith(__dirname)
     .source('src')
     .destination('build')
+    
+    /* define before inplace so inplace can use the globals */
+    .use(define({
+        development: true
+    }))
     
     /* collections before inplace so we can loop over them in swig */
     /* collections before markdown so we can just get posts */

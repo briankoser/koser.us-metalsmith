@@ -50,7 +50,11 @@
         <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="/js/plugins.js"></script>
         <script src="/js/main.js"></script>
-        <script src="http://localhost:35729/livereload.js"></script>
+        
+        {% if development %}
+            <script src="http://localhost:35729/livereload.js"></script>
+        {% endif %}
+        
         {% block js %}{% endblock %}
     </body>
 </html>
