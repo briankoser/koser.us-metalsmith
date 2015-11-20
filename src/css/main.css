@@ -90,16 +90,16 @@ main {
             hyphens: auto;
 }
 
+article footer nav a {
+    margin-top: 0;
+}
+
 article header {
     font-family: 'Source Serif Pro', Georgia, sans-serif;
 }
 
 article footer {
     font-size: 1rem;
-}
-
-article footer nav a {
-    margin-top: 0;
 }
 
 p a {
@@ -112,8 +112,6 @@ p a:hover {
             transition: border-bottom-width 100ms cubic-bezier(1, 0, 0, 1);
     border-bottom-width: 3px;
 }
-
-
 
 /* Turn off kerning and ligatures,
    Turn on lining, tabular numerals, slashed zero */
@@ -187,9 +185,9 @@ h3, .gamma {
             font-feature-settings: 'dlig', 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
 }
 
-h1 + p,
-h2 + p,
-h3 + p {
+h1 + *,
+h2 + *,
+h3 + * {
     margin-top: 0;
 }
 
@@ -216,15 +214,15 @@ h6, .zeta {
   ul, ol, li, dl, dt, dd, menu, menuitem
 ******************************************************************************/
 ul,
-ol,
-li {
+ol {
     padding-left: 1em;
 }
 
 ul,
 ol {
     list-style-position: outside;
-    margin-left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 ul li {
@@ -247,6 +245,10 @@ ol ol {
 ol ol li::before {
     counter-increment: section;
     content: counters(section, ".") " ";
+}
+
+li {
+    margin-top: 0;
 }
 
 dd {
@@ -565,6 +567,10 @@ hr {
 /******************************************************************************
   STYLE CLASSES
 ******************************************************************************/
+.chart-caption {
+    margin-top: 0;
+}
+
 .edit-block {
     border-left: 0.5rem solid;
     display: block;

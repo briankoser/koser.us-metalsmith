@@ -27,7 +27,7 @@
                 <nav id="menu" role="navigation" class="site-nav">
                     <ul>
                         <li><a href="/blog/">Blog</a></li>
-                        <li><a href="/boardgames/">Games</a></li>
+                        <li><a href="/games/">Games</a></li>
                         <li><a href="/recipes/">Recipes</a></li>
                     </ul>
                 </nav>

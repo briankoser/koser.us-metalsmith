@@ -1,0 +1,8 @@
+.ct-chart {
+    background-color: #eadbc4;
+    margin: 1.5em 0 .5em 0;
+}
+
+.ct-wide-bar .ct-bar {
+  stroke-width: 30px;
+}

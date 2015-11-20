@@ -25,6 +25,11 @@ Metalsmith(__dirname)
             pattern: 'blog/**.md',
             sortBy: 'pubdate',
             reverse: true
+        },
+        gamestats: {
+            pattern: 'games/**.md',
+            sortBy: 'title',
+            reverse: false
         }
     }))
     
