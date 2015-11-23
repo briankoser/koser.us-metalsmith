@@ -7,7 +7,7 @@ description: The board game statistics of Brian and Melissa Koser
 <ul>
     {% for post in collections.gamestats %}
         {% if post.year %}
-            <li><a href="/{{post.path}}">{{post.year}}</a>
+            <li><a href="/{{ post.path }}">{{ post.year }}</a>
         {% endif %}
     {% endfor %}
 </ul>
