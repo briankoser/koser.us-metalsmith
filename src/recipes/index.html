@@ -10,7 +10,7 @@ json_files:
 <h1>Recipes</h1>
 
 <ul>
-    {% for recipe in collections.recipes %}
-        <li><a href="/{{ recipe.path }}">{{ recipe.name }}</a>
+    {% for recipe in recipes %}
+        <li><a href="{{recipe.urlname}}">{{recipe.name}}</a></li>
     {% endfor %}
 </ul>

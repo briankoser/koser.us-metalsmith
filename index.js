@@ -6,6 +6,7 @@ var Metalsmith = require('metalsmith'),
     json_to_files = require('metalsmith-json-to-files'),
     layouts = require('metalsmith-layouts'),
     markdown = require('metalsmith-markdown'),
+    metadata = require('metalsmith-metadata'),
     permalinks = require('metalsmith-permalinks'),
     serve = require('metalsmith-serve'),
     watch = require('metalsmith-watch');
@@ -32,6 +33,10 @@ Metalsmith(__dirname)
             sortBy: 'pubdate',
             reverse: true
         }
+    }))
+    
+    .use(metadata({
+        recipes: 'recipes/data/recipes.json'
     }))
     
     .use(json_to_files({
