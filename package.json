@@ -10,6 +10,7 @@
     "metalsmith-json-to-files": "0.0.x",
     "metalsmith-layouts": "1.4.x",
     "metalsmith-markdown": "0.2.x",
+    "metalsmith-metadata": "0.0.x",
     "metalsmith-permalinks": "0.4.x",
     "metalsmith-serve": "0.0.x",
     "metalsmith-watch": "1.0.x",

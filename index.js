@@ -31,11 +31,6 @@ Metalsmith(__dirname)
             pattern: 'blog/**.md',
             sortBy: 'pubdate',
             reverse: true
-        },
-        recipes: {
-            pattern: 'recipes/**.json',
-            sortBy: 'title',
-            reverse: false
         }
     }))
     
