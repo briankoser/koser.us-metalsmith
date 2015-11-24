@@ -3,6 +3,7 @@ var Metalsmith = require('metalsmith'),
     define = require('metalsmith-define'),
     excerpts = require('metalsmith-excerpts'),
     inplace = require('metalsmith-in-place'),
+    json_to_files = require('metalsmith-json-to-files'),
     layouts = require('metalsmith-layouts'),
     markdown = require('metalsmith-markdown'),
     permalinks = require('metalsmith-permalinks'),
@@ -21,16 +22,25 @@ Metalsmith(__dirname)
     /* collections before inplace so we can loop over them in swig */
     /* collections before markdown so we can just get posts */
     .use(collections({
+        gamestats: {
+            pattern: 'games/**.md',
+            sortBy: 'title',
+            reverse: false
+        },
         posts: {
             pattern: 'blog/**.md',
             sortBy: 'pubdate',
             reverse: true
         },
-        gamestats: {
-            pattern: 'games/**.md',
+        recipes: {
+            pattern: 'recipes/**.json',
             sortBy: 'title',
             reverse: false
         }
+    }))
+    
+    .use(json_to_files({
+        source_path: 'src/recipes/data/'
     }))
     
     .use(markdown())
