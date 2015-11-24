@@ -1,0 +1,16 @@
+---
+title: Recipes
+description: The recipes of Brian and Melissa Koser
+json_files:
+    source_file: recipes
+    filename_pattern: recipes/:name
+    as_permalink: false
+    layout: recipe.swig
+---
+<h1>Recipes</h1>
+
+<ul>
+    {% for recipe in recipes %}
+        <li><a href="{{recipe.urlname}}">{{recipe.name}}</a></li>
+    {% endfor %}
+</ul>
