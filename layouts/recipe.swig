@@ -25,7 +25,6 @@
         </section>
         
         <section>
-            <h2>Ingredients</h2>
             <ul>
             {% for ingredient in data.ingredients %}
                 <li property="ingredients">{{ingredient}}</li>
@@ -34,7 +33,6 @@
         </section>
         
         <section>
-            <h2>Instructions</h2>
             <ol property="recipeInstructions">
             {% for instruction in data.instructions %}
                 <li>{{instruction}}</li>
