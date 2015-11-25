@@ -10,8 +10,8 @@ $(document).ready(function() {
         return false;
     });
     
-    document.body.innerHTML = MarkFractions(document.body.innerHTML);
-    document.body.innerHTML = MarkSmallCaps(document.body.innerHTML);
+    //document.body.innerHTML = MarkFractions(document.body.innerHTML);
+    //document.body.innerHTML = MarkSmallCaps(document.body.innerHTML);
 });
 
 function MarkFractions(text) {

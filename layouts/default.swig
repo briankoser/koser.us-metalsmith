@@ -10,7 +10,7 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&text=koser.uBlgGamRcip' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&text=koser.uBlgGamRcipMn' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700' rel='stylesheet' type='text/css'>
         
         <link rel="stylesheet" href="/css/normalize.css">

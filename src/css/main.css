@@ -46,7 +46,7 @@ html {
 }
 
 body {
-    margin: 0 0 1.4rem 0;
+    margin: 0;
 }
 
 header {
@@ -681,7 +681,7 @@ hr {
 /******************************************************************************
   MEDIA QUERIES
 ******************************************************************************/
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 60em) {
     header,
     main {
         padding-left: 1em;
@@ -691,45 +691,9 @@ hr {
         padding-right: 1rem;
     }
     
-    nav {
-        clear: both;
-        -webkit-transition: all 0.3s ease-out;  
-           -moz-transition: all 0.3s ease-out;
-            -ms-transition: all 0.3s ease-out;
-             -o-transition: all 0.3s ease-out;
-                transition: all 0.3s ease-out;
-    }
-
-    .js nav {
-        overflow: hidden;
-        max-height: 0;
-    }
-
-    nav.active {
-        max-height: 15em;
-    }
-
-    nav ul {
-        margin: 0;
-        padding: 0;
-        border-top: 1px solid #808080;
-    }
-
-    nav li {
-        display: list-item;
-        list-style-type: none;
-        margin: 0;
-        padding: 0 1rem 0 0;
-    }
-
-    nav li + li {
-        padding-left: 0;
-    }
-    
-    nav li a {
-        display: block;
-        padding: 0.8em;
-        border-bottom: 1px solid #808080;
+    ul,
+    ol {
+        list-style-position: inside;
     }
     
     a.menu-link {
@@ -741,6 +705,47 @@ hr {
 
     .desktop-only {
         display: none;
+    }
+    
+    .site-nav {
+        clear: both;
+        -webkit-transition: all 0.3s ease-out;  
+           -moz-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+             -o-transition: all 0.3s ease-out;
+                transition: all 0.3s ease-out;
+    }
+
+    .js .site-nav {
+        overflow: hidden;
+        max-height: 0;
+    }
+
+    .site-nav.active {
+        max-height: 15em;
+    }
+
+    .site-nav ul {
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid #808080;
+    }
+
+    .site-nav li {
+        display: list-item;
+        list-style-type: none;
+        margin: 0;
+        padding: 0 1rem 0 0;
+    }
+
+    .site-nav li + li {
+        padding-left: 0;
+    }
+    
+    .site-nav li a {
+        display: block;
+        padding: 0.8em;
+        border-bottom: 1px solid #808080;
     }
 }
 
