@@ -1,15 +1,15 @@
-var Metalsmith = require('metalsmith'),
-    collections = require('metalsmith-collections'),
-    define = require('metalsmith-define'),
-    excerpts = require('metalsmith-excerpts'),
-    inplace = require('metalsmith-in-place'),
-    json_to_files = require('metalsmith-json-to-files'),
-    layouts = require('metalsmith-layouts'),
-    markdown = require('metalsmith-markdown'),
-    metadata = require('metalsmith-metadata'),
-    permalinks = require('metalsmith-permalinks'),
-    serve = require('metalsmith-serve'),
-    watch = require('metalsmith-watch');
+var Metalsmith = require('metalsmith');
+var collections = require('metalsmith-collections');
+var define = require('metalsmith-define');
+var excerpts = require('metalsmith-excerpts');
+var inplace = require('metalsmith-in-place');
+var json_to_files = require('metalsmith-json-to-files');
+var layouts = require('metalsmith-layouts');
+var markdown = require('metalsmith-markdown');
+var metadata = require('metalsmith-metadata');
+var permalinks = require('metalsmith-permalinks');
+var serve = require('metalsmith-serve');
+var watch = require('metalsmith-watch');
 
 Metalsmith(__dirname)
     .source('src')
