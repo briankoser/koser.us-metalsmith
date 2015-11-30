@@ -1,0 +1,125 @@
+var debug = require('debug')('recipes_to_json');
+var extname = require('path').extname;
+var slug = require('slug');
+
+
+/**
+ * Expose `plugin`
+ */
+
+module.exports = plugin;
+
+/**
+ * Metalsmith plugin to convert recipe files to JSON.
+ *
+ * @param {Object} options (optional)
+ *   @property {Array} keys
+ * @return {Function}
+ */
+
+function plugin(options) {
+    options = options || {};
+  
+    return function(files, metalsmith, done) {
+        setImmediate(done);
+        Object.keys(files).forEach(function(file) {
+            debug('checking file: %s', file);
+            if (!isTextFile(file)) return;
+            
+            var data = files[file];
+            var dest = options.dest_path;
+    
+            debug('converting file: %s', file);
+            var str = recipeToJson(data.contents.toString(), options);
+            data.contents = new Buffer(str);
+    // 
+    //         delete files[file];
+    //         files[html] = data;
+        });
+    };
+}
+
+/**
+ * Check if a `file` is a text file.
+ *
+ * @param {String} file
+ * @return {Boolean}
+ */
+
+var isTextFile = function(file) {
+    return /\.txt/.test(extname(file));
+}
+
+/**
+ * Convert a Koser Recipe `src` to a JSON object.
+ *
+ * @param {String} src
+ * @param {Object} options (optional)
+ * @return {Object}
+ */
+
+var recipeToJson = function(src, options) {
+    if (src == '') return src;
+    
+    var json = {};
+    
+    json['datemodified'] = new Date();
+    
+    var name = src.match(/(Name: )([A-Za-z0-9&'\- ]+)/);
+    if (name != undefined)
+    {
+        json['name'] = name[2];
+        json['urlname'] = slug(name[2], {lower: true});
+    }
+    
+    var author = src.match(/(Author: )([A-Za-z0-9 ]+)/);
+    if (author != undefined)
+    {
+        json['author'] = author[2];
+    }
+    
+    var comments = src.match(/(Comments: )(.+)/);
+    if (comments != undefined)
+    {
+        json['comments'] = comments[2];
+    }
+    
+    var recipe_yield = src.match(/(Yield: )([A-Za-z0-9\-" ]+)/);
+    if (recipe_yield != undefined)
+    {
+        json['yield'] = recipe_yield[2];
+    }
+    
+    // ['Name', 'Author', 'Comments', 'Yield'].forEach(function(item, index) {
+        // var pattern = '/(' + item + ": )([A-Za-z0-9&'\\- ]+)/";
+        // var regex = new RegExp(pattern);
+        // var field = src.match(regex);
+        // json['koser'] = field;
+        // if(field != undefined)
+        // {
+            // json[item.toLowerCase()] = field[2];
+        // }
+    // });
+    
+    var ingredients = src.match(/(?:Ingredients:)([\s\S]*)(?=Directions)/);
+    if (ingredients != undefined)
+    {
+        ingredients = ingredients[1]
+            .split('\n- ')
+            .filter(function(n){ return n.trim() != '' });
+        ingredients.forEach(function(item, index){ ingredients[index] = item.trim()});
+        json['ingredients'] = ingredients;
+    }
+    
+    var directions = src.match(/(?:Directions:)([\s\S]*)(?=Yield)/);
+    if (directions != undefined)
+    {
+        directions = directions[1]
+            .split('\n- ')
+            .filter(function(n){ return n.trim() != '' });
+        directions.forEach(function(item, index){ directions[index] = item.trim()});
+        json['instructions'] = directions;
+    }
+    
+    return json;
+}

@@ -8,6 +8,7 @@ var layouts = require('metalsmith-layouts');
 var markdown = require('metalsmith-markdown');
 var metadata = require('metalsmith-metadata');
 var permalinks = require('metalsmith-permalinks');
+var recipes_to_json = require('./custom_plugins/recipes_to_json/index.js');
 var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
 
@@ -33,6 +34,11 @@ Metalsmith(__dirname)
             sortBy: 'pubdate',
             reverse: true
         }
+    }))
+    
+    .use(recipes_to_json({
+        src_path: 'recipes/data/',
+        dest_path: 'recipes/data/recipes.json'
     }))
     
     .use(metadata({
