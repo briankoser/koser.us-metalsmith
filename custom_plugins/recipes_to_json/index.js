@@ -1,5 +1,5 @@
 var debug = require('debug')('recipes_to_json');
-var extname = require('path').extname;
+var path = require('path');
 var slug = require('slug');
 
 
@@ -19,23 +19,26 @@ module.exports = plugin;
 
 function plugin(options) {
     options = options || {};
-  
+    options.src_path = options.src_path.replace(/\/$/, '').replace(/(\/|\\)/g, path.sep);
+    options.dest_path = options.dest_path.replace(/\/$/, '').replace(/(\/|\\)/g, path.sep);
+    
+    var recipes = [];
     return function(files, metalsmith, done) {
         setImmediate(done);
         Object.keys(files).forEach(function(file) {
             debug('checking file: %s', file);
+            if (path.dirname(file) != options.src_path) return;
             if (!isTextFile(file)) return;
-            
-            var data = files[file];
-            var dest = options.dest_path;
-    
+  
             debug('converting file: %s', file);
-            var str = recipeToJson(data.contents.toString(), options);
-            data.contents = new Buffer(str);
-    // 
-    //         delete files[file];
-    //         files[html] = data;
+            recipes.push(recipeToJson(files[file].contents.toString(), options));
+
+            // delete files[file];
         });
+
+        var data = files[options.dest_path];
+        data.contents = new Buffer(JSON.stringify(recipes));
+        files[options.dest_path] = data;
     };
 }
 
@@ -47,7 +50,7 @@ function plugin(options) {
  */
 
 var isTextFile = function(file) {
-    return /\.txt/.test(extname(file));
+    return /\.txt/.test(path.extname(file));
 }
 
 /**

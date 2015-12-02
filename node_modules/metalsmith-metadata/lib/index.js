@@ -31,8 +31,8 @@ function plugin(opts){
   return function(files, metalsmith, done){
     var metadata = metalsmith.metadata();
     var exts = Object.keys(parsers);
-    for (var key in opts) {
-      var file = opts[key].replace(/(\/|\\)/g, path.sep);
+    for (var key in opts.data_files) {
+      var file = opts.data_files[key].replace(/(\/|\\)/g, path.sep);
       var ext = extname(file);
       if (!~exts.indexOf(ext)) throw new Error('unsupported metadata type "' + ext + '"');
       if (!metadata[key] || files[file]) {
@@ -40,7 +40,7 @@ function plugin(opts){
 
         var parse = parsers[ext];
         var str = files[file].contents.toString();
-        delete files[file];
+        if (opts.delete_original) delete files[file];
 
         try {
           var data = parse(str);

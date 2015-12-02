@@ -42,11 +42,14 @@ Metalsmith(__dirname)
     }))
     
     .use(metadata({
-        recipes: 'recipes/data/recipes.json'
+        data_files: {
+            recipes: 'recipes/data/recipes.json',
+        },
+        delete_original: false        
     }))
     
     .use(json_to_files({
-        source_path: 'src/recipes/data/'
+        source_path: 'recipes/data/'
     }))
     
     .use(markdown())
