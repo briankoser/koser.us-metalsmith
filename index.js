@@ -1,15 +1,16 @@
-var Metalsmith = require('metalsmith'),
-    collections = require('metalsmith-collections'),
-    define = require('metalsmith-define'),
-    excerpts = require('metalsmith-excerpts'),
-    inplace = require('metalsmith-in-place'),
-    json_to_files = require('metalsmith-json-to-files'),
-    layouts = require('metalsmith-layouts'),
-    markdown = require('metalsmith-markdown'),
-    metadata = require('metalsmith-metadata'),
-    permalinks = require('metalsmith-permalinks'),
-    serve = require('metalsmith-serve'),
-    watch = require('metalsmith-watch');
+var Metalsmith = require('metalsmith');
+var collections = require('metalsmith-collections');
+var define = require('metalsmith-define');
+var excerpts = require('metalsmith-excerpts');
+var inplace = require('metalsmith-in-place');
+var json_to_files = require('./custom_plugins/metalsmith-json-to-files-fork');
+var layouts = require('metalsmith-layouts');
+var markdown = require('metalsmith-markdown');
+var metadata = require('./custom_plugins/metalsmith-metadata-fork');
+var permalinks = require('metalsmith-permalinks');
+var recipes_to_json = require('./custom_plugins/recipes_to_json/index.js');
+var serve = require('metalsmith-serve');
+var watch = require('metalsmith-watch');
 
 Metalsmith(__dirname)
     .source('src')
@@ -35,12 +36,20 @@ Metalsmith(__dirname)
         }
     }))
     
+    .use(recipes_to_json({
+        src_path: 'recipes/data/',
+        dest_path: 'recipes/data/recipes.json'
+    }))
+    
     .use(metadata({
-        recipes: 'recipes/data/recipes.json'
+        data_files: {
+            recipes: 'recipes/data/recipes.json',
+        },
+        delete_original: false        
     }))
     
     .use(json_to_files({
-        source_path: 'src/recipes/data/'
+        source_path: 'recipes/data/'
     }))
     
     .use(markdown())
