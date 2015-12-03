@@ -25,20 +25,23 @@ function plugin(options) {
     var recipes = [];
     return function(files, metalsmith, done) {
         setImmediate(done);
-        Object.keys(files).forEach(function(file) {
-            debug('checking file: %s', file);
-            if (path.dirname(file) != options.src_path) return;
-            if (!isTextFile(file)) return;
-  
-            debug('converting file: %s', file);
-            recipes.push(recipeToJson(files[file].contents.toString(), options));
-
-            // delete files[file];
-        });
-
-        var data = files[options.dest_path];
-        data.contents = new Buffer(JSON.stringify(recipes));
-        files[options.dest_path] = data;
+        
+        if(Object.keys(files).indexOf(options.dest_path) > -1) {
+            Object.keys(files).forEach(function(file) {
+                debug('checking file: %s', file);
+                if (path.dirname(file) != options.src_path) return;
+                if (!isTextFile(file)) return;
+    
+                debug('converting file: %s', file);
+                recipes.push(recipeToJson(files[file].contents.toString(), options));
+    
+                // delete files[file];
+            });
+    
+            var data = files[options.dest_path];
+            data.contents = new Buffer(JSON.stringify(recipes));
+            files[options.dest_path] = data;
+        }
     };
 }
 
