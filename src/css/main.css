@@ -609,6 +609,7 @@ hr {
 .header-container {
     background-color: #4f93f9;
     color: #fff;
+    margin-top: 0;
 }
 
 .js .site-nav {
