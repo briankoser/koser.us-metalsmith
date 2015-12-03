@@ -2,6 +2,7 @@
   "name": "koser.us-metalsmith",
   "private": true,
   "dependencies": {
+    "joi": "7.0.x",
     "lodash": "3.10.x",
     "metalsmith": "1.7.x",
     "metalsmith-collections": "0.7.x",
