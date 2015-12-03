@@ -18,4 +18,5 @@ $RECYCLE.BIN/
 *.lnk
 
 build/
+node_modules/
 npm-debug.log
