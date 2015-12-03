@@ -72,7 +72,12 @@ Metalsmith(__dirname)
         pattern: '**/*.html'
     }))
     
-    .use(serve())
+    .use(serve({
+        http_error_files: {
+            404: "/404.html"
+        }
+    }))
+    
     .use(watch({
         livereload: true
     }))
