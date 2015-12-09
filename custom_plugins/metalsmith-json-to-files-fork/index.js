@@ -10,7 +10,7 @@ var _    = require('lodash');
 var joi  = require('joi');
 var each = require('async').each;
 var path = require('path');
-var slug = require('slug-component');
+var slug = require('slug');
 
 var resolve = _.get;
 
