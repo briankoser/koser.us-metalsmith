@@ -12,7 +12,7 @@
 }
 
 * + * {
-	margin-top: 1.4em;
+    margin-top: 1.4em;
 }
 
 @-ms-viewport { 
@@ -632,6 +632,10 @@ hr {
 
 .post-excerpt {
     margin-top: .25rem;
+}
+
+.recipe-list a {
+    text-decoration: none;
 }
 
 .site-nav ul {

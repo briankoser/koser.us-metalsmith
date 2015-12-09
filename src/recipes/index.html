@@ -9,7 +9,7 @@ json_files:
 ---
 <h1>Recipes</h1>
 
-<ul>
+<ul class="recipe-list">
     {% for recipe in recipes %}
         <li><a href="{{recipe.urlname}}">{{recipe.name}}</a></li>
     {% endfor %}
