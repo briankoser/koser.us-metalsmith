@@ -52,12 +52,15 @@ Metalsmith(__dirname)
         source_path: 'recipes/data/'
     }))
     
-    .use(markdown())
-    
     /* inplace before layouts because that's how it is in all examples */
+    /* inplace before markdown so we can convert markdown in data to html after put in swig template */
     .use(inplace({
         engine: 'swig',
-        pattern: '**/*.html'
+        pattern: '**/*.md'
+    }))
+    
+    .use(markdown({
+        recipe_keys: ['comments', 'yield', 'ingredients', 'instructions']
     }))
     
     .use(excerpts())

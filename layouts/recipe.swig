@@ -20,14 +20,14 @@
             {% endif %}
             
             {% if data.yield %}
-                <div>Yield: <span property="recipeYield">{{data.yield}}</span></div>
+                <div>Yield: <span property="recipeYield">{{data.yield|safe}}</span></div>
             {% endif %}
         </section>
         
         <section>
             <ul>
             {% for ingredient in data.ingredients %}
-                <li property="ingredients">{{ingredient}}</li>
+                <li property="ingredients">{{ingredient|safe}}</li>
             {% endfor %}
             </ul>
         </section>
@@ -35,14 +35,14 @@
         <section>
             <ol property="recipeInstructions">
             {% for instruction in data.instructions %}
-                <li>{{instruction}}</li>
+                <li>{{instruction|safe}}</li>
             {% endfor %}
             </ol>
         </section>
         
         <section>
             {% if data.description %}
-                <span property="description">{{data.comments}}</span>
+                <span property="description">{{data.comments|safe}}</span>
             {% endif %}
         </section>
         

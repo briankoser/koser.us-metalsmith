@@ -152,7 +152,7 @@ var plugin = function plugin (options) {
                 var data     = _.extend(defaults, meta, {data: element});
 
                 // Take into account the parent in build filename
-                var filename = build_filename(data.filename_pattern, data);
+                var filename = build_filename(data.filename_pattern, data, '.md');
 
                 // Remove properties that are no longer needed.
                 properties_to_remove.forEach(function (property_to_remove) {
