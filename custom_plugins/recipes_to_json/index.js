@@ -17,8 +17,7 @@ module.exports = plugin;
  * @return {Function}
  */
 
-function plugin(options) {
-    options = options || {};
+function plugin(options = {}) {
     options.src_path = options.src_path.replace(/\/$/, '').replace(/(\/|\\)/g, path.sep);
     options.dest_path = options.dest_path.replace(/\/$/, '').replace(/(\/|\\)/g, path.sep);
     
