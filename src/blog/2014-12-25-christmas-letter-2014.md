@@ -4,7 +4,7 @@ title: Christmas Letter 2014
 author: Brian & Melissa Koser
 pubdate: 2014-12-25
 collection: posts
-description: Christmas Letter 2014 for Brian and Melissa Koser
+description: The 2014 Christmas Letter for Brian and Melissa Koser
 tags: christmas
 ---
 
