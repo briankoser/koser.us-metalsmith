@@ -41,15 +41,17 @@
         </section>
         
         <section>
-            {% if data.description %}
+            {% if data.comments %}
                 <span property="description">{{data.comments|safe}}</span>
             {% endif %}
         </section>
         
         <section>
-            {% if data.keywords %}
-                <span property="keywords">{{data.keywords}}</span>
-            {% endif %}
+            <ul class="keywords horizontal">
+                {% for keyword in data.keywords %}
+                    <li>{{keyword}}</li>
+                {% endfor %}
+            </ul>
         </section>
         
         <section class="milli">

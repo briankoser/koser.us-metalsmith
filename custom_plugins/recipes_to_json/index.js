@@ -78,6 +78,12 @@ var recipeToJson = function(src, options) {
         json['urlname'] = slug(name[2], {lower: true});
     }
     
+    var keywords = src.match(/(Tags: )([A-Za-z0-9&'\- ]+)/);
+    if (keywords != undefined)
+    {
+        json['keywords'] = keywords[2].split(' ');
+    }
+    
     var author = src.match(/(Author: )([A-Za-z0-9 ]+)/);
     if (author != undefined)
     {

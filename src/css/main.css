@@ -233,6 +233,11 @@ ul ul li {
     list-style-type: circle;
 }
 
+ul.horizontal li {
+    display: inline-block;
+    margin: 0;
+}
+
 ol {
     list-style-type: decimal;
 }
@@ -616,6 +621,12 @@ hr {
     max-height: none;
 }
 
+.keywords li {
+    border: 1px solid #4f93f9;
+    border-radius: 15px;
+    padding: .15em;
+}
+
 .license {
     text-align: right;
 }
@@ -643,8 +654,6 @@ hr {
 }
 
 .site-nav li {
-    display: inline-block;
-    margin: 0;
     padding-left: 0;
 }
 
