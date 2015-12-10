@@ -47,9 +47,11 @@
         </section>
         
         <section>
-            {% if data.keywords %}
-                <span property="keywords">{{data.keywords}}</span>
-            {% endif %}
+            <ul class="keywords horizontal">
+                {% for keyword in data.keywords %}
+                    <li>{{keyword}}</li>
+                {% endfor %}
+            </ul>
         </section>
         
         <section class="milli">

@@ -25,7 +25,7 @@
                 
                 <a href="#menu" class="menu-link">≡ Menu</a>
                 <nav id="menu" role="navigation" class="site-nav">
-                    <ul>
+                    <ul class="horizontal">
                         <li><a href="/blog/">Blog</a></li>
                         <li><a href="/games/">Games</a></li>
                         <li><a href="/recipes/">Recipes</a></li>
