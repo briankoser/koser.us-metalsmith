@@ -1,6 +1,6 @@
 {% extends "default.swig" %}
 
-{% block title %}{{title}} · {% parent %}{% endblock %}
+{% block title %}{{title}} · {{sitename}}{% endblock %}
 
 {% block css %}
     <link rel="stylesheet" href="/css/vendor/chartist.min.css">

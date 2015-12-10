@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>{% block title %}koser.us{% endblock %}</title>
+        <title>{% block title %}{{title}} · {{sitename}}{% endblock %}</title>
         <meta name="description" content="{{description}}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ff0000">
@@ -21,7 +21,7 @@
     <body>
         <div class="header-container">
             <header role="banner" class="clearfix">
-                <h1 class="site-title"><a href="/">koser.us</a></h1>
+                <h1 class="site-title"><a href="/">{{sitename}}</a></h1>
                 
                 <a href="#menu" class="menu-link">≡ Menu</a>
                 <nav id="menu" role="navigation" class="site-nav">
