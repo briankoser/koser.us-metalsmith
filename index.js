@@ -18,7 +18,8 @@ Metalsmith(__dirname)
     
     /* define before inplace so inplace can use the globals */
     .use(define({
-        development: true
+        development: true,
+        sitename: 'koser.us'
     }))
     
     /* collections before inplace so we can loop over them in swig */

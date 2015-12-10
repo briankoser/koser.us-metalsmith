@@ -1,6 +1,6 @@
 {% extends "default.swig" %}
 
-{% block title %}{{data.name}} · {% parent %}{% endblock %}
+{% block title %}{{data.name}} · Recipes · {{sitename}}{% endblock %}
 
 {% block css %}
     

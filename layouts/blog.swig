@@ -1,6 +1,6 @@
 {% extends "default.swig" %}
 
-{% block title %}{{title}} · {% parent %}{% endblock %}
+{% block title %}{{title}} · Blog · {{sitename}}{% endblock %}
 
 {% block css %}
     {% if customcss == 'toptenpunctuation' %}
