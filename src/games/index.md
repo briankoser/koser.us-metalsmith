@@ -2,12 +2,12 @@
 title: Board Game Stats
 description: The board game statistics of Brian and Melissa Koser
 ---
-<h1>Board Game Stats</h1>
+# Board Game Stats
 
 <ul>
     {% for post in collections.gamestats %}
         {% if post.year %}
-            <li><a href="/{{ post.path }}">{{ post.year }}</a>
+            <li>[{{ post.year }}](/{{ post.path }})
         {% endif %}
     {% endfor %}
 </ul>
