@@ -7,6 +7,13 @@
         <meta name="description" content="{{description}}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ff0000">
+        
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@bmkoser">
+        <meta property="og:url" content="{{sitelocation}}{{link}}">
+        <meta property="og:title" content="{{title}}">
+        <meta property="og:description" content="{{description}}">
+        <meta property="og:image" content="http://koser.us/tile.png">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 

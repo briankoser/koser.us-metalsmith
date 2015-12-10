@@ -2,6 +2,7 @@ var Metalsmith = require('metalsmith');
 var collections = require('metalsmith-collections');
 var define = require('metalsmith-define');
 var excerpts = require('metalsmith-excerpts');
+var filepath = require('metalsmith-filepath');
 var ignore = require('metalsmith-ignore');
 var inplace = require('metalsmith-in-place');
 var json_to_files = require('./custom_plugins/metalsmith-json-to-files-fork');
@@ -20,6 +21,7 @@ Metalsmith(__dirname)
     /* define before inplace so inplace can use the globals */
     .use(define({
         development: true,
+        sitelocation: 'http://koser.us',
         sitename: 'koser.us'
     }))
     
@@ -53,6 +55,11 @@ Metalsmith(__dirname)
         source_path: 'recipes/data/'
     }))
     
+    .use(filepath({
+        absolute: true,
+        permalinks: true
+    }))
+    
     /* inplace before layouts because that's how it is in all examples */
     /* inplace before markdown so we can convert markdown in data to html after put in swig template */
     .use(inplace({
@@ -77,7 +84,6 @@ Metalsmith(__dirname)
     }))
     
     .use(ignore([
-        'games/data/*',
         'recipes/data/*'
     ]))
     
