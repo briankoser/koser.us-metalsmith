@@ -2,4 +2,4 @@
 title: Home
 description: The personal website of Brian Koser, Melissa Koser, and Lydia Koser
 ---
-Not much here yet…have you read <a href="christmas/2014/">the past year’s Christmas letter</a>?
+Have you read [our last Christmas letter](blog/2014-12-25-christmas-letter-2014/)?
