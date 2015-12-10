@@ -3,6 +3,7 @@ layout: blog.swig
 title: Adulthood
 author: Brian Koser
 pubdate: 2014-03-11
+collection: posts
 description: Brian Koser reflects on adulthood and maturity
 tags: philosophy
 ---

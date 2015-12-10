@@ -30,7 +30,6 @@ Metalsmith(__dirname)
             reverse: false
         },
         posts: {
-            pattern: 'blog/**.md',
             sortBy: 'pubdate',
             reverse: true
         }
