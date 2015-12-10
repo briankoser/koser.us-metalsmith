@@ -41,7 +41,7 @@
         </section>
         
         <section>
-            {% if data.description %}
+            {% if data.comments %}
                 <span property="description">{{data.comments|safe}}</span>
             {% endif %}
         </section>
