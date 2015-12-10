@@ -3,6 +3,7 @@ layout: blog.swig
 title: Top Ten Punctuation Marks
 author: Brian Koser
 pubdate: 2015-10-24
+collection: posts
 description: Brian Koser's top ten favorite punctuation marks
 tags: typography english
 customcss: toptenpunctuation
@@ -89,4 +90,4 @@ Its functional precision is matched by its form. The curves of the question mark
 
 The question mark works its craft with poise and panache. What more could you ask from a bit of punctuation? ∎
 
-*Well, [almost never](http://www.youtube.com/results?search_query=victor+borge+phonetic+punctuation).
+\* Well, [almost never](http://www.youtube.com/results?search_query=victor+borge+phonetic+punctuation).

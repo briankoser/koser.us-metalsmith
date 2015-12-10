@@ -7,10 +7,10 @@ json_files:
     as_permalink: false
     layout: recipe.swig
 ---
-<h1>Recipes</h1>
+# Recipes
 
 <ul class="recipe-list">
     {% for recipe in recipes %}
-        <li><a href="{{recipe.urlname}}">{{recipe.name}}</a></li>
+        <li>[{{recipe.name}}]({{recipe.urlname}})</li>
     {% endfor %}
 </ul>

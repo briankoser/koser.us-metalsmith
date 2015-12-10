@@ -5,7 +5,7 @@ var excerpts = require('metalsmith-excerpts');
 var inplace = require('metalsmith-in-place');
 var json_to_files = require('./custom_plugins/metalsmith-json-to-files-fork');
 var layouts = require('metalsmith-layouts');
-var markdown = require('metalsmith-markdown');
+var markdown = require('./custom_plugins/metalsmith-markdown-fork');
 var metadata = require('./custom_plugins/metalsmith-metadata-fork');
 var permalinks = require('metalsmith-permalinks');
 var recipes_to_json = require('./custom_plugins/recipes_to_json/index.js');
@@ -30,7 +30,6 @@ Metalsmith(__dirname)
             reverse: false
         },
         posts: {
-            pattern: 'blog/**.md',
             sortBy: 'pubdate',
             reverse: true
         }
@@ -52,12 +51,15 @@ Metalsmith(__dirname)
         source_path: 'recipes/data/'
     }))
     
-    .use(markdown())
-    
     /* inplace before layouts because that's how it is in all examples */
+    /* inplace before markdown so we can convert markdown in data to html after put in swig template */
     .use(inplace({
         engine: 'swig',
-        pattern: '**/*.html'
+        pattern: '**/*.md'
+    }))
+    
+    .use(markdown({
+        recipe_keys: ['comments', 'yield', 'ingredients', 'instructions']
     }))
     
     .use(excerpts())
