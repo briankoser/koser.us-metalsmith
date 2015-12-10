@@ -55,6 +55,10 @@
             <script src="http://localhost:35729/livereload.js"></script>
         {% endif %}
         
-        {% block js %}{% endblock %}
+        {% block js %}
+            {% if customjs == 'home' %}
+                <script src="/js/home.js"></script>
+            {% endif %}
+        {% endblock %}
     </body>
 </html>
