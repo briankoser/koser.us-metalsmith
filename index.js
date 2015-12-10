@@ -2,6 +2,7 @@ var Metalsmith = require('metalsmith');
 var collections = require('metalsmith-collections');
 var define = require('metalsmith-define');
 var excerpts = require('metalsmith-excerpts');
+var ignore = require('metalsmith-ignore');
 var inplace = require('metalsmith-in-place');
 var json_to_files = require('./custom_plugins/metalsmith-json-to-files-fork');
 var layouts = require('metalsmith-layouts');
@@ -74,6 +75,11 @@ Metalsmith(__dirname)
         default: 'default.swig',
         pattern: '**/*.html'
     }))
+    
+    .use(ignore([
+        'games/data/*',
+        'recipes/data/*'
+    ]))
     
     .use(serve({
         http_error_files: {
