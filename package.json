@@ -5,6 +5,7 @@
     "joi": "7.0.x",
     "lodash": "3.10.x",
     "metalsmith": "1.7.x",
+    "metalsmith-assets": "0.1.x",
     "metalsmith-collections": "0.7.x",
     "metalsmith-define": "1.0.x",
     "metalsmith-excerpts": "1.0.x",
