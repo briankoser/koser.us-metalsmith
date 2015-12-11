@@ -1,4 +1,5 @@
 var Metalsmith = require('metalsmith');
+var assets = require('metalsmith-assets');
 var collections = require('metalsmith-collections');
 var define = require('metalsmith-define');
 var excerpts = require('metalsmith-excerpts');
@@ -88,6 +89,10 @@ Metalsmith(__dirname)
     .use(ignore([
         'recipes/data/*'
     ]))
+    
+    .use(assets({
+        source: './assets'
+    }))
     
     .use(serve({
         http_error_files: {
