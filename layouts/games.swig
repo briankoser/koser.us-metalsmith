@@ -20,10 +20,10 @@
         
     <footer>
         <nav>
-            {% if next %}
+            {% if next.year %}
                 <a class="float-left" rel="prev" href="/{{ next.path }}">« {{ next.title }}</a>
             {% endif %}
-            {% if previous %}
+            {% if previous.year %}
                 <a class="float-right" rel="next" href="/{{ previous.path }}">{{ previous.title }} »</a>
             {% endif %}
         </nav>
