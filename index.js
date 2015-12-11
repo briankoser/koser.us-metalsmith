@@ -55,13 +55,9 @@ Metalsmith(__dirname)
         source_path: 'recipes/data/'
     }))
     
-    .use(filepath({
-        absolute: true,
-        permalinks: true
-    }))
-    
+    /* inplace before markdown so we can convert markdown in data after it's in the template */
     /* inplace before layouts because that's how it is in all examples */
-    /* inplace before markdown so we can convert markdown in data to html after put in swig template */
+    /* inplace before filepath so we can have location of generated pages */
     .use(inplace({
         engine: 'swig',
         pattern: '**/*.md'
@@ -75,6 +71,12 @@ Metalsmith(__dirname)
     
     .use(permalinks({
         relative: false
+    }))
+    
+    /* filepath before layouts so we can use the location in our Open Graph metadata */
+    .use(filepath({
+        absolute: true,
+        permalinks: true
     }))
     
     .use(layouts({
