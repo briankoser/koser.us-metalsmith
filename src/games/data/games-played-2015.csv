@@ -1,4 +1,4 @@
-Timestamp,Date,Game,Players,Winner,Duration (minutes),Score
+Timestamp,Date,Name,Players,Winner,Duration,Score
 1/15/2015 22:52:53,1/1/2015,Mascarade,"Brian,Carol,Esther,Johnny,Melissa,Melody,Michael,Tim",Esther,29,
 1/15/2015 22:55:32,1/1/2015,Wits and Wagers,"Brian/Melissa,Carol/Johnny,Esther/Michael,Melody/Tim",Brian/Melissa,19,18
 1/15/2015 22:56:39,1/1/2015,Wits and Wagers,"Brian/Melissa,Carol/Johnny,Esther/Michael,Melody/Tim",Melody/Tim,29,16
@@ -268,7 +268,7 @@ Timestamp,Date,Game,Players,Winner,Duration (minutes),Score
 9/11/2015 22:29:58,11/27/2015,XenoShyft Onslaught,"Brian,Luke,Zach",Nobody,155,
 9/11/2015 22:29:58,11/27/2015,Dice Masters,"Brian,Zach",Zach,22,
 9/11/2015 22:29:58,11/27/2015,Volt: Robot Battle Arena,"Brian,Luke,Zach",Luke,47,3
-9/11/2015 22:29:58,11/27/2015,Seasons,"Brian,Luke,Zach",Brian,,
+9/11/2015 22:29:58,11/27/2015,Seasons,"Brian,Luke,Zach",Brian,80,
 9/11/2015 22:29:58,11/27/2015,Gravwell,"Brian,Luke,Zach",Zach,25,
 9/11/2015 22:29:58,11/28/2015,Splendor,"Brian,Luke,Zach",Zach,36,
 9/11/2015 22:29:58,11/28/2015,Sheriff of Nottingham,"Brian,Luke,Zach",Zach,84,156
