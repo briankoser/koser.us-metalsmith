@@ -1,10 +1,10 @@
 {% extends "default.swig" %}
 
-{% block title %}{{title}} · Blog · {{sitename}}{% endblock %}
+{% block title %}{{title}} · Journal · {{sitename}}{% endblock %}
 
 {% block css %}
     {% if customcss == 'toptenpunctuation' %}
-        <link rel="stylesheet" href="/css/blog.2015-10-24-top-ten-punctuation-marks.css">
+        <link rel="stylesheet" href="/css/journal.2015-10-24-top-ten-punctuation-marks.css">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans&text=¶' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto&text=¶' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Lato&text=¶' rel='stylesheet' type='text/css'>
