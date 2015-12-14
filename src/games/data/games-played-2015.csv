@@ -1,0 +1,288 @@
+Timestamp,Date,Game,Players,Winner,Duration (minutes),Score
+1/15/2015 22:52:53,1/1/2015,Mascarade,"Brian,Carol,Esther,Johnny,Melissa,Melody,Michael,Tim",Esther,29,
+1/15/2015 22:55:32,1/1/2015,Wits and Wagers,"Brian/Melissa,Carol/Johnny,Esther/Michael,Melody/Tim",Brian/Melissa,19,18
+1/15/2015 22:56:39,1/1/2015,Wits and Wagers,"Brian/Melissa,Carol/Johnny,Esther/Michael,Melody/Tim",Melody/Tim,29,16
+1/15/2015 22:57:19,1/1/2015,Wits and Wagers,"Brian/Melissa,Carol/Johnny,Esther/Michael,Melody/Tim",Esther/Michael,33,15
+1/15/2015 23:00:51,1/1/2015,Cosmic Encounter,"Brian,Carol,Esther,Melissa,Melody,Michael,Tim","Carol,Michael",97,
+1/15/2015 23:02:50,1/2/2015,Bananagrams,"Brian,Carol,Melissa,Tim",Carol,5,
+1/15/2015 23:03:28,1/2/2015,Bananagrams,"Brian,Carol,Melissa,Tim",Melissa,6,
+1/15/2015 23:03:57,1/2/2015,Bananagrams,"Brian,Carol,Melissa,Tim",Brian,4,
+1/15/2015 23:06:23,1/3/2015,Scattergories,"Brian,Carol,Melissa,Melody,Tim",Brian,30,23
+1/15/2015 23:07:04,1/3/2015,Cosmic Encounter,"Brian,Melissa,Melody,Tim",Melissa,35,
+1/15/2015 23:07:57,1/3/2015,Cosmic Encounter,"Brian,Esther,Melissa,Melody,Michael,Tim",Melody,91,
+1/15/2015 23:09:35,1/4/2015,Hanabi,"Brian,Carol,Melissa,Melody,Tim","Brian,Carol,Melissa,Melody,Tim",28,12
+1/15/2015 23:10:13,1/4/2015,Hanabi,"Brian,Carol,Melissa,Melody,Tim","Brian,Carol,Melissa,Melody,Tim",30,20
+1/15/2015 23:11:41,1/5/2015,Settlers of Catan,"Brian,Melissa,Michael,Tim",Brian,232,17
+1/15/2015 23:13:36,1/5/2015,The Resistance,"Brian,Esther,Melissa,Melody,Michael","Esther,Melissa,Michael",20,
+1/15/2015 23:14:28,1/5/2015,The Resistance,"Brian,Carol,Esther,Johnny,Melissa,Melody,Michael,Tim","Carol,Esther,Melissa",39,
+1/15/2015 23:15:19,1/5/2015,Hanabi,"Brian,Carol,Melissa,Melody,Tim","Brian,Carol,Melissa,Melody,Tim",32,
+1/15/2015 23:15:43,1/5/2015,Hanabi,"Brian,Carol,Melissa,Melody,Tim","Brian,Carol,Melissa,Melody,Tim",30,
+1/15/2015 23:16:47,1/6/2015,Puerto Rico,"Brian,Carol,Michael,Tim",Carol,83,50
+1/15/2015 23:17:47,1/6/2015,Cosmic Encounter,"Brian,Esther,Melissa,Melody,Michael,Tim","Brian,Melissa,Melody,Tim",98,
+1/15/2015 23:18:54,1/6/2015,The Resistance,"Brian,Esther,Melissa,Melody,Michael,Tim","Brian,Esther,Melody,Michael",35,
+1/15/2015 23:19:56,1/6/2015,The Resistance,"Brian,Esther,Melissa,Melody,Michael,Tim","Brian,Esther,Melody,Michael",24,
+1/15/2015 23:21:34,1/6/2015,Cosmic Encounter,"Brian,Esther,Melissa,Melody,Michael,Tim",Michael,88,
+1/15/2015 23:22:51,1/13/2015,Boggle,"Brian,Melissa",Brian,34,43
+1/15/2015 23:23:56,1/15/2015,Paperback,"Brian,Melissa",Melissa,60,56
+1/15/2015 23:24:35,1/15/2015,Forbidden Island,"Brian,Melissa","Brian,Melissa",27,Legendary
+1/15/2015 23:25:15,1/15/2015,Jaipur,"Brian,Melissa",Melissa,43,"90,78,72"
+1/17/2015 18:23:19,1/17/2015,Kingsburg,"Brian,Luke,Zach",Brian,101,52
+1/17/2015 20:29:02,1/17/2015,Forbidden Island,"Brian,Luke,Zach",Nobody,30,
+1/17/2015 21:13:52,1/17/2015,Dice Masters,"Brian,Zach",Brian,34,8
+1/17/2015 21:58:47,1/17/2015,Dice Masters,"Brian,Luke",Luke,27,9
+1/18/2015 15:56:57,1/18/2015,Dice Masters,"Brian,Zach",Brian,65,14
+1/22/2015 22:46:17,1/22/2015,Paperback,"Brian,Melissa","Brian,Melissa",59,38
+1/24/2015 20:07:47,1/24/2015,Ca$h 'n Guns,"Aaron,Brian,Erin,JJ,Melissa,Sarah,Shannon",Shannon,45,350000
+1/24/2015 22:04:06,1/24/2015,Cosmic Encounter,"Brian,Erin,JJ,Melissa,Sarah,Shannon",Nobody,76,
+1/29/2015 21:57:39,1/29/2015,Dice Masters,"Brian,Melissa",Melissa,94,1
+1/29/2015 23:46:10,1/29/2015,Zombie 15',"Brian,Greg,Jay,Jerry,Melissa","Brian,Greg,Jay,Jerry,Melissa",85,
+2/5/2015 23:48:30,2/5/2015,Bananagrams,"Brian,Melissa",Brian,41,
+2/6/2015 0:25:18,2/5/2015,Alien Frontiers,"Brian,Greg,Jay,Melissa",Jay,150,14
+2/14/2015 22:38:57,2/14/2015,Pandemic,"Brian,Melissa",Nobody,42,3
+2/16/2015 22:24:18,2/16/2015,Pandemic,"Brian,Melissa",Nobody,53,3
+2/19/2015 22:31:23,2/19/2015,Scoville,"Bert,Brian,Chuck,Jay,Melissa",Jay,160,119
+2/21/2015 0:54:28,2/21/2015,The Resistance,"Aaron,Brian,Charity,Judy,Justin,Melissa,Rachel,Shane","Brian,Melissa,Shane",31,1
+2/21/2015 0:55:08,2/20/2015,The Resistance,"Aaron,Brian,Charity,Judy,Justin,Melissa,Rachel,Shane","Aaron,Brian,Shane",21,1
+2/28/2015 0:51:03,2/27/2015,Dixit,"Becky,Brian/Melissa,Charity/Justin,Judy,Megan,Shane",Charity/Justin,60,
+2/28/2015 1:04:57,2/27/2015,Pit,"Becky,Brian,Charity,Judy,Justin,Megan,Melissa,Shane",Judy,3,
+2/28/2015 1:05:35,2/27/2015,Pit,"Becky,Brian,Charity,Judy,Justin,Megan,Melissa,Shane",Brian,2,
+2/28/2015 1:06:12,2/27/2015,Pit,"Becky,Brian,Charity,Judy,Justin,Megan,Melissa,Shane",Becky,1,
+2/28/2015 1:06:52,2/27/2015,Pit,"Becky,Brian,Charity,Judy,Justin,Megan,Melissa,Shane",Brian,2,
+2/28/2015 1:07:26,2/27/2015,Pit,"Becky,Brian,Charity,Judy,Justin,Megan,Melissa,Shane",Brian,2,
+2/28/2015 1:08:14,2/27/2015,Pit,"Becky,Brian,Charity,Judy,Justin,Megan,Melissa,Shane",Justin,4,
+2/28/2015 1:09:28,2/27/2015,Mascarade,"Becky,Brian,Charity,Judy,Justin,Megan,Melissa,Shane",Megan,30,13
+2/28/2015 1:10:24,2/27/2015,Pandemic,"Brian,Justin",Nobody,42,2
+3/1/2015 17:47:52,3/1/2015,Tales of the Arabian Nights,"Brian,Megan,Melissa",Megan,127,"11 destiny, 12 story "
+3/1/2015 18:58:00,3/1/2015,Dixit,"Brian,Megan,Melissa",Melissa,50,27
+3/5/2015 23:12:18,3/5/2015,Caverna,"Brian,Jay,Keith,Melissa",Jay,165,72
+3/6/2015 23:46:29,3/6/2015,Say Anything,"Becky,Brian,Chris,Melissa,Nathan,Selah",Melissa,42,39
+3/6/2015 23:47:12,3/6/2015,King of Tokyo,"Becky,Brian,Chris,Melissa,Nathan,Selah",Selah,34,20
+3/6/2015 23:47:54,3/6/2015,Dixit,"Becky,Brian,Chris,Melissa,Nathan,Selah",Brian,47,26
+3/6/2015 23:48:30,3/6/2015,Taboo,"Becky,Brian,Chris,Melissa,Nathan,Selah",Nobody,40,
+3/7/2015 23:05:34,3/7/2015,Say Anything,"Aaron/Rachel,Becky/Chris,Brian/Melissa,Charity/Justin,Judy/Shane","Brian/Melissa,Judy/Shane",61,16
+3/7/2015 23:07:01,3/7/2015,Dixit,"Aaron/Rachel,Becky/Chris,Brian/Melissa,Charity/Justin,Judy/Shane",Charity/Justin,53,30
+3/8/2015 23:08:01,3/8/2015,Agricola,"Brian,Melissa",Melissa,99,38
+3/12/2015 22:09:30,3/12/2015,Seasons,"Brian,Melissa",Brian,79,156
+3/14/2015 16:07:37,3/14/2015,Huggermugger,"Brian,Melissa",Melissa,40,
+3/20/2015 22:17:07,3/20/2015,Caverna,"Brian,Jay,Melissa",Jay,127,78
+3/23/2015 21:56:42,3/23/2015,Kingsburg,"Brian,Greg,Jay,Melissa",Brian,87,30
+3/23/2015 23:09:10,3/23/2015,Dixit,"Brian,Greg,Jay,Melissa",Melissa,40,30
+3/26/2015 22:31:36,3/26/2015,Dice Town,"Brian,Melissa",Brian,55,82
+3/27/2015 23:59:09,3/27/2015,Star Realms,"Brian,Melissa",Brian,29,52
+3/28/2015 15:47:11,3/28/2015,King of Tokyo,"Brian,Greg,Laura,Melissa,Scott",Scott,37,8
+3/28/2015 17:03:05,3/28/2015,Dice Town,"Brian,Greg,Laura,Melissa,Scott",Brian,57,41
+3/28/2015 17:51:18,3/28/2015,Dixit,"Brian,Greg,Laura,Melissa,Scott",Brian,25,30
+3/28/2015 18:53:55,3/28/2015,Dixit,"Brian,Greg,Laura,Melissa,Scott",Laura,37,30
+4/2/2015 22:12:57,4/2/2015,Star Realms,"Brian,Melissa",Brian,32,23
+4/2/2015 22:17:20,4/2/2015,"But Wait, There's More! ","Brian,Greg,Jay,Melissa",Greg,20,21
+4/2/2015 22:18:06,4/2/2015,"But Wait, There's More! ","Brian,Greg,Jay,Josh,Melissa",Melissa,21,24
+4/5/2015 0:02:10,4/4/2015,Ca$h 'n Guns,"Brian,JJ,Megan,Melissa,Micah,Scott,Shannon",JJ,36,155000
+4/5/2015 0:02:48,4/4/2015,Ca$h 'n Guns,"Brian,JJ,Megan,Melissa,Micah,Scott,Shannon",Brian,32,161000
+4/5/2015 0:03:53,4/4/2015,"But Wait, There's More!","Brian/Melissa,JJ/Shannon,Megan,Micah,Scott",Nobody,30,
+4/5/2015 0:04:34,4/4/2015,Dice Town,"Brian,Megan,Melissa,Micah,Scott",Megan,50,29
+4/5/2015 17:57:50,4/5/2015,"But Wait, There's More!","Brian,Charity,Judy,Justin,Melissa,Shane",Nobody,61,
+4/7/2015 21:36:50,4/7/2015,Splendor,"Brian,Melissa",Brian,32,15
+4/9/2015 22:13:45,4/9/2015,Tzolk'in,"Brian,Greg,Jay,Melissa",Jay,111,73
+4/11/2015 22:26:35,4/11/2015,Splendor,"Brian,Melissa",Brian,37,15
+4/12/2015 21:45:54,4/12/2015,Splendor,"Brian,Melissa",Brian,30,15
+4/12/2015 22:11:46,4/12/2015,Splendor,"Brian,Melissa",Brian,24,15
+4/14/2015 21:41:31,4/14/2015,Splendor,"Brian,Melissa",Brian,33,16
+4/16/2015 20:21:26,4/16/2015,King of Tokyo,"Brayden,Brian,Bryslyn,Charity,Justin,Melissa",Brayden,46,4
+4/17/2015 15:38:29,4/17/2015,Pandemic,"Brian,Luke,Zach",Nobody,37,3
+4/17/2015 17:05:16,4/17/2015,Splendor,"Brian,Luke,Sue,Zach",Zach,72,16
+4/17/2015 19:22:20,4/17/2015,Dice Town,"Don,Luke,Melissa,Sue,Zach",Luke,64,34
+4/17/2015 22:54:09,4/17/2015,Trains,"Brian,Luke,Zach",Brian,73,46
+4/17/2015 23:33:40,4/17/2015,Fluxx,"Brian,Luke,Zach",Zach,25,
+4/18/2015 10:12:50,4/18/2015,Star Realms,"Brian,Zach",Zach,34,24
+4/18/2015 11:23:23,4/18/2015,Splendor,"Brian,Luke,Melissa,Zach",Brian,34,15
+4/18/2015 23:30:36,4/18/2015,Star Realms,"Brian,Zach",Brian,25,46
+4/19/2015 13:45:57,4/19/2015,Dice Masters,"Brian,Zach",Brian,85,14
+4/20/2015 22:56:23,4/20/2015,Gravwell,"Brian,Melissa",Brian,25,45
+4/23/2015 21:00:03,4/23/2015,Kingsport Festival,"Brian,Jay,Melissa",Jay,99,37
+4/23/2015 22:00:05,4/23/2015,Gravwell,"Brian,Jay,Melissa",Jay,38,48
+4/28/2015 19:56:02,4/28/2015,Volt: Robot Battle Arena,"Brian,Luke,Zach",Brian,26,2
+5/10/2015 22:35:29,5/10/2015,Dutch Blitz,"Brian,Megan,Melissa",Megan,41,103 (six rounds)
+5/11/2015 22:53:27,5/11/2015,Dutch Blitz,"Brian,Megan,Melissa",Brian,68,81 (nine rounds)
+5/12/2015 21:21:06,5/12/2015,Splendor,"Brian,Megan,Melissa",Brian,39,16
+5/12/2015 22:19:59,5/12/2015,Pandemic,"Brian,Megan,Melissa",Nobody,50,2
+5/13/2015 23:11:18,5/13/2015,Hanabi,"Brian,Megan,Melissa","Brian,Megan,Melissa",65,19
+5/15/2015 15:14:47,5/15/2015,Dice Masters,"Brian,Zach",Brian,97,12
+5/15/2015 16:31:33,5/15/2015,Splendor,"Brian,Luke,Melissa,Zach",Luke,46,15
+5/15/2015 17:36:49,5/15/2015,Star Realms,"Brian,Zach",Zach,26,26
+5/15/2015 23:51:59,5/15/2015,Dixit,"Brian/Melissa,Luke,Matt,Megan,Sue,Zach",Megan,78,31
+5/16/2015 15:06:44,5/16/2015,The Resistance,"Brian,Don,Luke,Matt,Megan,Sue,Zach","Luke,Megan,Zach",63,
+5/21/2015 20:15:52,5/21/2015,Mission: Red Planet,"Brian,Jay,Melissa",Jay,47,54
+5/21/2015 21:09:39,5/21/2015,Splendor,"Brian,Jay,Melissa",Brian,42,16
+5/21/2015 21:48:34,5/21/2015,Splendor,"Brian,Jay,Melissa",Brian,33,16
+5/25/2015 20:20:15,5/25/2015,Spoons,"Aaron,Brian,Charity,Genevieve,Judy,Justin,Matt,Melissa,Rachel McLean,Rachel Smith,Shane,Terry",Genevieve,24,
+5/25/2015 20:20:38,5/25/2015,Spoons,"Aaron,Brian,Charity,Genevieve,Judy,Justin,Matt,Melissa,Rachel McLean,Rachel Smith,Shane,Terry",Judy,22,
+5/25/2015 20:22:34,5/25/2015,Wits and Wagers,"Aaron/Rachel,Brian/Melissa,Charity/Justin,Judy/Shane,Matt/Rachel",Judy/Shane,24,17
+5/25/2015 20:23:34,5/25/2015,Apples to Apples,"Aaron,Brian,Charity,Judy,Justin,Melissa,Rachel,Shane",Shane,47,4
+5/26/2015 22:33:08,5/26/2015,Jaipur,"Brian,Melissa",Brian,32,"79,79"
+5/31/2015 17:00:41,5/31/2015,Castaways,"Brian,Melissa",Melissa,215,24
+6/7/2015 0:39:36,6/6/2015,Bananagrams,"Brian,Jason,Melissa",Melissa,13,
+6/7/2015 0:41:46,6/6/2015,Bananagrams,"Brian,Jason,Melissa",Brian,15,
+6/7/2015 0:42:29,6/6/2015,Bananagrams,"Brian,Jason,Melissa",Jason,14,
+6/7/2015 0:43:23,6/6/2015,Forbidden Island,"Ashley,Brian,Jason,Melissa",Nobody,47,Elite
+6/7/2015 0:44:12,6/6/2015,Forbidden Island,"Ashley,Brian,Jason,Melissa","Ashley,Brian,Jason,Melissa",53,Normal
+6/11/2015 22:28:37,6/11/2015,Seasons,"Brian,Melissa",Brian,77,189
+6/12/2015 22:53:57,6/12/2015,Bananagrams,"Aaron,Brian,Melissa,Rachel",Rachel,6,
+6/12/2015 23:43:23,6/12/2015,Bananagrams,"Aaron,Brian,Melissa,Rachel",Aaron,5,
+6/12/2015 23:43:58,6/12/2015,Bananagrams,"Aaron,Brian,Melissa,Rachel",Melissa,8,
+6/12/2015 23:44:33,6/12/2015,Bananagrams,"Aaron,Brian,Melissa,Rachel",Aaron,5,
+6/12/2015 23:44:58,6/12/2015,Bananagrams,"Aaron,Brian,Melissa,Rachel",Aaron,4,
+6/12/2015 23:45:37,6/12/2015,Dice Town,"Aaron,Brian,Melissa,Rachel",Rachel,62,42
+6/12/2015 23:49:24,6/12/2015,Pandemic,"Aaron,Brian,Melissa,Rachel",Nobody,28,1
+6/16/2015 21:42:34,6/16/2015,Lords of Waterdeep,"Brian,Jay,Melissa",Brian,123,215
+6/16/2015 23:02:33,6/16/2015,Run Fight or Die,"Brian,Jay,Melissa",Nobody,61,
+6/22/2015 23:29:14,6/22/2015,Seasons,"Brian,Melissa,Tim",Melissa,115,167
+6/24/2015 20:06:33,6/24/2015,Galaxy Trucker,"Andrew,Brian,Matthew,Melissa,Tom",Matthew,92,99
+6/25/2015 12:32:03,6/25/2015,Dead of Winter,"Brian,David,Melissa,Sam","Brian, David",144,
+6/25/2015 17:28:20,6/25/2015,Five Tribes,"Brian,Bryan,Lewis,Melissa",Melissa,62,143
+6/25/2015 17:29:22,6/25/2015,Jamaica,"Brian,Melissa,Sam,Tom",Brian,61,51
+6/26/2015 0:01:07,6/25/2015,Pitchcar,"Brian,Greg,Melissa,Nathan,Spencer",Brian,30,
+6/26/2015 0:02:18,6/25/2015,Pitchcar,"Brian,Greg,Melissa,Nathan,Spencer",Nathan,35,
+6/26/2015 13:42:56,6/26/2015,Cosmic Encounter,"Brian,Bryan,Kim,Melissa,Wayne",Brian,87,
+6/26/2015 16:14:25,6/26/2015,Flick'em Up,"Brian,Melissa",Melissa,52,
+6/26/2015 21:28:02,6/26/2015,Suburbia,"Brian,Melissa",Melissa,110,104
+6/26/2015 22:59:43,6/26/2015,Pitchcar,"Brian,Josh,Melissa",Brian,34,
+6/27/2015 13:26:26,6/27/2015,Castles of Mad King Ludwig ,"Brian,Melissa",Melissa,79,102
+6/27/2015 17:50:45,6/27/2015,Roll for the Galaxy,"Brian,Melissa",Melissa,60,31
+6/29/2015 23:17:04,6/29/2015,Bang! The Dice Game,"Brian,Melissa,Micah,Tim","Brian,Melissa",14,Outlaws
+6/29/2015 23:17:51,6/29/2015,Bang! The Dice Game,"Brian,Melissa,Micah,Tim","Brian,Melissa",9,Outlaws
+6/29/2015 23:19:41,6/29/2015,Double Feature,"Brian,Melissa,Micah,Tim",Melissa,35,10
+6/29/2015 23:20:15,6/29/2015,Rampage,"Brian,Melissa,Micah,Tim",Melissa,75,35
+6/30/2015 22:02:51,6/30/2015,Five Tribes,"Brian,Melissa,Tim",Brian,85,187
+6/30/2015 22:45:04,6/30/2015,Doodle Quest,"Brian,Melissa,Tim",Melissa,26,62
+7/2/2015 22:48:40,7/2/2015,Spyfall,"Brian,Jay,Melissa,Tim","Brian,Jay,Tim ",10,
+7/2/2015 22:49:17,7/2/2015,Spyfall,"Brian,Jay,Melissa,Tim",Melissa,10,
+7/2/2015 22:49:46,7/2/2015,Spyfall,"Brian,Jay,Melissa,Tim",Jay,10,
+7/2/2015 22:50:06,7/2/2015,Spyfall,"Brian,Jay,Melissa,Tim",Brian,10,
+7/2/2015 22:51:38,7/2/2015,Specter Ops,"Brian,Jay,Melissa,Tim","Brian,Melissa,Tim",104,14 rounds
+7/4/2015 19:43:58,7/4/2015,Werewolf,"Brian,Melissa,Tim,Others","Brian,Others",45,Townspeople
+7/4/2015 19:45:49,7/4/2015,Werewolf,"Brian,Melissa,Tim,Others","Brian,Melissa,Tim,Others",26,Townspeople
+7/4/2015 19:49:42,7/4/2015,Bang! The Dice Game,"Brian,Britney,Charity,Judy,Katherine,Melissa,Randall,Tim","Catherine,Charity,Tim",19,Outlaws
+7/4/2015 19:51:24,7/4/2015,Bang! The Dice Game,"Brian,Britney,Charity,Justin,Katherine,Melissa,Randall,Tim","Charity,Justin,Randall",14,Outlaws
+7/4/2015 22:40:34,7/4/2015,The Resistance,"Aaron,Brian,Charity,Judy,Justin,Katherine,Melissa,Rachel,Randall,Tim","Brian,Judy,Rachel,Tim",20,4
+7/4/2015 22:49:46,7/4/2015,"But Wait, There's More!","Aaron/Rachel,Charity/Justin,Judy/Shane,Katherine/Randall,Melissa/Tim",Judy/Shane,33,27
+7/5/2015 15:19:54,7/4/2015,Five Tribes,"Brian,Melissa,Tim",Melissa,60,152
+7/5/2015 17:57:30,7/5/2015,Ticket to Ride,"Brian,Melissa,Tim",Brian,62,134
+7/5/2015 21:45:42,7/5/2015,Rampage,"Brian,Melissa,Tim",Melissa,46,61
+7/5/2015 22:26:32,7/5/2015,Doodle Quest,"Brian,Melissa,Tim",Tim,29,39
+7/7/2015 22:55:45,7/6/2015,XenoShyft Onslaught,"Brian,Melissa,Tim","Brian,Melissa,Tim",282,26
+7/10/2015 23:09:00,7/10/2015,Sherlock Holmes Consulting Detective,"Brian,Melissa",Nobody,149,0
+7/11/2015 23:38:46,7/11/2015,Dead of Winter,"Brian,Charity,Judy/Shane,Justin,Melissa",Nobody,119,
+7/19/2015 23:43:38,7/19/2015,XenoShyft Onslaught,"Brian,Melissa,Tim","Brian,Melissa,Tim",206,6
+7/21/2015 23:42:33,7/21/2015,Specter Ops,"Brian,Melissa,Tim","Brian,Tim",128,25
+7/24/2015 22:27:14,7/24/2015,Baseball Highlights: 2045,"Brian,Melissa",Brian,103,4-2
+7/26/2015 21:24:57,7/25/2015,Sherlock Holmes Consulting Detective,"Brian,Melissa",Brian,184,5
+7/27/2015 22:55:05,7/27/2015,Like Minds,"Brian/Melissa,Bryslyn/Janise,Charity/Justin,Judy/Shane",Judy/Shane,15,
+7/27/2015 22:57:20,7/27/2015,Bang! The Dice Game,"Brian,Charity,Janise,Judy,Justin,Melissa,Shane","Brian,Charity,Justin",22,Outlaws
+7/27/2015 22:58:18,7/27/2015,Bang! The Dice Game,"Brian,Charity,Janise,Judy,Justin,Melissa,Shane","Judy,Justin,Shane",22,Outlaws
+7/27/2015 22:59:09,7/27/2015,True Colors,"Brian,Charity,Judy,Justin,Melissa,Shane",Charity,34,15
+7/27/2015 23:27:35,7/27/2015,Spyfall,"Brian,Charity,Janise,Judy,Justin,Melissa,Shane","Charity,Janise,Judy,Justin,Melissa,Shane",5,
+7/27/2015 23:28:07,7/27/2015,Spyfall,"Brian,Charity,Janise,Judy,Justin,Melissa,Shane","Brian,Charity,Janise,Judy,Justin,Melissa",7,
+7/27/2015 23:28:31,7/27/2015,Spyfall,"Brian,Charity,Janise,Judy,Justin,Melissa,Shane","Brian,Janise,Judy,Justin,Melissa,Shane",6,
+7/30/2015 1:02:28,7/29/2015,Specter Ops,"Brian,Matt,Melissa","Matt,Melissa",179,31
+7/30/2015 23:16:01,7/30/2015,Bang! The Dice Game,"Brian,Luke,Matt,Megan,Melissa,Zach","Brian,Megan",26,Sheriff
+7/30/2015 23:16:48,7/30/2015,Bang! The Dice Game,"Brian,Luke,Matt,Megan,Melissa,Zach","Luke,Matt,Megan",17,Outlaws
+7/30/2015 23:17:18,7/30/2015,Double Feature,"Brian,Luke,Matt,Megan,Melissa,Zach",Matt,38,8
+8/1/2015 1:09:49,7/31/2015,Bang! The Dice Game,"Brian,Luke,Matt,Megan,Melissa,Sue,Zach","Brian,Sue,Zach",23,Sheriff
+8/1/2015 1:10:42,7/31/2015,Bang! The Dice Game,"Brian,Luke,Matt,Megan,Melissa,Sue,Zach","Matt,Sue,Zach",30,Outlaws
+8/1/2015 1:11:41,7/31/2015,Spyfall,"Brian,Luke,Matt,Megan,Melissa,Sue,Zach",Sue,6,
+8/1/2015 1:12:16,7/31/2015,Spyfall,"Brian,Luke,Matt,Megan,Melissa,Sue,Zach",Brian,13,
+8/1/2015 1:12:49,7/31/2015,Spyfall,"Brian,Luke,Matt,Megan,Melissa,Sue,Zach","Brian,Luke,Matt,Megan,Melissa,Sue",6,
+8/1/2015 1:13:28,7/31/2015,Spyfall,"Brian,Luke,Matt,Megan,Melissa,Sue,Zach","Luke,Matt,Megan,Melissa,Sue,Zach",15,
+8/1/2015 20:36:19,8/1/2015,Ca$h 'n Guns,"Brian,Don,Luke,Matt,Megan,Melissa,Zach",Matt,29,185000
+8/2/2015 1:12:16,8/1/2015,XenoShyft Onslaught,"Brian,Matt,Zach","Brian,Matt,Zach",183,11
+8/2/2015 22:04:54,8/2/2015,Spyfall,"Charity,Janise,Judy,Justin,Matt,Melissa,Micah,Shane",Charity,8,
+8/2/2015 22:05:41,8/2/2015,Spyfall,"Charity,Janise,Judy,Justin,Matt,Melissa,Micah,Shane",Judy,2,
+8/2/2015 22:07:17,8/2/2015,Doodle Quest,"Brayden,Brian,Bryslynn",Bryslynn,30,58
+8/2/2015 22:08:37,8/2/2015,Ca$h 'n Guns,"Charity,Janise,Judy,Justin,Matt,Melissa,Micah,Shane",Micah,45,154000
+8/6/2015 23:42:34,8/6/2015,Splendor,"Brian,Clint,Melissa",Clint,33,15
+8/6/2015 23:44:51,8/6/2015,Scoville,"Brian,Clint,Jay,Josh,Matt,Melissa",Jay,74,55
+8/6/2015 23:45:29,8/6/2015,Sheriff of Nottingham,"Brian,Clint,Jay,Melissa",Brian,73,167
+8/7/2015 22:16:05,8/7/2015,Pandemic,"Brian,Melissa,Sebastian","Brian,Melissa,Sebastian",57,5 epidemic cards
+8/7/2015 22:17:56,8/7/2015,Five Tribes,"Brian,Melissa,Sebastian",Sebastian,78,189
+8/8/2015 18:30:13,8/8/2015,King of Tokyo,"Brayden,Brian",Brian,16,9
+8/8/2015 19:01:53,8/8/2015,Double Feature,"Brian,Charity,Janise,Judy,Justin,Melissa,Shane",Justin,34,7
+8/13/2015 23:20:17,8/13/2015,For Sale,"Brian,Clint,Jay,Melissa",Melissa,19,72
+8/13/2015 23:20:56,8/13/2015,Caverna,"Brian,Clint,Jay,Melissa",Brian,154,73
+8/14/2015 18:05:14,8/11/2015,Kaosball,"Brian,Melissa",Brian,70,15-0
+8/15/2015 21:59:59,8/15/2015,Sheriff of Nottingham,"Brian,Britney,Melissa,Scott",Brian,87,167
+8/18/2015 22:19:05,8/18/2015,Paperback,"Brian,Melissa",Brian,66,41
+8/20/2015 23:12:27,8/20/2015,Tumblin' Dice,"Brian,Bryan,Melissa",Brian,10,115
+8/20/2015 23:33:16,8/20/2015,Tumblin' Dice,"Brian,Greg,Melissa",Greg,8,99
+8/20/2015 23:33:57,8/20/2015,Tumblin' Dice,"Brian,Greg,Melissa",Brian,7,78
+8/20/2015 23:34:48,8/20/2015,Tumblin' Dice,"Brian,Clint,Greg,Jay,Melissa",Brian,12,72
+8/20/2015 23:36:46,8/20/2015,Specter Ops,"Brian,Clint,Greg,Jay,Melissa","Brian,Clint,Jay",91,"3 objectives, 22 rounds"
+8/20/2015 23:38:00,8/20/2015,Tumblin' Dice,"Brian,Clint,Jay,Melissa",Brian,11,113
+8/20/2015 23:38:37,8/20/2015,Tumblin' Dice,"Brian,Clint,Jay,Melissa",Clint,11,111
+8/21/2015 20:30:59,8/21/2015,Discworld: Ankh-Morpork,"Brian,Melissa",Melissa,36,Lord de Worde
+8/21/2015 21:39:12,8/21/2015,Discworld: Ankh-Morpork,"Brian,Melissa",Brian,67,87
+8/22/2015 16:57:34,8/22/2015,Tumblin' Dice,"Brian,Judy,Melissa,Shane",Shane,12,98
+8/22/2015 16:58:21,8/22/2015,Tumblin' Dice,"Brian,Judy,Melissa,Shane",Judy,13,120
+8/22/2015 16:58:50,8/22/2015,Tumblin' Dice,"Brian,Judy,Melissa,Shane",Shane,14,142
+8/22/2015 16:59:20,8/22/2015,Tumblin' Dice,"Brian,Judy,Melissa,Shane",Brian,63,175
+8/24/2015 23:34:10,8/24/2015,Seasons,"Brian,Melissa",Melissa,88,164
+8/27/2015 22:31:37,8/27/2015,Baseball Highlights: 2045,"Brian,Melissa",Melissa,111,4-3
+8/29/2015 0:28:22,8/28/2015,Tumblin' Dice,"Brian,Britney,Charity,Janise,Judy,Justin,Melissa,Micah,Scott,Shane",Judy,48,152
+8/30/2015 14:13:48,8/30/2015,Five Tribes,"Brian,Melissa",Brian,88,200
+8/30/2015 22:53:15,8/30/2015,Tumblin' Dice,"Brian,Carol,Johnny,Melissa,Melody",Melissa,14,126
+8/30/2015 22:53:46,8/30/2015,Tumblin' Dice,"Brian,Carol,Johnny,Melissa,Melody",Johnny,15,137
+8/30/2015 22:54:23,8/30/2015,Tumblin' Dice,"Brian,Carol,Johnny,Melissa,Melody",Carol,15,135
+8/31/2015 22:09:46,8/31/2015,Ticket to Ride,"Brian,Carol,Johnny,Melissa,Melody",Brian,125,123
+9/1/2015 20:50:34,9/1/2015,Doodle Quest,"Carol,Johnny,Melissa",Carol,30,53
+9/1/2015 22:26:16,9/1/2015,Dixit,"Brian,Carol,Johnny,Melissa",Brian,62,31
+9/2/2015 20:57:12,9/2/2015,Tumblin' Dice,"Brian,Melissa,Melody,Micah",Micah,11,124
+9/2/2015 21:27:22,9/2/2015,Tumblin' Dice,"Brian,Carol,Johnny,Melissa,Melody,Micah",Brian,18,164
+9/5/2015 9:47:03,9/5/2015,Pandemic,"Brian/Melissa,Carol,Johnny,Melody",Nobody,94,3 cured 
+9/5/2015 18:54:38,9/5/2015,Trains,"Brian,Carol,Luke,Zach",Zach,102,42
+9/5/2015 22:17:18,9/5/2015,Splendor,"Brian,Luke,Zach",Luke,39,16
+9/5/2015 22:25:33,9/5/2015,Fluxx,"Brian,Luke,Zach",Brian,10,
+9/11/2015 21:25:20,9/11/2015,"But Wait, There's More!","Brian,Carol,Dale,Johnny,Melissa",Dale,24,25
+9/11/2015 22:29:58,9/11/2015,Balderdash,"Brian,Carol,Dale,Johnny,Melissa",Dale,48,9
+9/11/2015 22:29:58,9/24/2015,Agricola,"Brian,Melissa",Brian,123,52
+9/11/2015 22:29:58,10/5/2015,Jaipur,"Brian,Melissa",Melissa,42,"75,77,73"
+9/11/2015 22:29:58,10/8/2015,Splendor,"Brian,Carol,Johnny,Melissa",Brian,46,15
+9/11/2015 22:29:58,10/10/2015,Baseball Highlights: 2045,"Brian,Megan",,38,
+9/11/2015 22:29:58,10/14/2015,Castles of Mad King Ludwig ,"Brian,Melissa",Brian,74,62
+9/11/2015 22:29:58,10/16/2015,Pandemic,"Brian,Clint,Melissa,Micah",Nobody,59,1 cured
+9/11/2015 22:29:58,10/16/2015,Pandemic,"Brian,Clint,Melissa,Micah","Brian,Clint,Melissa,Micah",67,"4 cured, 1 eradicated"
+9/11/2015 22:29:58,10/19/2015,Mottainai,"Brian,Melissa",Brian,75,
+9/11/2015 22:29:58,10/22/2015,Pandemic Legacy,"Brian,Clint,Greg,Jay,Melissa",Nobody,81,
+9/11/2015 22:29:58,10/22/2015,Pandemic Legacy,"Brian,Clint,Greg,Jay,Melissa",Nobody,70,
+9/11/2015 22:29:58,10/27/2015,Cosmic Encounter,"Brian,Charity,Judy,Justin,Melissa,Shane","Justin,Shane",96,
+9/11/2015 22:29:58,10/29/2015,Pandemic Legacy,"Brian,Clint,Greg,Jay,Melissa","Brian,Clint,Greg,Jay,Melissa",86,
+9/11/2015 22:29:58,10/29/2015,Pandemic Legacy,"Brian,Clint,Greg,Jay,Melissa","Brian,Clint,Greg,Jay,Melissa",103,
+9/11/2015 22:29:58,10/31/2015,Castles of Mad King Ludwig ,"Brian,Britney,Melissa,Scott",Brian,140,
+9/11/2015 22:29:58,11/5/2015,Pandemic Legacy,"Brian,Clint,Greg,Jay,Melissa","Brian,Clint,Greg,Jay,Melissa",119,
+9/11/2015 22:29:58,11/5/2015,Pandemic Legacy,"Brian,Clint,Greg,Jay,Melissa","Brian,Clint,Greg,Jay,Melissa",103,
+9/11/2015 22:29:58,11/7/2015,Mottainai,"Brian,Melissa",Brian,64,25
+9/11/2015 22:29:58,11/19/2015,Pandemic Legacy,"Brian,Clint,Greg,Jay,Melissa","Brian,Clint,Greg,Jay,Melissa",118,
+9/11/2015 22:29:58,11/22/2015,Tumblin' Dice,"Aaron,Brian,Catherine,Charity,Judy,Justin,Micah,Rachel,Shane",Judy,40,124
+9/11/2015 22:29:58,11/22/2015,Balderdash,"Aaron,Brian,Charity,Judy,Justin,Melissa,Micah,Rachel",,65,
+9/11/2015 22:29:58,11/26/2015,Monopoly Deal,"Brian,Luke,Megan,Melissa,Zach",Luke,12,
+9/11/2015 22:29:58,11/26/2015,Monopoly Deal,"Brian,Luke,Megan,Sue,Zach",Brian,25,
+9/11/2015 22:29:58,11/26/2015,Monopoly Deal,"Brian,Luke,Megan,Sue,Zach",Brian,19,
+9/11/2015 22:29:58,11/27/2015,XenoShyft Onslaught,"Brian,Luke,Zach",Nobody,155,
+9/11/2015 22:29:58,11/27/2015,Dice Masters,"Brian,Zach",Zach,22,
+9/11/2015 22:29:58,11/27/2015,Volt: Robot Battle Arena,"Brian,Luke,Zach",Luke,47,3
+9/11/2015 22:29:58,11/27/2015,Seasons,"Brian,Luke,Zach",Brian,,
+9/11/2015 22:29:58,11/27/2015,Gravwell,"Brian,Luke,Zach",Zach,25,
+9/11/2015 22:29:58,11/28/2015,Splendor,"Brian,Luke,Zach",Zach,36,
+9/11/2015 22:29:58,11/28/2015,Sheriff of Nottingham,"Brian,Luke,Zach",Zach,84,156
+9/11/2015 22:29:58,11/29/2015,Splendor,"Brian,Luke,Zach",Luke,15,
+9/11/2015 22:29:58,11/29/2015,Tumblin' Dice,"Brian,Luke,Zach",Luke,10,106
+9/11/2015 22:29:58,11/29/2015,Tumblin' Dice,"Brian,Luke,Zach",Brian,32,
+9/11/2015 22:29:58,11/29/2015,Tumblin' Dice,"Brian,Luke,Zach",Luke,9,
+9/11/2015 22:29:58,11/29/2015,For Sale,"Brian,Luke,Melissa,Zach",Brian,13,62000
+9/11/2015 22:29:58,12/3/2015,Castles of Mad King Ludwig ,"Brian,Greg,Jay,Melissa",Greg,118,124
+9/11/2015 22:29:58,12/4/2015,Smash Up,"Brian,Melissa",Melissa,56,15
+9/11/2015 22:29:58,12/5/2015,T.I.M.E. Stories,"Brian,Melissa",,79,
+9/11/2015 22:29:58,12/6/2015,T.I.M.E. Stories,"Brian,Melissa",,14,
+9/11/2015 22:29:58,12/8/2015,T.I.M.E. Stories,"Brian,Melissa",,44,
+9/11/2015 22:29:58,12/10/2015,Alchemists,"Brian,Greg,Jay,Melissa",Jay,176,35
+9/11/2015 22:29:58,12/11/2015,Farkle,"Aaron,Brian,Catherine,Charity,Judy,Justin,Micah,Rachel",,120,
+9/11/2015 22:29:58,12/12/2015,Smash Up,"Brian,Justin,Micah",Micah,94,15
+9/11/2015 22:29:58,12/12/2015,DungeonQuest,"Brian,Justin,Micah",Micah,114,4000
