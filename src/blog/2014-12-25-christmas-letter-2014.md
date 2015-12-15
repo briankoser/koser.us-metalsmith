@@ -8,13 +8,13 @@ description: The 2014 Christmas Letter for Brian and Melissa Koser
 tags: christmas
 ---
 
-<img src="christmas-2014.jpg" alt="Photo of Brian and Melissa" />
+<img src="/img/blog/christmas-2014.jpg" alt="Photo of Brian and Melissa" />
 <span class="title">Merry Christmas 2014!</span>
 
 Greetings to all our dear family and friends! We’ve had quite a full year, most of it fun-filled, and we praise the Lord for His goodness throughout every moment of it. Since this was our last year of working at PCC, January through June was marked by how many times we could have friends and campus kids over before we went our separate ways. One fun landmark was in April: we threw a computer-themed surprise birthday party for Brian and had a blast! Many thanks to those who came and made it such a special day.
 
 <figure>
-    <img src="2014-04-12 Brian's Birthday 009 - Web Greyscale.jpg" alt="Photo from Brian's birthday party 2014" />
+    <img src="/img/blog/2014-04-12-brians-birthday.jpg" alt="Photo from Brian's birthday party 2014" />
     <figcaption>Friends at the birthday party</figcaption>
 </figure>
 
@@ -25,12 +25,12 @@ It’s been a pleasure working with such fine folk at PCC, and we do miss the go
 Some of our friends got married this year (woohoo!). In July we attended the wedding of Jonathan and Janae Sparks, and in August that of Andrew and Carrie Olsen. Since then, we’ve been able to keep (somewhat) in contact with our campus kids at PCC, and roughly once a month we are able to bring Megan Koser over for a weekend of relaxation.
 
 <figure>
-    <img src="2014-07-05 Sparks Wedding 010 - Web.jpg" alt="Jonathan and Janae Sparks at their wedding reception" />
+    <img src="/img/blog/2014-07-05-sparks-wedding.jpg" alt="Jonathan and Janae Sparks at their wedding reception" />
     <figcaption>Jonathan & Janae Sparks at their wedding reception</figcaption>
 </figure>
 
 <figure>
-    <img src="2014-08-13 Andrew Olsen wedding - Web.jpg" alt="Andrew Olsen" />
+    <img src="/img/blog/2014-08-13-andrew-olsen-wedding.jpg" alt="Andrew Olsen" />
     <figcaption>Andrew Olsen…one of his better pictures ;)</figcaption>
 </figure>
 
@@ -39,14 +39,14 @@ God has led us to [Crossroads Baptist Church](http://www.crossroadsbaptistmobile
 These later months have been full of family (always a good thing!). In October we got to spend a few days with Melissa’s parents, as well as introduce them to our church family. In November we spent Thanksgiving with nearly all of Brian’s family, and we enjoyed watching Megan Koser perform in Pirates of Penzance at PCC.
 
 <figure>
-    <img src="2014-11-29 PCC with Danny - Web.jpg" alt="Danny Koser" />
+    <img src="/img/blog/2014-11-29-pcc-with-danny.jpg" alt="Danny Koser" />
     <figcaption>Danny, Brian’s 21-month-old brother</figcaption>
 </figure>
 
 December has so far been a busy month with decorating, making goodies, preparing for a piano recital, and making more goodies. In the middle of this we took a weekend to celebrate our third anniversary with horseback riding, followed by dinner at the Oyster House. The following weekend Megan Koser spent a few days with us after her semester at college was over, and willingly did a photo shoot for us. Thanks a bunch, Megan!
 
 <figure>
-    <img src="2014-12-13 Christmas photos at park - Web.jpg" alt="Brian and Melissa at park" />
+    <img src="/img/blog/2014-12-13-christmas-photos-at-park.jpg" alt="Brian and Melissa at park" />
     <figcaption>Megan’s photography skills making us look good</figcaption>
 </figure>
 
