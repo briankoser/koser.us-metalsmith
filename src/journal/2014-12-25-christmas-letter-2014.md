@@ -1,5 +1,5 @@
 ---
-layout: blog.swig
+layout: journal.swig
 title: Christmas Letter 2014
 author: Brian & Melissa Koser
 pubdate: 2014-12-25

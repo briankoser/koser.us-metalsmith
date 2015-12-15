@@ -1,8 +1,25 @@
-.ct-chart {
-    background-color: #eadbc4;
-    margin: 1.5em 0 .5em 0;
+.ct-chart .ct-label.ct-horizontal {
+  text-align: center;
+}
+
+.ct-chart .ct-label.ct-vertical {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .ct-wide-bar .ct-bar {
-  stroke-width: 30px;
+  stroke-width: 50px;
+}
+
+.chart-caption {
+    margin-top: 0;
+    text-align: center;
+}
+
+.ct-chart .ct-series.ct-series-a .ct-bar, 
+.ct-chart .ct-series.ct-series-a .ct-line, 
+.ct-chart .ct-series.ct-series-a .ct-point, 
+.ct-chart .ct-series.ct-series-a .ct-slice.ct-donut {
+  stroke: #4f93f9;
 }

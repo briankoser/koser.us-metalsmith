@@ -1,5 +1,5 @@
 ---
-layout: blog.swig
+layout: journal.swig
 title: Top Ten Punctuation Marks
 author: Brian Koser
 pubdate: 2015-10-24

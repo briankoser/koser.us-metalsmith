@@ -1,9 +1,9 @@
 ---
-title: Blog
-description: The blog of Brian Koser, Melissa Koser, and Lydia Koser
+title: Journal
+description: The journal of Brian Koser, Melissa Koser, and Lydia Koser
 paginate: posts
 ---
-# Blog
+# Journal
 
 {% for post in collections.posts %}
 <article>

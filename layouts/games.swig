@@ -10,14 +10,21 @@
 {% block js %}
     <script src="/js/vendor/chartist.js"></script>
     <script src="/js/vendor/HumanizeDuration.js"></script>
-    <script src="/js/games.2014.js"></script>
+    
+    {% if year == '2014' %}
+        <script src="/js/games.2014.js"></script>
+    {% elseif year == '2015' %}
+        <script src="/js/games.2015.js"></script>
+    {% endif %}
 {% endblock %}
 
 {% block body%}
     <h1>{{title}}</h1>
     
-    {{contents|safe}}
-        
+    <article>
+        {{contents|safe}}
+    </article>
+    
     <footer>
         <nav>
             {% if next.year %}
