@@ -11,7 +11,7 @@ customjs: home
 </section>
 
 <section id="melissa">
-**Melissa** is a housewife by day, taking care of a baby and keeping a house in order. By night, she’s a tired housewife, taking care of a baby and keeping a house in order. Somehow she stills finds time to read and enjoy high-quality video entertainment.
+**Melissa** is a housewife by day, taking care of a baby and keeping a house in order. By night, she’s a housewife taking care of a baby and keeping her house and husband in order. In the midst of all that, she still finds time to nerd over different things such as games, books, and tv shows.
 </section>
 
 <section id="lydia">
