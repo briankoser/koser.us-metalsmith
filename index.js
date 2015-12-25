@@ -49,7 +49,7 @@ Metalsmith(__dirname)
         data_files: {
             recipes: 'recipes/data/recipes.json',
         },
-        delete_original: false        
+        delete_original: false
     }))
     
     .use(json_to_files({
