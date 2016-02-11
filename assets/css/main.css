@@ -262,6 +262,14 @@ ol ol li::before {
     content: counters(section, ".") " ";
 }
 
+ol ul {
+    list-style-position: inside;
+}
+
+li h2 {
+    font-size: 1rem;
+}
+
 li {
     margin-top: 0;
 }
@@ -467,6 +475,16 @@ hr {
     display: block;
     height: 1px;
     padding: 0;
+}
+
+hr.fleuron {
+    border-top: none;
+    padding-bottom: 1.4em;
+    text-align: center;
+}
+
+hr.fleuron::after {
+    content: '❧';
 }
 
 ::-moz-selection {
