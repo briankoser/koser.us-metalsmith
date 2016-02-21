@@ -6,7 +6,7 @@
         <title>{% block title %}{{title}} · {{sitename}}{% endblock %}</title>
         <meta name="description" content="{{description}}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ff0000">
+        <meta name="theme-color" content="#4f93f9">
         
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@bmkoser">
