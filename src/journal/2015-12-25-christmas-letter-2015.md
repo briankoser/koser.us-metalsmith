@@ -68,6 +68,6 @@ Logan Harding took our Christmas photos; hire him to do video or photography at 
 
 Today is Christmas, and as we post this, we’re enjoying spending Christmas with Brian’s family again, in Louisiana.
 
-If you pass through Mobile in 2016, please stop by and see Lydia (we’ve found that she's the main reason people visit nowadays :) ). Looking forward to a great 2016,
+If you pass through Mobile in 2016, please stop by and see Lydia (we’ve found that she's the main reason people visit nowadays 😊). Looking forward to a great 2016,
 
 <p class='signature'>Brian, Melissa, & Lydia Koser</p>

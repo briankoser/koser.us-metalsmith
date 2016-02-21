@@ -31,7 +31,7 @@ Some of our friends got married this year (woohoo!). In July we attended the wed
 
 <figure>
     <img src="/img/journal/2014-08-13-andrew-olsen-wedding.jpg" alt="Andrew Olsen" />
-    <figcaption>Andrew Olsen…one of his better pictures ;)</figcaption>
+    <figcaption>Andrew Olsen…one of his better pictures 😉</figcaption>
 </figure>
 
 God has led us to [Crossroads Baptist Church](http://www.crossroadsbaptistmobile.com), a wonderful church with caring people. The fellowship meals each month have helped us in getting to know our new church family, and already we feel right at home! There are also many service opportunities, and we’re excited to see what the Lord will do in this ministry.
@@ -52,6 +52,6 @@ December has so far been a busy month with decorating, making goodies, preparing
 
 Last Christmas was spent with Brian’s family (including a surprise visit from Matt and Lindsey Rhoades), so this year we’ll be flying down to Honduras to celebrate the New Year with Melissa’s family.
 
-If you’ll be anywhere near Mobile in 2015, please stop by and visit! And please make use of our guest bedroom; we wouldn’t want it to go to waste. :) Looking forward to seeing many of you this coming year,
+If you’ll be anywhere near Mobile in 2015, please stop by and visit! And please make use of our guest bedroom; we wouldn’t want it to go to waste. 😊 Looking forward to seeing many of you this coming year,
 
 <p class='signature'>Brian & Melissa Koser</p>

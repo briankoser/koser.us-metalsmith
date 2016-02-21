@@ -23,6 +23,6 @@ I assume that this cycle continues your whole life. You never feel old, but you 
 
 When I was planning my last vacation, I stopped and thought, “This is something my parents did. When they were my age. My parents were just like me.” And it hit me: adults just make it up as they go along. Nobody knows exactly what to do next; everyone gives it their best shot, but nobody *knows*. And you might never feel like an adult: because you thought adults were so different from you, you expected to feel differently when it happened to you. But you won’t. Everyone is just making it up as they go along.
 
-But I *am* an adult. I make decisions. I plan vacations. I’m responsible for people other than myself. I can choose whether to watch the news or cartoons. And now that I’ve reached that point, now that I am an adult, now that I can choose…I stay up late and watch cartoons. Because why would you watch the news when you could watch cartoons? ;) ∎
+But I *am* an adult. I make decisions. I plan vacations. I’m responsible for people other than myself. I can choose whether to watch the news or cartoons. And now that I’ve reached that point, now that I am an adult, now that I can choose…I stay up late and watch cartoons. Because why would you watch the news when you could watch cartoons? 😉 ∎
 
 <ins datetime="2014-05-21">Apparently this is known as the [end-of-history illusion](https://en.wikipedia.org/wiki/End-of-history_illusion).</ins>
