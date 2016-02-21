@@ -2,10 +2,10 @@ var Metalsmith = require('metalsmith');
 var assets = require('metalsmith-assets');
 var collections = require('metalsmith-collections');
 var define = require('metalsmith-define');
-var excerpts = require('metalsmith-excerpts');
+var excerpts = require('./custom_plugins/metalsmith-excerpts-fork');
 var filepath = require('metalsmith-filepath');
 var ignore = require('metalsmith-ignore');
-var inplace = require('metalsmith-in-place');
+var inplace = require('./custom_plugins/metalsmith-in-place-fork');
 var json_to_files = require('./custom_plugins/metalsmith-json-to-files-fork');
 var layouts = require('metalsmith-layouts');
 var markdown = require('./custom_plugins/metalsmith-markdown-fork');
@@ -56,6 +56,9 @@ Metalsmith(__dirname)
         source_path: 'recipes/data/'
     }))
     
+    /* excerpts before inplace so we can use swig templates and data in excerpts */
+    .use(excerpts())
+    
     /* inplace before markdown so we can convert markdown in data after it's in the template */
     /* inplace before layouts because that's how it is in all examples */
     /* inplace before filepath so we can have location of generated pages */
@@ -67,8 +70,6 @@ Metalsmith(__dirname)
     .use(markdown({
         recipe_keys: ['comments', 'yield', 'ingredients', 'instructions']
     }))
-    
-    .use(excerpts())
     
     .use(permalinks({
         relative: false
