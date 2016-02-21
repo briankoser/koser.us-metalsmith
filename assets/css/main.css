@@ -286,9 +286,9 @@ dd {
   canvas, object, embed, img, audio, video, track, map, area, iframe
 ******************************************************************************/
 img {
-    height: auto !important;
+    height: auto;
     max-width: 100%;
-    width: auto !important;
+    width: auto;
 }
 
 
@@ -708,6 +708,34 @@ hr.fleuron::after {
     color: #fff;
 }
 
+.top-list {
+    list-style-position: inside;
+}
+
+.top-list img {
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.top-list h2 {
+    margin-top: 0;
+}
+
+.top-list .list-response {
+    margin-top: 0;
+}
+
+.top-list-first {
+    float: left;
+    width: 50%;
+}
+
+.top-list-second {
+    float: right;
+    width: 50%;
+}
+
 
 
 /******************************************************************************
@@ -837,10 +865,6 @@ hr.fleuron::after {
     tr,
     img {
         page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
     }
 
     p,
