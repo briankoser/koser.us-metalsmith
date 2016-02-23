@@ -7,7 +7,7 @@ customjs: home
 <img id="family" src="/img/family-all.jpg">
 
 <section id="brian">
-**Brian** is a Christian, husband, father, reader, software developer, gamer. (He has a lot of hats, but they’re all figurative.) Do you see this website? Brian built it. Do you see that tree outside? Brian likes trees. Do you see that bagel? You don’t, because Brian sneaked in and ate it.
+**Brian** is a Christian, husband, father, reader, software developer, gamer. (He has a lot of hats, but they’re all figurative.) Do you see this website? Brian built it. Do you see that tree outside? Brian likes trees. Do you see that bagel? You don’t, because Brian sneaked in and ate it. 😏
 </section>
 
 <section id="melissa">
