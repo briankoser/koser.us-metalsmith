@@ -4,6 +4,7 @@ title: "Book Review: <i class='book-title'>The Martian</i>"
 author: Brian Koser
 pubdate: 2016-02-04
 collection: posts
+section: journal
 description: "A review of the book “The Martian”"
 tags: book reviews fiction science-fiction
 book: The Martian

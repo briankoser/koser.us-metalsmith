@@ -4,6 +4,7 @@ title: "Book Review: <i class='book-title'>On Stranger Tides</i>"
 author: Brian Koser
 pubdate: 2016-02-08
 collection: posts
+section: journal
 description: "A review of the book “On Stranger Tides”"
 tags: book reviews fiction fantasy
 book: On Stranger Tides

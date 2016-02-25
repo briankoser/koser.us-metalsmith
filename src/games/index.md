@@ -1,6 +1,7 @@
 ---
 title: Board Game Stats
 description: The board game statistics of Brian and Melissa Koser
+section: games
 ---
 # Board Game Stats
 
