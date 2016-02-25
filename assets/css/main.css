@@ -650,7 +650,7 @@ hr.fleuron::after {
 }
 
 .keywords li {
-    border: 1px solid #4f93f9;
+    border: 2px solid #4f93f9;
     border-radius: 15px;
     padding: .15em;
 }

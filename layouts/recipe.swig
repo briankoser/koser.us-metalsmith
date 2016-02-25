@@ -49,7 +49,7 @@
         <section>
             <ul class="keywords horizontal">
                 {% for keyword in data.keywords %}
-                    <li class="paper">{{keyword}}</li>
+                    <li>{{keyword}}</li>
                 {% endfor %}
             </ul>
         </section>
