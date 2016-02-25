@@ -94,10 +94,6 @@ main {
             hyphens: auto;
 }
 
-article footer nav a {
-    margin-top: 0;
-}
-
 article header {
     font-family: 'Source Serif Pro', Georgia, sans-serif;
 }
@@ -515,10 +511,12 @@ hr.fleuron::after {
 }
 
 .float-left {
+    clear: both;
     float: left;
 }
 
 .float-right {
+    clear: both;
     float: right;
 }
 
