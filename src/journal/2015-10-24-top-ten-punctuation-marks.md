@@ -4,6 +4,7 @@ title: Top Ten Punctuation Marks
 author: Brian Koser
 pubdate: 2015-10-24
 collection: posts
+section: journal
 description: Brian Koser rhapsodizes about his top ten favorite punctuation marks.
 tags: typography english
 customcss: toptenpunctuation

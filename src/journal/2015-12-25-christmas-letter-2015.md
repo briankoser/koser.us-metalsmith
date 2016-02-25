@@ -4,6 +4,7 @@ title: Christmas Letter 2015
 author: Brian & Melissa Koser
 pubdate: 2015-12-25
 collection: posts
+section: journal
 description: The 2015 Christmas Letter for Brian, Melissa, and Lydia Koser
 tags: christmas
 ---

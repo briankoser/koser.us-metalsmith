@@ -2,6 +2,7 @@
 title: Journal
 description: The journal of Brian Koser, Melissa Koser, and Lydia Koser
 paginate: posts
+section: journal
 ---
 # Journal
 

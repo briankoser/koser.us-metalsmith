@@ -33,9 +33,15 @@
                 <a href="#menu" class="menu-link">≡ Menu</a>
                 <nav id="menu" role="navigation" class="site-nav">
                     <ul class="horizontal">
-                        <li><a href="/journal/">Journal</a></li>
-                        <li><a href="/games/">Games</a></li>
-                        <li><a href="/recipes/">Recipes</a></li>
+                        <li {% if section == 'journal' %}class="site-nav-active"{% endif %}>
+                            <a href="/journal/">Journal</a>
+                        </li>
+                        <li {% if section == 'games' %}class="site-nav-active"{% endif %}>
+                            <a href="/games/">Games</a>
+                        </li>
+                        <li {% if section == 'recipes' %}class="site-nav-active"{% endif %}>
+                            <a href="/recipes/">Recipes</a>
+                        </li>
                     </ul>
                 </nav>
             </header>

@@ -650,7 +650,7 @@ hr.fleuron::after {
 }
 
 .keywords li {
-    border: 1px solid #4f93f9;
+    border: 2px solid #4f93f9;
     border-radius: 15px;
     padding: .15em;
 }
@@ -682,11 +682,11 @@ hr.fleuron::after {
 }
 
 .site-nav li {
-    padding-left: 0;
+    margin-left: 0;
 }
 
 .site-nav li + li {
-    padding-left: 1em;
+    margin-left: 1em;
 }
 
 .site-nav li a {
@@ -695,6 +695,10 @@ hr.fleuron::after {
 
 .site-nav {
     margin: 0;
+}
+
+.site-nav-active {
+    border-bottom: #fff 5px solid;
 }
 
 .site-title {

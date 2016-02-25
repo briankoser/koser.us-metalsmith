@@ -4,6 +4,7 @@ title: "Book Review: <i class='book-title'>Doctor Who: Shada</i>"
 author: Brian Koser
 pubdate: 2016-01-26
 collection: posts
+section: journal
 description: "A review of the book “Doctor Who: Shada”"
 tags: book reviews audiobook fiction science-fiction
 book: "Doctor Who: Shada"

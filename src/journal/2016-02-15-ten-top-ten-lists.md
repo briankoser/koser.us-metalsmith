@@ -4,6 +4,7 @@ title: "Ten Top Ten Lists"
 author: Brian & Melissa Koser
 pubdate: 2016-02-15
 collection: posts
+section: journal
 description: "Ten Top Ten Lists Brian and Melissa Koser will make"
 tags: ten
 topten: "Top Tens"
