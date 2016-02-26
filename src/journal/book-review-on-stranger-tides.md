@@ -1,15 +1,16 @@
 ---
-layout: book.swig
-title: "Book Review: <i class='book-title'>On Stranger Tides</i>"
 author: Brian Koser
-pubdate: 2016-02-08
 collection: posts
-section: journal
 description: "A review of the book “On Stranger Tides”"
+layout: book.swig
+pubdate: 2016-02-08
+section: journal
 tags: book reviews fiction fantasy
+title: "Book Review: <i class='book-title'>On Stranger Tides</i>"
+
+audiobook: true
 book: On Stranger Tides
 bookdisplay: <i class="book-title">On Stranger Tides</i> 
-audiobook: true
 rating: ★★★★★
 ---
 

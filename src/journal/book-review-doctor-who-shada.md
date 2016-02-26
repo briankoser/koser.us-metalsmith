@@ -1,15 +1,16 @@
 ---
-layout: book.swig
-title: "Book Review: <i class='book-title'>Doctor Who: Shada</i>"
 author: Brian Koser
-pubdate: 2016-01-26
 collection: posts
-section: journal
 description: "A review of the book “Doctor Who: Shada”"
+layout: book.swig
+pubdate: 2016-01-26
+section: journal
 tags: book reviews audiobook fiction science-fiction
+title: "Book Review: <i class='book-title'>Doctor Who: Shada</i>"
+
+audiobook: true
 book: "Doctor Who: Shada"
 bookdisplay: "<i class='book-title'>Doctor Who: Shada</i>"
-audiobook: true
 rating: ★★★☆☆
 ---
 I like Doctor Who, but just the new series, and not enough to read any books. I imagine compared to other Doctor Who books this is pretty good. 
