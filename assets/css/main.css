@@ -31,12 +31,8 @@
   html, body, header, footer, nav, main, article, aside, section, p, pre,
   blockquote, figure, figcaption, address, summary, details, div
 ******************************************************************************/
-html,
-a {
-    color: #333;
-}
-
 html {
+    color: #333;
     font: 26px/1.4 'Source Serif Pro', Georgia, sans-serif;
     /*Turn on kerning, standard ligatures, and proportional, oldstyle numerals
       Turn off all other ligatures, tabular, lining numerals, and alternates */
