@@ -1,3 +1,36 @@
+/******************************************************************************
+  FONTS
+******************************************************************************/
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/sourcesanspro-bold.woff2') format('woff2'),
+         url('/fonts/sourcesanspro-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/fonts/SourceSerifPro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/fonts/SourceSerifPro-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/fonts/Heuristica-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+
 /*****************************************************************************
   ALL
 ******************************
