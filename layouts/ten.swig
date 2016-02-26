@@ -1,7 +1,5 @@
 {% extends "journal.swig" %}
 
-{% block title %}Ten {{title}} · Journal · {{sitename}}{% endblock %}
-
 {% block article %}
     <section class="summary">
         {{contents|safe}}
