@@ -61,8 +61,7 @@
                 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-        <script src="/js/plugins.js"></script>
-        <script src="/js/main.js"></script>
+        <script src="/js/main.js" defer></script>
         
         {% if development %}
             <script src="http://localhost:35729/livereload.js"></script>
@@ -70,7 +69,7 @@
         
         {% block js %}
             {% if customjs == 'home' %}
-                <script src="/js/home.js"></script>
+                <script src="/js/home.js" defer></script>
             {% endif %}
         {% endblock %}
     </body>
