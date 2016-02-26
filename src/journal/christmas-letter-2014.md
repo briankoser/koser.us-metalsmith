@@ -1,12 +1,12 @@
 ---
-layout: journal.swig
-title: Christmas Letter 2014
 author: Brian & Melissa Koser
-pubdate: 2014-12-25
 collection: posts
-section: journal
 description: The 2014 Christmas Letter for Brian and Melissa Koser
+layout: journal.swig
+pubdate: 2014-12-25
+section: journal
 tags: christmas
+title: Christmas Letter 2014
 ---
 
 <img src="/img/journal/christmas-2014.jpg" alt="Photo of Brian and Melissa" />

@@ -1,13 +1,13 @@
 ---
-layout: journal.swig
-title: Top Ten Punctuation Marks
 author: Brian Koser
-pubdate: 2015-10-24
 collection: posts
-section: journal
-description: Brian Koser rhapsodizes about his top ten favorite punctuation marks.
-tags: typography english
 customcss: toptenpunctuation
+description: Brian Koser rhapsodizes about his top ten favorite punctuation marks.
+layout: journal.swig
+pubdate: 2015-10-24
+section: journal
+tags: typography english
+title: Top Ten Punctuation Marks
 ---
 
 I like punctuation marks. Why? Well…maybe because they shape language so much while going mostly unnoticed. Maybe because they’re never spoken* and their names are unknown to laymen, giving them a mysterious air. Probably just because they look nice. Here’s my favorite ten, from 10 to 1.

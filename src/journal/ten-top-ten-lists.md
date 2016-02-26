@@ -1,12 +1,13 @@
 ---
-layout: ten.swig
-title: "Ten Top Ten Lists"
 author: Brian & Melissa Koser
-pubdate: 2016-02-15
 collection: posts
-section: journal
 description: "Ten Top Ten Lists Brian and Melissa Koser will make"
+layout: ten.swig
+pubdate: 2016-02-15
+section: journal
 tags: ten
+title: "Ten Top Ten Lists"
+
 topten: "Top Tens"
 images: false
 firstlist: [

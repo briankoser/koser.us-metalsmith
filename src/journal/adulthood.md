@@ -1,12 +1,12 @@
 ---
-layout: journal.swig
-title: Adulthood
 author: Brian Koser
-pubdate: 2014-03-11
 collection: posts
-section: journal
 description: Brian Koser reflects on adulthood and maturity.
+layout: journal.swig
+pubdate: 2014-03-11
+section: journal
 tags: philosophy
+title: Adulthood
 ---
 
 Children are always watching their parents. I remember watching my dad as he watched the nightly news on TV. I would sit there and think, “Why would you watch the news when you could watch cartoons? When I’m an adult, I’m going to stay up late and watch cartoons.”

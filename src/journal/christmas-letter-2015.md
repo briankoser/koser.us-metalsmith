@@ -1,12 +1,12 @@
 ---
-layout: journal.swig
-title: Christmas Letter 2015
 author: Brian & Melissa Koser
-pubdate: 2015-12-25
 collection: posts
-section: journal
 description: The 2015 Christmas Letter for Brian, Melissa, and Lydia Koser
+layout: journal.swig
+pubdate: 2015-12-25
+section: journal
 tags: christmas
+title: Christmas Letter 2015
 ---
 
 <img src="/img/journal/2015-12-06-christmas-tree.jpg" alt="Photo of Brian, Melissa, and Lydia Koser" />
