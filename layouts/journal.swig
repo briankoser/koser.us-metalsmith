@@ -42,10 +42,10 @@
         <footer>
             <nav>
                 {% if next %}
-                    <a class="float-left" rel="prev" href="/{{ next.path }}">« {{ next.title|striptags }}</a>
+                    <a class="float-left margin-top" rel="prev" href="/{{ next.path }}">« {{ next.title|striptags }}</a>
                 {% endif %}
                 {% if previous %}
-                    <a class="float-right" rel="next" href="/{{ previous.path }}">{{ previous.title|striptags }} »</a>
+                    <a class="float-right margin-top" rel="next" href="/{{ previous.path }}">{{ previous.title|striptags }} »</a>
                 {% endif %}
             </nav>
         </footer>

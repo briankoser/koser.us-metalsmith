@@ -569,6 +569,9 @@ hr.fleuron::after {
     visibility: hidden;
 }
 
+.margin-top {
+    margin-top: 1.4em;
+}
 .no-list-type {
     list-style-type: none;
 }
