@@ -5,6 +5,7 @@ var define = require('metalsmith-define');
 var excerpts = require('./custom_plugins/metalsmith-excerpts-fork');
 var filepath = require('metalsmith-filepath');
 var fingerprint = require('metalsmith-fingerprint');
+var hyphenate = require('metalsmith-hyphenate');
 var ignore = require('metalsmith-ignore');
 var inplace = require('./custom_plugins/metalsmith-in-place-fork');
 var json_to_files = require('./custom_plugins/metalsmith-json-to-files-fork');
@@ -72,9 +73,13 @@ Metalsmith(__dirname)
         pattern: '**/*.md'
     }))
     
+    /* markdown before hyphenate so we have HTML elements */
     .use(markdown({
+        smartypants: false,
         recipe_keys: ['comments', 'yield', 'ingredients', 'instructions']
     }))
+    
+    .use(hyphenate())
     
     .use(permalinks({
         relative: false
