@@ -674,6 +674,21 @@ hr.fleuron::after {
     margin-top: 0;
 }
 
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+.icon-dice,
+.icon-home3,
+.icon-pen,
+.icon-spoon-knife {
+	font-size: 18px;
+	color: white;
+}
+
 .js .site-nav {
     max-height: none;
 }
@@ -715,7 +730,7 @@ hr.fleuron::after {
 }
 
 .site-nav li + li {
-    margin-left: 1em;
+    margin-left: 2em;
 }
 
 .site-nav li a {
@@ -726,8 +741,13 @@ hr.fleuron::after {
     margin: 0;
 }
 
+.site-nav li:hover,
 .site-nav-active {
     border-bottom: #fff 5px solid;
+}
+
+.site-nav-link {
+    margin-left: 0.1em;
 }
 
 .site-title {

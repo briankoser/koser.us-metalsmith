@@ -2,6 +2,7 @@
 title: Home
 description: The personal website of Brian Koser, Melissa Koser, and Lydia Koser
 customjs: home
+section: home
 ---
 
 <img id="family" src="/img/family-all.jpg">
