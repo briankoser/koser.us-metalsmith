@@ -8,6 +8,7 @@
     "metalsmith-assets": "0.1.x",
     "metalsmith-collections": "0.7.x",
     "metalsmith-define": "1.0.x",
+    "metalsmith-drafts": "0.0.x",
     "metalsmith-filepath": "1.0.x",
     "metalsmith-fingerprint": "1.0.x",
     "metalsmith-hyphenate": "0.3.x",
