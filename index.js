@@ -2,6 +2,7 @@ var Metalsmith = require('metalsmith');
 var assets = require('metalsmith-assets');
 var collections = require('metalsmith-collections');
 var define = require('metalsmith-define');
+var drafts = require('metalsmith-drafts');
 var excerpts = require('./custom_plugins/metalsmith-excerpts-fork');
 var filepath = require('metalsmith-filepath');
 var fingerprint = require('metalsmith-fingerprint');
@@ -27,6 +28,9 @@ Metalsmith(__dirname)
         sitelocation: 'http://koser.us',
         sitename: 'koser.us'
     }))
+    
+    /* drafts before collections so files are removed before being added to collection */
+    .use(drafts())
     
     /* collections before inplace so we can loop over them in swig */
     /* collections before markdown so we can just get posts */
