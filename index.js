@@ -73,6 +73,7 @@ Metalsmith(__dirname)
     }))
     
     .use(markdown({
+        smartypants: false,
         recipe_keys: ['comments', 'yield', 'ingredients', 'instructions']
     }))
     
