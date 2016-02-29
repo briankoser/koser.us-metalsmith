@@ -10,6 +10,7 @@
     "metalsmith-define": "1.0.x",
     "metalsmith-filepath": "1.0.x",
     "metalsmith-fingerprint": "1.0.x",
+    "metalsmith-hyphenate": "0.3.x",
     "metalsmith-ignore": "0.1.x",
     "metalsmith-layouts": "1.4.x",
     "metalsmith-permalinks": "0.4.x",
