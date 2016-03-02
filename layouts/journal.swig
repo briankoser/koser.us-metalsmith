@@ -28,16 +28,18 @@
 {% endblock %}
 
 {% block body %}
-    <article>
+    <article class="h-entry">
         <header>
-            <h1 class="post-title">{{title|raw}}</h1>
-            <span class="post-author">by {{author}}</span>
-            <span class="post-date">{{pubdate|date('Y-m-d')}}</span>
+            <h1 class="post-title p-name">{{title|raw}}</h1>
+            <span class="post-author p-author">by {{author}}</span>
+            <time class="post-date dt-published" datetime="{{pubdate|date('Y-m-dTH:i:s\Z')}}">{{pubdate|date('Y-m-d')}}</time>
         </header>
         
+        <div class="e-content">
         {% block article %}
             {{contents|safe}}
         {% endblock %}
+        </div>
         
         <footer>
             <nav>

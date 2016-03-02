@@ -26,4 +26,4 @@ When I was planning my last vacation, I stopped and thought, “This is somethin
 
 But I *am* an adult. I make decisions. I plan vacations. I’m responsible for people other than myself. I can choose whether to watch the news or cartoons. And now that I’ve reached that point, now that I am an adult, now that I can choose…I stay up late and watch cartoons. Because why would you watch the news when you could watch cartoons? 😉 ∎
 
-<ins datetime="2014-05-21">Apparently this is known as the [end-of-history illusion](https://en.wikipedia.org/wiki/End-of-history_illusion).</ins>
+<ins class="dt-updated" datetime="2014-05-21">Apparently this is known as the [end-of-history illusion](https://en.wikipedia.org/wiki/End-of-history_illusion).</ins>
