@@ -696,7 +696,17 @@ hr.fleuron::after {
 .icon-pen,
 .icon-spoon-knife {
 	font-size: 18px;
+}
+
+.icon-dice,
+.icon-home3,
+.icon-pen,
+.icon-spoon-knife {
 	color: white;
+}
+
+.icon-envelop {
+    color: #333;
 }
 
 .js .site-nav {
