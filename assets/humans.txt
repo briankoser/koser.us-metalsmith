@@ -3,15 +3,21 @@
 
 # TEAM
 
-    Brian Koser, Codes
-    Melissa Koser, Recipes
+    Brian Koser, Codes and Words
+    Melissa Koser, Recipes and Words
     Lydia Koser, Smiles
-
-# THANKS
-
-    HTML5 Boilerplate, Normalize
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    jQuery, Modernizr, Normalize.css
+    css: Normalize.css
+    js: jQuery
+    node: metalsmith
+    software: Github for Windows, Visual Studio Code, Notepad++, MarkdownPad2
+    webhost: NearlyFreeSpeech.net
+    
+# CREDIT
+
+    Icons from IcoMoon (https://icomoon.io) licensed by Creative Commons BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+    
+    Additional icons made by SimpleIcon (https://www.flaticon.com/authors/simpleicon) from Flaticon (https://www.flaticon.com). Flaticon is licensed by Creative Commons BY 3.0 (https://creativecommons.org/licenses/by/3.0/).
+    HTML5 Boilerplate, Normalize
