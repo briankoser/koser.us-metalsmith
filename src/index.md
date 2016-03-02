@@ -8,9 +8,11 @@ section: home
 
 <img id="family" src="/img/family-all.jpg">
 
-<section id="brian" class="profile clearfix">
+<section id="brian" class="h-card profile clearfix">
+    <img class="u-photo" src="" alt>
+    <a class="u-url u-uid" rel="author" href></a>
     <p class="profile-bio">
-    **Brian** is a Christian, husband, father, reader, software developer. (He has a lot of hats, but they’re all figurative.) Do you see this website? Brian built it. Do you see that tree outside? Brian climbed a tree once. Do you see that bagel? You don’t, because Brian already ate it. 😏
+        <span class="p-name"><strong>Brian Koser</strong></span> is a Christian, husband, father, reader, software developer. (He has a lot of hats, but they’re all figurative.) Do you see this website? Brian built it. Do you see that tree outside? Brian climbed a tree once. Do you see that bagel? You don’t, because Brian already ate it. 😏
     </p>
     <div class="profile-aside">
         <h2 class="gamma no-margin">Also Brian</h2>
@@ -21,7 +23,7 @@ section: home
             </li>
             <li>
                 <svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg>
-                <a href="mailto:brianmkoser@gmail.com">Email</a>
+                <a class="u-email" href="mailto:brianmkoser@gmail.com">Email</a>
             </li>
             <li>
                 <svg class="icon icon-goodreads"><use xlink:href="#icon-goodreads"></use></svg>
@@ -59,14 +61,31 @@ section: home
     </div>
 </section>
 
-<section id="melissa">
-<p>
-**Melissa** is a housewife by day, taking care of a baby and keeping a house in order. By night, she’s a housewife taking care of a baby and keeping her house and husband in order. In the midst of all that, she still finds time to nerd over games, books, and tv shows.
-</p>
+<section id="melissa" class="clearfix">
+    <p class="profile-bio">
+        **Melissa Koser** is a housewife by day, taking care of a baby and keeping a house in order. By night, she’s a housewife taking care of a baby and keeping her house and husband in order. In the midst of all that, she still finds time to nerd over games, books, and TV shows.
+    </p>
+    <div class="profile-aside">
+        <h2 class="gamma no-margin">Also Melissa</h2>
+        <ul class="no-list-type">
+            <li>
+                <svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg>
+                <a href="mailto:melissajkoser@gmail.com">Email</a>
+            </li>
+            <li>
+                <svg class="icon icon-facebook2"><use xlink:href="#icon-facebook2"></use></svg>
+                <a href="">Facebook</a>
+            </li>
+            <li>
+                <svg class="icon icon-pinterest2"><use xlink:href="#icon-pinterest2"></use></svg>
+                <a href="">Pinterest</a>
+            </li>
+        </ul>
+    </div>
 </section>
 
 <section id="lydia">
-<p>
-**Lydia** is the newest Koser, and arguably the cutest. She likes diaper changes, being carried, and raspberries (the mouth-blowing thing, not the fruit).
-</p>
+    <p>
+        **Lydia** is the newest Koser, and arguably the cutest. She likes diaper changes, being carried, and raspberries (the mouth-blowing thing, not the fruit).
+    </p>
 </section>
