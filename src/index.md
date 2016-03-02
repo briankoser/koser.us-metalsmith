@@ -16,6 +16,7 @@ section: home
         <h2 class="gamma no-margin">Also Brian</h2>
         <ul class="no-list-type">
             <li>
+                <svg class="icon icon-dice"><use xlink:href="#icon-dice"></use></svg>
                 <a href="https://boardgamegeek.com/user/briankoser" rel="me">Board Game Geek</a>
             </li>
             <li>
@@ -23,21 +24,37 @@ section: home
                 <a href="mailto:brianmkoser@gmail.com">Email</a>
             </li>
             <li>
+                <svg class="icon icon-goodreads"><use xlink:href="#icon-goodreads"></use></svg>
                 <a href="https://goodreads.com/user/show/4812558-brian-koser" rel="me">Goodreads</a>
+            </li>
             <li>
+                <svg class="icon icon-github4"><use xlink:href="#icon-github4"></use></svg>
                 <a href="https://github.com/briankoser" rel="me">Github</a>
+            </li>
             <li>
-                <a href="https://plus.google.com/+BrianKoser rel="me">Google</a>
+                <svg class="icon icon-google-plus2"><use xlink:href="#icon-google-plus2"></use></svg>
+                <a href="https://plus.google.com/+BrianKoser" rel="me">Google</a>
+            </li>
             <li>
-                <a href="" rel="me">LinkedIn</a>
+                <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
+                <a href="https://www.linkedin.com/in/brian-koser-4733616b" rel="me">LinkedIn</a>
+            </li>
             <li>
+                <svg class="icon icon-twitter2"><use xlink:href="#icon-twitter2"></use></svg>
                 <a href="https://twitter.com/bmkoser" rel="me">Twitter</a>
+            </li>
             <li>
+                <svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg>
                 <a href="https://www.reddit.com/user/brianmkoser/" rel="me">Reddit</a>
+            </li>
             <li>
+                <svg class="icon icon-stackoverflow"><use xlink:href="#icon-stackoverflow"></use></svg>
                 <a href="https://stackoverflow.com/users/178225/brian-koser?tab=profile" rel="me">Stack Overflow</a>
+            </li>
             <li>
+                <svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg>
                 <a href="https://www.youtube.com/user/briankoser/videos" rel="me">YouTube</a>
+            </li>
         </ul>
     </div>
 </section>
