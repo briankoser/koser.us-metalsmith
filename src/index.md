@@ -15,18 +15,29 @@ section: home
     <div class="profile-aside">
         <h2 class="gamma no-margin">Also Brian</h2>
         <ul class="no-list-type">
-            <li><a href="https://boardgamegeek.com/user/briankoser" rel="me">Board Game Geek</a>
+            <li>
+                <a href="https://boardgamegeek.com/user/briankoser" rel="me">Board Game Geek</a>
+            </li>
             <li>
                 <svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg>
-                <a href="mailto:brianmkoser@gmail.com" rel="me">Email</a>
-            <li><a href="https://goodreads.com/user/show/4812558-brian-koser" rel="me">Goodreads</a>
-            <li><a href="https://github.com/briankoser" rel="me">Github</a>
-            <li><a href="https://google.com/+brianmkoser" rel="me">Google</a>
-            <li><a href="" rel="me">LinkedIn</a>
-            <li><a href="https://twitter.com/bmkoser" rel="me">Twitter</a>
-            <li><a href="https://www.reddit.com/user/brianmkoser/" rel="me">Reddit</a>
-            <li><a href="https://stackoverflow.com/users/178225" rel="me">Stack Overflow</a>
-            <li><a href="https://www.youtube.com/user/briankoser/videos" rel="me">YouTube</a>
+                <a href="mailto:brianmkoser@gmail.com">Email</a>
+            </li>
+            <li>
+                <a href="https://goodreads.com/user/show/4812558-brian-koser" rel="me">Goodreads</a>
+            <li>
+                <a href="https://github.com/briankoser" rel="me">Github</a>
+            <li>
+                <a href="https://plus.google.com/+BrianKoser rel="me">Google</a>
+            <li>
+                <a href="" rel="me">LinkedIn</a>
+            <li>
+                <a href="https://twitter.com/bmkoser" rel="me">Twitter</a>
+            <li>
+                <a href="https://www.reddit.com/user/brianmkoser/" rel="me">Reddit</a>
+            <li>
+                <a href="https://stackoverflow.com/users/178225/brian-koser?tab=profile" rel="me">Stack Overflow</a>
+            <li>
+                <a href="https://www.youtube.com/user/briankoser/videos" rel="me">YouTube</a>
         </ul>
     </div>
 </section>
