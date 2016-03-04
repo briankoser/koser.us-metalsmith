@@ -27,7 +27,7 @@ section: home
             <li>
                 <a href="https://github.com/briankoser" rel="me">Github</a>
             <li>
-                <a href="https://plus.google.com/+BrianKoser" rel="me">Google</a>
+                <a href="https://plus.google.com/+BrianKoser rel="me">Google</a>
             <li>
                 <a href="" rel="me">LinkedIn</a>
             <li>
