@@ -471,14 +471,14 @@ var {
     padding: 0 0.3em;
 }
 
-kbd {
+kbd kbd {
     background-color: #f7f7f7;
     border: 1px solid #ccc;
     border-radius: 3px;
     box-shadow: 0 1px 0 rgba(0,0,0,0.2), 0 0 0 2px #fff inset;
     color: #333;
     display: inline-block;
-    font-size: 12px;
+    font-size: 18px;
     font-family: sans-serif;
     line-height: 1.4;
     margin: 0 0.1em;
@@ -651,7 +651,9 @@ hr.fleuron::after {
 }
 
 .footer-container,
+.footer-container a,
 .site-nav li a,
+.site-nav .icon,
 .site-title a {
     color: #fff;
 }
@@ -663,10 +665,6 @@ hr.fleuron::after {
 
 .footer-container {
     padding: 1em 0;
-}
-
-.footer-container a {
-    color: #fff;
 }
 
 .gist table {
@@ -685,28 +683,11 @@ hr.fleuron::after {
 
 .icon {
 	display: inline-block;
-	width: 1em;
-	height: 1em;
-	fill: currentColor;
-}
-
-.icon-envelop,
-.icon-dice,
-.icon-home3,
-.icon-pen,
-.icon-spoon-knife {
-	font-size: 18px;
-}
-
-.icon-dice,
-.icon-home3,
-.icon-pen,
-.icon-spoon-knife {
-	color: white;
-}
-
-.icon-envelop {
     color: #333;
+	fill: currentColor;
+    font-size: 18px;
+    height: 1em;
+    width: 1em;
 }
 
 .js .site-nav {
