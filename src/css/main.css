@@ -104,10 +104,6 @@ footer {
     text-align: right;
 }
 
-footer nav a {
-    border-top: #333 solid 2px;
-}
-
 nav a,
 h1 a,
 h2 a,
@@ -117,10 +113,16 @@ h3 a,
 }
 
 main {
+    hanging-punctuation: first;
     -webkit-hyphens: auto;
        -moz-hyphens: auto;
         -ms-hyphens: auto;
             hyphens: auto;
+}
+
+main footer nav a {
+    border-top: #333 solid 2px;
+    max-width: 50%;
 }
 
 article header {
