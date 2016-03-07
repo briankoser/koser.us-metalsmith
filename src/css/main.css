@@ -794,8 +794,16 @@ hr.fleuron::after {
     list-style-position: inside;
 }
 
-.top-list .list-response {
+.top-list li {
+    min-height: 200px;
+}
+
+.top-list .list-comment {
     margin-top: 0;
+}
+
+.top-list .list-response {
+    font-style: italic;
 }
 
 .top-list-first {
@@ -805,6 +813,10 @@ hr.fleuron::after {
 
 .top-list-second {
     float: right;
+}
+
+.top-list-images li {
+    min-height: 300px;
 }
 
 

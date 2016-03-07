@@ -5,7 +5,7 @@
         {{contents|safe}}
     </section>
     
-    <section class="top-list top-list-first">
+    <section class="top-list top-list-first {% if images %}top-list-images{% endif %}">
         <h2>{{firstlistauthor}}</h2>
         <ol>
             {% for item in firstlist %}
@@ -20,14 +20,16 @@
                     {% if images %}
                     <img src="/img/journal/tens/tens-{{topten|lower|replace(' ', '-', 'g')}}-first-{{loop.index}}.jpg">
                     {% endif %}
-                    <p class="list-comment">{{item.comment}}</p>
-                    <p class="list-response">{{item.response}}</p>
+                    <p class="list-comment">{{item.comment|raw}}</p>
+                    {% if item.response %}
+                    <p class="list-response">{{item.response|raw}} –{{secondlistauthor|first}}</p>
+                    {% endif %}
                 </li>
             {% endfor %}
         </ol>
     </section>
     
-    <section class="top-list top-list-second">
+    <section class="top-list top-list-second {% if images %}top-list-images{% endif %}">
         <h2>{{secondlistauthor}}</h2>
         <ol>
             {% for item in secondlist %}
@@ -42,8 +44,10 @@
                     {% if images %}
                     <img src="/img/journal/tens/tens-{{topten|lower|replace(' ', '-', 'g')}}-second-{{loop.index}}.jpg">
                     {% endif %}
-                    <p class="list-comment">{{item.comment}}</p>
-                    <p class="list-response">{{item.response}}</p>
+                    <p class="list-comment">{{item.comment|raw}}</p>
+                    {% if item.response %}
+                    <p class="list-response">{{item.response|raw}} –{{firstlistauthor|first}}</p>
+                    {% endif %}
                 </li>
             {% endfor %}
         </ol>

@@ -12,7 +12,7 @@ topten: "Top Tens"
 images: false
 firstlistauthor: Brian
 firstlist: [
-    { 'name':'Animals' }, 
+    { 'name':'Animals', 'link':'/journal/ten-animals/' }, 
     { 'name':'Movies' }, 
     { 'name':'Hymns' }, 
     { 'name':'TV Show Themes' }, 
