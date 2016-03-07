@@ -13,7 +13,7 @@ book: Dune
 bookdisplay: <i class="book-title">Dune</i> 
 rating: ★★★★★
 ---
-If you said, “Name a classic sci-fi novel”, I would probably say, “Dune”. I’ve felt obligated to read it for years, and did start it once only to quit about a hundred pages in. The same thing nearly happened again; in the middle of the book I lost interest and set it aside for a month or two. And yet, you can see below that I’ve rated {{bookdisplay|raw}} five stars out of five. So what gives?
+If you said, “Name a classic sci-fi novel”, I would probably say, “Dune”. I’ve felt obligated to read it for years, and did start it once only to quit about a hundred pages in. The same thing nearly happened again; in the middle of the book I lost interest and set it aside for a month or two. And yet, you can see that I’ve rated {{bookdisplay|raw}} five stars out of five. So what gives?
 
 The number one strength of {{bookdisplay|raw}} is it’s setting. Save Tolkien, I can’t think of a book that builds a universe so convincingly. Herbert’s world-building—the Empire, the Bene Gessarit, and above all the ecology of the eponymous planet Dune—capture the imagination.
 
