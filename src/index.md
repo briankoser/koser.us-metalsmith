@@ -74,11 +74,11 @@ section: home
             </li>
             <li>
                 <svg class="icon icon-facebook2"><use xlink:href="#icon-facebook2"></use></svg>
-                <a href="">Facebook</a>
+                <a href="https://www.facebook.com/profile.php?id=100007002765356">Facebook</a>
             </li>
             <li>
                 <svg class="icon icon-pinterest2"><use xlink:href="#icon-pinterest2"></use></svg>
-                <a href="">Pinterest</a>
+                <a href="https://www.pinterest.com/melissajkoser/">Pinterest</a>
             </li>
         </ul>
     </div>
