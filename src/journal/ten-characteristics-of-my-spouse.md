@@ -25,16 +25,16 @@ firstlist: [
 ]
 secondlistauthor: Brian
 secondlist: [
-    { 'name':'Cheerful' }, 
-    { 'name':'Forgiving' }, 
-    { 'name':'Fun' }, 
-    { 'name':'Giving' }, 
-    { 'name':'Industrious' }, 
+    { 'name':'Cheerful', 'comment':'😀' }, 
+    { 'name':'Forgiving', 'comment':'Good thing for me!' }, 
+    { 'name':'Fun', 'comment':'She’s fun to be around.' }, 
+    { 'name':'Giving', 'comment':'She is always coming up with nice things to do or give to people.' }, 
+    { 'name':'Industrious', 'comment':'😣' }, 
     { 'name':'Kind' }, 
-    { 'name':'Romantic' }, 
-    { 'name':'Smart' }, 
+    { 'name':'Romantic', 'comment':'😗' }, 
+    { 'name':'Smart', 'comment':'🤓' }, 
     { 'name':'Supportive' }, 
-    { 'name':'Thoughtful' }
+    { 'name':'Thoughtful', 'comment':'She thinks about others.' }
 ]
 ---
 In honor of Valentine’s Day, Melissa chose to do this list of things we love about each other. Melissa ranked her list; Brian just alphabetized his.
