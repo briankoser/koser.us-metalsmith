@@ -1,3 +1,4 @@
+/* metalsmith and plugins */
 var Metalsmith = require('metalsmith');
 var assets = require('metalsmith-assets');
 var collections = require('metalsmith-collections');
@@ -18,13 +19,37 @@ var recipes_to_json = require('./custom_plugins/recipes_to_json/index.js');
 var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
 
+
+
+/* to build for prod, pass a '-p' command line parameter */
+var dev = process.argv[2] != "-p";
+
+/* metalsmith 'plugin' that does nothing */
+var noop = function(options) {
+    return (function(files, metalsmith, done) {
+        done();
+    });
+};
+
+/* don't use certain plugins, depending on whether the build is for dev or prod */
+if (dev) {
+    fingerprint = noop;
+}
+else {
+    serve = noop;
+    watch = noop;
+}
+
+
+
+/* main metalsmith function */
 Metalsmith(__dirname)
     .source('src')
     .destination('build')
     
     /* define before inplace so inplace can use the globals */
     .use(define({
-        development: true,
+        development: dev,
         sitelocation: 'http://koser.us',
         sitename: 'koser.us'
     }))

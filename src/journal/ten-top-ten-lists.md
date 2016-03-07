@@ -10,6 +10,7 @@ title: "Ten Top Ten Lists"
 
 topten: "Top Tens"
 images: false
+firstlistauthor: Brian
 firstlist: [
     { 'name':'Animals' }, 
     { 'name':'Movies' }, 
@@ -22,8 +23,9 @@ firstlist: [
     { 'name':'Fiction Authors' }, 
     { 'name':'Top Ten Lists We’ll Never Do' }
 ]
+secondlistauthor: Melissa
 secondlist: [
-    { 'name':'Characteristics I Love About My Spouse' }, 
+    { 'name':'Characteristics I Love About My Spouse', 'link':'/journal/ten-characteristics-of-my-spouse/' }, 
     { 'name':'Items On My Bucket List' }, 
     { 'name':'Fictional Universes' }, 
     { 'name':'Qualities of a Good Villain' }, 

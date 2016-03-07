@@ -293,8 +293,8 @@ ol ul {
     list-style-position: inside;
 }
 
-li h2 {
-    font-size: 1rem;
+ol h3 {
+    margin-top: 0;
 }
 
 li {
@@ -777,7 +777,7 @@ hr.fleuron::after {
 }
 
 .top-list {
-    list-style-position: inside;
+    width: 45%;
 }
 
 .top-list img {
@@ -790,18 +790,21 @@ hr.fleuron::after {
     margin-top: 0;
 }
 
+.top-list ol {
+    list-style-position: inside;
+}
+
 .top-list .list-response {
     margin-top: 0;
 }
 
 .top-list-first {
     float: left;
-    width: 50%;
+    margin-right: 10%;
 }
 
 .top-list-second {
     float: right;
-    width: 50%;
 }
 
 

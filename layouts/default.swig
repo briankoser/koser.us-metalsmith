@@ -18,7 +18,11 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="/css/normalize.css">
-        <link rel="stylesheet" href="/{{ fingerprint['css\main.css'] }}">
+        {% if development %}
+            <link rel="stylesheet" href="/css/main.css">
+        {% else %}
+            <link rel="stylesheet" href="/{{ fingerprint['css\main.css'] }}">
+        {% endif %}
         
         {% block css %}{% endblock %}
     </head>
