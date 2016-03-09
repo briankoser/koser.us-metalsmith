@@ -10,8 +10,12 @@ title: "Book Review: <i class='book-title'>On Stranger Tides</i>"
 
 audiobook: true
 book: On Stranger Tides
-bookdisplay: <i class="book-title">On Stranger Tides</i> 
-rating: ★★★★★
+bookauthor: Tim Powers
+bookdisplay: <i class="book-title">On Stranger Tides</i>
+bookisbn: '9781930235328'
+bookpubdate: 1987
+bookrating: ★★★★★
+openlibraryurl: "https://openlibrary.org/books/OL8799090M/On_Stranger_Tides"
 ---
 
 {{bookdisplay|raw}} was the inspiration for the fourth Pirates of the Caribbean movie; please don’t hold that against it. (I haven’t seen the movie, but I know the only points it shares with this book are the character of Blackbeard and the main [MacGuffin](http://en.wikipedia.org/wiki/MacGuffin)).

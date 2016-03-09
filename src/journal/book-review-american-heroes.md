@@ -10,8 +10,12 @@ title: "Book Review: <i class='book-title'>American Heroes</i>"
 
 audiobook: false
 book: American Heroes
-bookdisplay: <i class="book-title">American Heroes</i> 
-rating: ★★★☆☆
+bookauthor: Edmund S. Morgan
+bookdisplay: <i class="book-title">American Heroes</i>
+bookisbn: '9780393070101'
+bookpubdate: 2009
+bookrating: ★★★☆☆
+openlibraryurl: 'https://openlibrary.org/works/OL13646232W/American_Heroes'
 ---
 This collection of essays on the Puritans, Quakers, and Founding Fathers has some interesting observations:
 
