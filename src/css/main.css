@@ -123,6 +123,8 @@ main {
 main footer nav a {
     border-top: #333 solid 2px;
     max-width: 50%;
+    line-height: 1em;
+    padding-top: 0.4em;
 }
 
 article header {
@@ -665,6 +667,10 @@ hr.fleuron::after {
     margin-top: 1.4rem;
 }
 
+.book-summary .media-figure {
+    max-height: 5.3em;
+}
+
 .edit-block {
     border-left: 0.5rem solid;
     display: block;
@@ -724,6 +730,19 @@ hr.fleuron::after {
 
 .license {
     text-align: right;
+}
+
+.media {
+    display: flex;
+}
+
+.media-body {
+    flex: 1;
+    margin-top: 0;
+}
+
+.media-figure {
+    margin-right: 1em;
 }
 
 .paper {
@@ -792,6 +811,15 @@ hr.fleuron::after {
 
 .star-rating {
     color: goldenrod;
+}
+
+.table-invisible th,
+.table-invisible td {
+    border: none;
+    padding: 0;
+    -webkit-font-feature-settings: 'kern' 0, 'liga', 'lnum' 0, 'onum', 'pnum' 0, 'tnum', 'zero' 0;
+       -moz-font-feature-settings: 'kern' 0, 'liga', 'lnum' 0, 'onum', 'pnum' 0, 'tnum', 'zero' 0;
+            font-feature-settings: 'kern' 0, 'liga', 'lnum' 0, 'onum', 'pnum' 0, 'tnum', 'zero' 0;
 }
 
 .terminal {

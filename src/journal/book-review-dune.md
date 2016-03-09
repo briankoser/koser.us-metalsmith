@@ -10,8 +10,12 @@ title: "Book Review: <i class='book-title'>Dune</i>"
 
 audiobook: false
 book: Dune
-bookdisplay: <i class="book-title">Dune</i> 
-rating: ★★★★★
+bookauthor: Frank Herbert
+bookdisplay: <i class="book-title">Dune</i>
+bookisbn: 0399128964
+bookpubdate: 1965 
+bookrating: ★★★★★
+openlibraryurl: 'https://openlibrary.org/books/OL3173729M/Dune'
 ---
 If you said, “Name a classic sci-fi novel”, I would probably say, “Dune”. I’ve felt obligated to read it for years, and did start it once only to quit about a hundred pages in. The same thing nearly happened again; in the middle of the book I lost interest and set it aside for a month or two. And yet, you can see that I’ve rated {{bookdisplay|raw}} five stars out of five. So what gives?
 

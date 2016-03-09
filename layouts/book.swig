@@ -2,13 +2,25 @@
 
 {% block title %}Book Review: {{book}} · Journal · {{sitename}}{% endblock %}
 
-{% block article %}  
-    {{contents|safe}}
+{% block article %}
+    <div class="book-summary media">
+        <img src="https://covers.openlibrary.org/b/isbn/{{bookisbn}}-M.jpg" alt="{{book}} book cover" class="media-figure">
+        
+        <div class="media-body">
+            <table class="table-vertical table-invisible">
+                <tr><td><a href="{{openlibraryurl}}">{{bookdisplay|raw}}</a></td></tr>
+                <tr><td>{{bookauthor}}</td></tr>
+                <tr><td>{{bookpubdate}}</td></tr>
+                <tr><td><span class="star-rating">{{bookrating}}</span></td></tr>
+            </table>
+        </div>
+    </div>
     
     <p>
         {% if audiobook %}
             <span>(Listened to audiobook)</span><br>
         {% endif %}
-        <span class="star-rating kilo">{{rating}}</span>
     </p>
+    
+    {{contents|safe}}
 {% endblock %}
