@@ -1,7 +1,7 @@
 ---
 author: Brian Koser
 collection: posts
-description: "A review of the book “On Stranger Tides”"
+description: "A review of the book “On Stranger Tides” by Tim Powers"
 layout: book.swig
 pubdate: 2016-02-08
 section: journal

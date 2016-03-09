@@ -1,7 +1,7 @@
 ---
 author: Brian Koser
 collection: posts
-description: "A review of the book “Dune”"
+description: "A review of the book “Dune” by Frank Herbert"
 layout: book.swig
 pubdate: 2016-03-03
 section: journal

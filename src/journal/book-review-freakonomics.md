@@ -1,7 +1,7 @@
 ---
 author: Brian Koser
 collection: posts
-description: "A review of the book “Freakonomics”"
+description: "A review of the book “Freakonomics” by Steven Levitt and Stephen Dubner"
 layout: book.swig
 pubdate: 2016-02-27
 section: journal

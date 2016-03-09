@@ -1,7 +1,7 @@
 ---
 author: Brian Koser
 collection: posts
-description: "A review of the book “Doctor Who: Shada”"
+description: "A review of the book “Doctor Who: Shada” by Gareth Roberts"
 layout: book.swig
 pubdate: 2016-01-26
 section: journal

@@ -1,11 +1,11 @@
 ---
 author: Brian Koser
 collection: posts
-description: "A review of the book “Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability”"
+description: "A review of the book “Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability” by Steve Krug"
 layout: book.swig
 pubdate: 2016-02-26
 section: journal
-tags: book reviews non-fiction web-development
+tags: book reviews non-fiction ux web-development
 title: "Book Review: <i class='book-title'>Don’t Make Me Think</i>"
 
 audiobook: false

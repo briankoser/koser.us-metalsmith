@@ -1,7 +1,7 @@
 ---
 author: Brian Koser
 collection: posts
-description: "A review of the book “Think Like a Freak”"
+description: "A review of the book “Think Like a Freak” by Steven Levitt and Stephen Dubner"
 layout: book.swig
 pubdate: 2016-02-29
 section: journal

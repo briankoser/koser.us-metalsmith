@@ -1,7 +1,7 @@
 ---
 author: Brian Koser
 collection: posts
-description: "A review of the book “The Martian”"
+description: "A review of the book “The Martian” by Andy Weir"
 layout: book.swig
 pubdate: 2016-02-04
 section: journal
