@@ -177,7 +177,7 @@ q mark {
 }
 
 blockquote {
-    background: #f9f9f9;
+    background-color: #fffff0;
     font-size: 1.25rem;
     line-height: 1.3;
     margin: inherit;
