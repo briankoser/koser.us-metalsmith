@@ -27,7 +27,7 @@ section: home
             </li>
             <li>
                 <svg class="icon icon-goodreads"><use xlink:href="#icon-goodreads"></use></svg>
-                <a href="https://goodreads.com/user/show/4812558-brian-koser" rel="me">Goodreads</a>
+                <a href="https://www.goodreads.com/user/show/4812558-brian-koser" rel="me">Goodreads</a>
             </li>
             <li>
                 <svg class="icon icon-github4"><use xlink:href="#icon-github4"></use></svg>
