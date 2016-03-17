@@ -1,5 +1,7 @@
 Name: Crockpot Caribbean Spiced Ribs
 
+Tags: dinner
+
 Ingredients:
 - 3 lb. pork loin back ribs
 - 2 Tbsp. minced onion (or 1 tsp. onion powder + 1 Tbsp. water)

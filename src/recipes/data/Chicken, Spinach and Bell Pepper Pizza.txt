@@ -1,5 +1,7 @@
 Name: Chicken, Spinach and Bell Pepper Pizza
 
+Tags: lunch dinner party
+
 Ingredients:
 - 1 pizza crust
 - 4-5 oz. fresh spinach, washed and drained

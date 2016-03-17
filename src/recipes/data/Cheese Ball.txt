@@ -1,5 +1,7 @@
 Name: Cheese Ball
 
+Tags: appetizer crowd
+
 Ingredients:
 - 11 oz. cream cheese
 - 1 1/2 pkg. lunch meat-style beef 

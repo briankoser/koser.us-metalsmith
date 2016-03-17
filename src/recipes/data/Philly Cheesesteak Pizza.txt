@@ -1,5 +1,7 @@
 Name: Philly Cheesesteak Pizza
 
+Tags: lunch dinner party
+
 Ingredients:
 - 1 pizza crust
 - 1/4 mayonnaise (or less)

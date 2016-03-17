@@ -1,5 +1,7 @@
 Name: Butter Pecan Ice Cream
 
+Tags: dessert favorite
+
 Ingredients:
 - 4 Tbsp. butter
 - 1 c. pecans

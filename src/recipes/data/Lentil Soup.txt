@@ -1,5 +1,7 @@
 Name: Lentil Soup
 
+Tags: dinner
+
 Ingredients:
 - 4 cloves garlic, unpeeled
 - 3 Tbsp. olive oil

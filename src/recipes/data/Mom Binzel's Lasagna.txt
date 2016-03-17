@@ -1,5 +1,7 @@
 Name: Mom Binzel's Lasagna
 
+Tags: dinner
+
 Ingredients:
 - 1 lb. lasagna noodles (wide and flat)
 - 1 lb. ground beef

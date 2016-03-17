@@ -1,5 +1,7 @@
 Name: Bell Pepper and Shrimp Soup
 
+Tags: dinner
+
 Ingredients:
 - 4 red bell peppers (or canned equivalent)
 - 1 onion, chopped

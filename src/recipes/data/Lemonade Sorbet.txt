@@ -1,5 +1,7 @@
 Name: Lemonade Sorbet
 
+Tags: dessert
+
 Ingredients:
 - 1 1/2 c. cold water
 - 1 c. frozen lemonade concentrate, thawed

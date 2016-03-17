@@ -1,5 +1,7 @@
 Name: Crockpot Beef Soup
 
+Tags: dinner
+
 Ingredients:
 - 4 lbs. beef stew meat
 - 2/3 c. flour

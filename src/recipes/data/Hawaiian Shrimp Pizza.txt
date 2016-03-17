@@ -1,5 +1,7 @@
 Name: Hawaiian Shrimp Pizza
 
+Tags: lunch party
+
 Ingredients:
 - 2 pizza crusts
 - tomato salsa, or pizza sauce

@@ -1,5 +1,7 @@
 Name: Vegetable Beef Soup
 
+Tags: dinner
+
 Ingredients:
 - 2 lbs. beef, cut into cubes
 - 2 Tbsp. oil

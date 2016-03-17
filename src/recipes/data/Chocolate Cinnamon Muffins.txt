@@ -1,5 +1,7 @@
 Name: Chocolate Cinnamon Muffins
 
+Tags: breakfast dessert
+
 Ingredients:
 - heaping 1 1/2 c. flour
 - 1/2 c. cocoa

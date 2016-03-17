@@ -1,5 +1,7 @@
 Name: Bulk Breakfast Burritos
 
+Tags: breakfast
+
 Ingredients:
 - 1 1/2 lbs. bacon
 - 1/2 large onion, chopped

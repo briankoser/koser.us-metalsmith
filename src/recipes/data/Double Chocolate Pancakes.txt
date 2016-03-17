@@ -1,5 +1,7 @@
 Name: Double Chocolate Pancakes
 
+Tags: breakfast
+
 Ingredients:
 - 1 1/3 c. flour
 - 3 Tbsp. cocoa

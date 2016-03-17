@@ -1,5 +1,7 @@
 Name: Pesto-Parmesan Pizza
 
+Tags: lunch dinner party
+
 Ingredients:
 - 2 pizza crusts
 - 1 tsp. dried oregano

@@ -1,5 +1,7 @@
 Name: Tortilla Soup
 
+Tags: dinner meal favorite fancy
+
 Ingredients:
 - 2 lbs. ground beef
 - 1/2 white onion, chopped

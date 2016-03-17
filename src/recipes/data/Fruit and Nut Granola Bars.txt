@@ -1,5 +1,7 @@
 Name: Fruit and Nut Granola Bars
 
+Tags: breakfast favorite
+
 Ingredients:
 - 2 1/2 c. old fashioned oats
 - 1/2 c. chopped almonds

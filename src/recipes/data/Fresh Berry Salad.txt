@@ -1,5 +1,7 @@
 Name: Fresh Berry Salad
 
+Tags: side fruit
+
 Ingredients:
 - 5 c. mixed greens
 - 1 1/2 c. sliced strawberries

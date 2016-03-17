@@ -1,5 +1,7 @@
 Name: Toffee Bars
 
+Tags: dessert
+
 Ingredients:
 - 1 c. butter, softened
 - 1 c. packed brown sugar

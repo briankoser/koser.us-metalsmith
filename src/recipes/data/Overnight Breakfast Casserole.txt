@@ -1,5 +1,7 @@
 Name: Overnight Breakfast Casserole
 
+Tags: breakfast
+
 Ingredients:
 - 6 slices bread
 - 12 eggs

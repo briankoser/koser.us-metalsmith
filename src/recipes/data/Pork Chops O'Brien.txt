@@ -1,5 +1,7 @@
 Name: Pork Chops O'Brien
 
+Tags: dinner
+
 Ingredients:
 - 4 pork chops (bone-in)
 - 2 Tbsp. butter

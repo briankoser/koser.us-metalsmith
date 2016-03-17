@@ -1,5 +1,7 @@
 Name: Orange Marmalade Chops
 
+Tags: dinner
+
 Ingredients:
 - salt and pepper
 - 4-6 bone-in pork chops

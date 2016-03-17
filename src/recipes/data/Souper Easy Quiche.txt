@@ -1,5 +1,7 @@
 Name: Souper Easy Quiche
 
+Tags: dinner
+
 Piecrust Ingredients:
 - 1 c. flour
 - 1/2 tsp. salt

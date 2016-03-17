@@ -1,5 +1,7 @@
 Name: Five-Alive Punch
 
+Tags: easy beverage crowd party
+
 Ingredients:
 - 2 cans frozen Five-Alive juice concentrate
 - 1 can pink lemonade concentrate

@@ -1,5 +1,7 @@
 Name: Chocolate Dessert Cups
 
+Tags: fancy
+
 Ingredients:
 - 6 oz. semisweet chocolate
 - 1 tsp. shortening

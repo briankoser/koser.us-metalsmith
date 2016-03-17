@@ -1,5 +1,7 @@
 Name: Chocolate Orange Muffins
 
+Tags: breakfast dessert favorite fancy
+
 Muffin Ingredients:
 - 2 oranges
 - about 1/2 c. milk

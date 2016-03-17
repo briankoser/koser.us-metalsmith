@@ -1,5 +1,7 @@
 Name: Potato Chowder
 
+Tags: dinner easy favorite
+
 Ingredients:
 - 4 c. peeled, diced potatoes
 - 1/2 c. chopped onion

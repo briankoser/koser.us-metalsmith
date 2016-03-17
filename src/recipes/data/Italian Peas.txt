@@ -1,5 +1,7 @@
 Name: Italian Peas
 
+Tags: side
+
 Ingredients:
 - 2 Tbsp. olive oil
 - 1 onion, choppped

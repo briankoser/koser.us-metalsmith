@@ -1,5 +1,7 @@
 Name: Toffee Squares
 
+Tags: dessert
+
 Ingredients:
 - saltine crackers (about 35)
 - 1 cup butter

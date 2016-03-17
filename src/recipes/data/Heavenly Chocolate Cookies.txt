@@ -1,5 +1,7 @@
 Name: Heavenly Chocolate Cookies
 
+Tags: dessert favorite
+
 Ingredients:
 - 3/4 c. butter, softened ( 1 1/2 sticks)
 - 3/4 c. packed brown sugar

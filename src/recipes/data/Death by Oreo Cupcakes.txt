@@ -1,5 +1,7 @@
 Name: Death by Oreo Cupcakes
 
+Tags: dessert favorite fancy
+
 Ingredients:
 - 24 cupcake liners
 - 46 Oreo cookies

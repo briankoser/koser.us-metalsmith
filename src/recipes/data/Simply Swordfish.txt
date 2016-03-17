@@ -1,5 +1,7 @@
 Name: Simply Swordfish
 
+Tags: easy seafood dinner fancy favorite
+
 Ingredients:
 - swordfish steaks, at least 1" thick
 - lemon juice
@@ -10,4 +12,4 @@ Directions:
 
 Yield: 
 
-Comments: Use fresh fish if possible; the flavor is that much better. This goes great with a side of corn, some fruit (bing cherries?) and milk.
+Comments: Use fresh fish if possible; the flavor is that much better. This goes great with a side of corn, some fruit (Bing cherries?) and milk.

@@ -1,5 +1,7 @@
 Name: Crockpot Chicken Continental
 
+Tags: dinner
+
 Ingredients:
 - 9-12 oz. dried beef
 - 6 boneless, skinless chicken breasts

@@ -1,5 +1,7 @@
 Name: Dad's Health Food
 
+Tags: breakfast
+
 Ingredients:
 - 4 Tbsp. soy lecithin granules
 - 8 Tbsp. sesame seeds

@@ -1,5 +1,7 @@
 Name: Simple Chili
 
+Tags: dinner
+
 Ingredients:
 - 1 lb. ground beef
 - chopped onion

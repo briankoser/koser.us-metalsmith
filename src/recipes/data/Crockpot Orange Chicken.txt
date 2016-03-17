@@ -1,5 +1,7 @@
 Name: Crockpot Orange Chicken
 
+Tags: dinner
+
 Ingredients:
 - 2 Tbsp. vegetable shortening
 - 1/4 c. flour

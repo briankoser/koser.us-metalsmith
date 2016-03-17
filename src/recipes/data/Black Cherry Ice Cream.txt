@@ -1,5 +1,7 @@
 Name: Black Cherry Ice Cream
 
+Tags: dessert
+
 Ingredients:
 - 1/4 c. cherry syrup, or cherry juice concentrate
 - 1/2 c. whole milk

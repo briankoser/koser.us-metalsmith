@@ -1,5 +1,7 @@
 Name: Scrumptious Chocolate Mousse
 
+Tags: easy dessert fancy favorite
+
 Ingredients:
 - 4 eggs
 - 1 (12 oz.) bag of chocolate chips

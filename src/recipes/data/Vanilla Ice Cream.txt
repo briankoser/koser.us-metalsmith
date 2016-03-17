@@ -1,5 +1,7 @@
 Name: Vanilla Ice Cream
 
+Tags: dessert
+
 Ingredients:
 - 1 c. whole milk
 - 3/4 c. sugar

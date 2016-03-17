@@ -1,5 +1,7 @@
 Name: Toffee
 
+Tags: dessert
+
 Ingredients:
 - 1 c. sugar
 - 1 c. butter

@@ -1,5 +1,7 @@
 Name: Easy Chowder
 
+Tags: dinner
+
 Ingredients:
 - 8 slices bacon
 - 1 c. chopped onion

@@ -1,5 +1,7 @@
 Name: Souper Enchiladas
 
+Tags: dinner favorite
+
 Ingredients:
 - 1/2 c. salad oil
 - 8 (6") corn tortillas

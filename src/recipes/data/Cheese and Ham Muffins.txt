@@ -1,5 +1,7 @@
 Name: Cheese and Ham Muffins
 
+Tags: side
+
 Ingredients:
 - 2 c. flour
 - 1 Tbsp. baking powder

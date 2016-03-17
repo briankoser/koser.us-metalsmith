@@ -1,5 +1,7 @@
 Name: Fresh Strawberry Ice Cream
 
+Tags: dessert
+
 Ingredients:
 - 1 1/2 c. fresh strawberries, hulled (plus extra for mix-ins)
 - 3/4 c. whole milk

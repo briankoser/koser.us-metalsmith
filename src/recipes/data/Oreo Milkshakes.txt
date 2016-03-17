@@ -1,5 +1,7 @@
 Name: Oreo Milkshakes
 
+Tags: easy beverage favorite
+
 Ingredients:
 - 5 Oreo cookies
 - 1 c. milk

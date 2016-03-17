@@ -1,5 +1,7 @@
 Name: Vegetable Cream Soup
 
+Tags: dinner
+
 Ingredients:
 - 2 Tbsp. butter
 - 1/2 c. chopped onion
