@@ -37,7 +37,7 @@ if (dev) {
 }
 else {
     serve = noop;
-    watch = noop;
+    //watch = noop;
 }
 
 
