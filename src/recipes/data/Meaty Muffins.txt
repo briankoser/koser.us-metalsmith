@@ -1,5 +1,7 @@
 Name: Meaty Muffins
 
+Tags: side
+
 Ingredients:
 - 12 oz. ground beef
 - 1 small onion, very finely chopped

@@ -1,5 +1,7 @@
 Name: Spinach Pasta and Tuna
 
+Tags: dinner
+
 Ingredients:
 - 7 oz. rotini
 - 2 Tbsp. butter

@@ -1,6 +1,6 @@
 Name: Apple Streusel Muffins
 
-Tags: breakfast
+Tags: breakfast fruit
 
 Muffin Ingredients:
 - 2 c. flour

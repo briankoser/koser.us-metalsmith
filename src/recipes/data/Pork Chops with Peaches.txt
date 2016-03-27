@@ -1,5 +1,7 @@
 Name: Pork Chops with Peaches
 
+Tags: dinner
+
 Ingredients:
 - 4 bone-in pork chops
 - olive oil

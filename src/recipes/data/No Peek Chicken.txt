@@ -1,5 +1,7 @@
 Name: No Peek Chicken
 
+Tags: dinner
+
 Ingredients:
 - 7-8 bacon strips
 - 1 1/2 - 3 cups uncooked rice

@@ -1,5 +1,7 @@
 Name: Blueberry Muffins
 
+Tags: easy breakfast
+
 Ingredients:
 - 2 c. flour
 - 1 Tbsp. baking powder

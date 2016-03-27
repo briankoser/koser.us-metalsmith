@@ -1,5 +1,7 @@
 Name: Banana Bread
 
+Tags: breakfast
+
 Ingredients:
 - 2/3 c. sugar
 - 1/3 c. shortening

@@ -1,5 +1,7 @@
 Name: Easy Tuna Pasta
 
+Tags: dinner
+
 Ingredients:
 - 12 oz. macaroni or elbows
 - 1/2 c. butter

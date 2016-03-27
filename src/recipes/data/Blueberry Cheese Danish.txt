@@ -1,5 +1,7 @@
 Name: Blueberry Cheese Danish
 
+Tags: breakfast
+
 Dough Ingredients:
 - 3/4 c. cottage cheese
 - 1/3 c. sugar

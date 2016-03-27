@@ -1,6 +1,6 @@
 Name: Bacon-Spinach Salad
 
-Tags: side
+Tags: large side
 
 Ingredients:
 - 4 slices bacon

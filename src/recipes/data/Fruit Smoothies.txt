@@ -1,8 +1,10 @@
 Name: Fruit Smoothies
 
+Tags: easy breakfast beverage favorite
+
 Ingredients:
 - 2 bananas
-- 8 *frozen* strawberries
+- 10 *frozen* strawberries
 - orange juice
 - 1 scoop Breyer's vanilla bean ice cream (or milk)
 

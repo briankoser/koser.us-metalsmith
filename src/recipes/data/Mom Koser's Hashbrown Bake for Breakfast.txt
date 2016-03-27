@@ -1,5 +1,7 @@
 Name: Mom Koser's Hashbrown Bake for Breakfast
 
+Tags: breakfast
+
 Ingredients:
 - 5 eggs
 - 1/2 c. milk

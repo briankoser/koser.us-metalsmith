@@ -1,5 +1,7 @@
 Name: Cherry Coke Cupcakes
 
+Tags: dessert
+
 Cake Ingredients:
 - 3 c. flour
 - 6 Tbsp. cocoa powder

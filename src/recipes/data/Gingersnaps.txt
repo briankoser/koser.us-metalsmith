@@ -1,5 +1,7 @@
 Name: Gingersnaps
 
+Tags: dessert Thanksgiving Christmas
+
 Ingredients:
 - 1 c. packed brown sugar
 - 3/4 c. shortening

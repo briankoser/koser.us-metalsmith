@@ -1,5 +1,7 @@
 Name: Oven-Fried Sesame Chicken
 
+Tags: dinner
+
 Ingredients:
 - 3 Tbsp. sesame seeds
 - 2 Tbsp. flour

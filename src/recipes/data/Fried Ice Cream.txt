@@ -1,5 +1,7 @@
 Name: Fried Ice Cream
 
+Tags: fancy dessert favorite
+
 Ingredients:
 - 1 container Breyer's vanilla ice cream
 - roughly 6 oz. corn flakes; total crushed amount = 3 c.

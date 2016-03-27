@@ -1,5 +1,7 @@
 Name: Easy Italian Bagels
 
+Tags: side favorite
+
 Ingredients:
 - bagel halves
 - butter

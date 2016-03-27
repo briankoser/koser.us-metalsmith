@@ -1,5 +1,7 @@
 Name: Peach Smoothies
 
+Tags: beverage
+
 Ingredients:
 - 1 qt. frozen peaches, slightly thawed
 - 1 1/2 c. milk

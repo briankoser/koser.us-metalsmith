@@ -1,6 +1,6 @@
 Name: Baked Apples
 
-Tags: dessert fruit refreshment
+Tags: dessert fruit
 
 Ingredients:
 - 1 Granny Smith apple

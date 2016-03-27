@@ -1,5 +1,7 @@
 Name: Swiss Roll Cake
 
+Tags: dessert favorite fancy
+
 Ingredients:
 - Cocoa, for dusting (you'll need a fair amount)
 - 6 eggs, separated

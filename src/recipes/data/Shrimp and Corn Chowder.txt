@@ -1,5 +1,7 @@
 Name: Shrimp and Corn Chowder
 
+Tags: seafood dinner
+
 Ingredients:
 - 4 slices bacon, diced
 - 1 lb. medium shrimp, peeled and deveined

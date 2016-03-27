@@ -1,5 +1,7 @@
 Name: Lasagna Soup
 
+Tags: dinner
+
 Ingredients:
 - 1 lb. ground beef
 - 2 tsp. Italian seasoning

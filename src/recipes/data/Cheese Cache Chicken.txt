@@ -1,7 +1,9 @@
 Name: Cheese Cache Chicken
 
+Tags: dinner
+
 Ingredients:
-- 6 chicken breasts, thawed
+- 6 boneless skinless chicken breasts, thawed
 - 8 oz. Monterey Jack cheese, sliced
 - 3 eggs
 - 2 1/2 tsp. Parmesan

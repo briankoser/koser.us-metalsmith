@@ -1,5 +1,7 @@
 Name: Mom Koser's Potato Soup
 
+Tags: dinner
+
 Ingredients:
 - 1/3 c. diced celery
 - 1/3 c. diced carrot

@@ -1,5 +1,7 @@
 Name: Baklava
 
+Tags: fancy favorite
+
 Ingredients:
 - 3 c. pecans, finely chopped
 - 1 1/2 c. sugar

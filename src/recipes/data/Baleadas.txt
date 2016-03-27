@@ -1,5 +1,7 @@
 Name: Baleadas
 
+Tags: easy breakfast lunch dinner
+
 Ingredients:
 - large tortillas
 - refried beans

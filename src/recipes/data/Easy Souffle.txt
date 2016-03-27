@@ -1,5 +1,7 @@
 Name: Easy Souffle
 
+Tags: dinner
+
 Ingredients:
 - 1 can condensed SOUP: cream of chicken
 - 1 c. shredded CHEESE: sharp cheddar

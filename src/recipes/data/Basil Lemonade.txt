@@ -1,5 +1,7 @@
 Name: Basil Lemonade
 
+Tags: easy beverage
+
 Ingredients:
 - 1 can lemonade concentrate
 - 3 full cans water

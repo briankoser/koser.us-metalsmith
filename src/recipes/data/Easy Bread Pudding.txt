@@ -1,5 +1,7 @@
 Name: Easy Bread Pudding
 
+Tags: breakfast
+
 Ingredients:
 - 6 slices day-old bread
 - 2 Tbsp. butter, melted

@@ -1,5 +1,7 @@
 Name: Pizza Casserole
 
+Tags: dinner
+
 Ingredients:
 - 2 c. corkscrew pasta
 - 1 lb. ground beef

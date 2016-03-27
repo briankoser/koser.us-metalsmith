@@ -1,5 +1,7 @@
 Name: Golden Fried Fish
 
+Tags: seafood dinner
+
 Ingredients:
 - 1 c. cornmeal
 - 1 1/4 tsp. garlic salt

@@ -1,5 +1,7 @@
 Name: Spaghetti Pie
 
+Tags: dinner
+
 Ingredients:
 - 1 lb. spaghetti or angel hair pasta
 - 2 eggs

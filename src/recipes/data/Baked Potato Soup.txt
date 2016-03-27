@@ -1,5 +1,7 @@
 Name: Baked Potato Soup
 
+Tags: easy crowd
+
 Ingredients:
 - 6 large Russet potatoes, peeled and cut into 1/2" cubes
 - 1 large onion, chopped

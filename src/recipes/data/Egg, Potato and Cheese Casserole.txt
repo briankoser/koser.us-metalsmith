@@ -1,5 +1,7 @@
 Name: Egg, Potato and Cheese Casserole
 
+Tags: breakfast dinner
+
 Ingredients:
 - 6 medium potatoes
 - 8 eggs

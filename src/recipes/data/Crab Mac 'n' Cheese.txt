@@ -1,5 +1,7 @@
 Name: Crab Mac 'n' Cheese
 
+Tags: seafood dinner
+
 Ingredients:
 - 1 lb. macaroni
 - 1 tsp. salt

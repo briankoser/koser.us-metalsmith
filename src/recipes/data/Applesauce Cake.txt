@@ -1,6 +1,6 @@
 Name: Applesauce Cake
 
-Tags: dessert fruit
+Tags: dessert
 
 Cake Ingredients:
 - 2 1/2 c. flour

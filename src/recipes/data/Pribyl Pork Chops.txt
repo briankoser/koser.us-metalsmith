@@ -1,5 +1,7 @@
 Name: Pribyl Pork chops
 
+Tags: dinner favorite
+
 Ingredients:
 - 4 bone-in pork chops
 - 1/2 tsp. salt

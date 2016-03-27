@@ -1,5 +1,7 @@
 Name: Pasta and Bean Soup
 
+Tags: dinner favorite
+
 Ingredients:
 - MEAT: 4 slices bacon, diced
 - 1/2 c. each chopped onion and celery

@@ -1,5 +1,7 @@
 Name: Meat and Potato Quiche
 
+Tags: dinner favorite
+
 Ingredients:
 - 3/4 lb. ground beef
 - 3 Tbsp. olive oil

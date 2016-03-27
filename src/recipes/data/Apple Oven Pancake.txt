@@ -1,6 +1,6 @@
 Name: Apple Oven Pancake
 
-Tags: breakfast easy
+Tags: breakfast easy fruit
 
 Ingredients:
 - 2 Tbsp. butter, melted

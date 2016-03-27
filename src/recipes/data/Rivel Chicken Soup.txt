@@ -1,5 +1,7 @@
 Name: Rivel Chicken Soup
 
+Tags: dinner
+
 Ingredients:
 - 8 c. chicken broth or stock
 - diced onion

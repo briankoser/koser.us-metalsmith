@@ -1,6 +1,6 @@
 Name: Bacon 'n' Egg Bundles
 
-Tags: breakfast
+Tags: fancy breakfast favorite
 
 Ingredients:
 - Butter, for greasing

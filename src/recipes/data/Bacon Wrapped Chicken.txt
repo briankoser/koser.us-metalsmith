@@ -1,6 +1,6 @@
 Name: Bacon Wrapped Chicken
 
-Tags: dinner
+Tags: easy fancy dinner favorite
 
 Ingredients:
 - 4 boneless skinless chicken breasts
@@ -20,4 +20,4 @@ Directions:
 
 Yield: 4 servings
 
-Comments: I usually serve this over large noodles and it is very filling.
+Comments: I usually serve this over rice and it is very filling.

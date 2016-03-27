@@ -1,5 +1,7 @@
 Name: Raspberry Sorbet
 
+Tags: dessert fruit favorite fancy
+
 Ingredients:
 - 1 c. sugar
 - 1 c. water

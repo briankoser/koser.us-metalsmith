@@ -1,5 +1,7 @@
 Name: Easy BBQ Chicken
 
+Tags: dinner
+
 Ingredients:
 - 15 pieces chicken
 - 2 Tbsp. butter

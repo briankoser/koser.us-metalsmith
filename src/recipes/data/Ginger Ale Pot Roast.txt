@@ -1,5 +1,7 @@
 Name: Ginger Ale Pot Roast
 
+Tags: dinner
+
 Ingredients:
 - 3-lb. sirloin tip roast
 - 1/2 c. flour

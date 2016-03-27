@@ -1,5 +1,7 @@
 Name: Peanut Butter Cup Ice Cream
 
+Tags: dessert favorite
+
 Ingredients:
 - 1 c. peanut butter (not natural)
 - 2/3 c. sugar

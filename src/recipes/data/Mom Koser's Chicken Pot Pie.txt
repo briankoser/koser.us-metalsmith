@@ -1,5 +1,7 @@
 Name: Mom Koser's Chicken Pot Pie
 
+Tags: dinner
+
 Dough Ingredients:
 - 4 eggs
 - 1 tsp. salt

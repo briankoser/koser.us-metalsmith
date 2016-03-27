@@ -1,5 +1,7 @@
 Name: Strawberry Cake
 
+Tags: dessert fruit
+
 Cake Ingredients:
 - 1 pkg. *white* cake mix (do *not* use yellow--too moist and will make cake heavy)
 - 3 Tbsp. flour

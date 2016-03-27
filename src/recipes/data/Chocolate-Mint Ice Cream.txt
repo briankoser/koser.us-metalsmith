@@ -1,5 +1,7 @@
 Name: Chocolate-Mint Ice Cream
 
+Tags: dessert favorite
+
 Ingredients:
 - 3/4 c. cocoa powder
 - 1/2 c. white sugar
