@@ -8,6 +8,8 @@ section: journal
 tags: ten
 title: "Ten Animals"
 
+draft: true
+
 topten: "Top Tens"
 images: true
 firstlistauthor: Brian
