@@ -8,7 +8,7 @@
         
         <div class="media-body">
             <table class="table-vertical table-invisible">
-                <tr><td><a href="{{openlibraryurl}}">{{bookdisplay|raw}}</a></td></tr>
+                <tr><td><a href="{{openlibraryurl}}">{{bookdisplay|safe}}</a></td></tr>
                 <tr><td>{{bookauthor}}</td></tr>
                 <tr><td>{{bookpubdate}}</td></tr>
                 <tr><td><span class="star-rating">{{bookrating}}</span></td></tr>

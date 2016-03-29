@@ -9,7 +9,7 @@ section: journal
 {% for post in collections.posts %}
 <article>
     <header>
-        <h2 class="post-title">[{{ post.title|raw }}](/{{ post.path }})</a></h2>
+        <h2 class="post-title">[{{ post.title|safe }}](/{{ post.path }})</a></h2>
         <span class="post-author">by {{ post.author }}</span>
         <span class="post-date">{{ post.pubdate|date('Y-m-d') }}</span>
     </header>

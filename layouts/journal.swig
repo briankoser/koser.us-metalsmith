@@ -30,7 +30,7 @@
 {% block body %}
     <article class="h-entry">
         <header>
-            <h1 class="post-title p-name">{{title|raw}}</h1>
+            <h1 class="post-title p-name">{{title|safe}}</h1>
             <span class="post-author p-author">by {{author}}</span>
             <time class="post-date dt-published" datetime="{{pubdate|date('Y-m-dTH:i:s\Z')}}">{{pubdate|date('Y-m-d')}}</time>
         </header>
