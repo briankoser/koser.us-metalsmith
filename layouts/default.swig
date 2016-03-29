@@ -46,16 +46,22 @@
                                 <span class="site-nav-link">Journal</span>
                             </a>
                         </li>
-                        <li {% if section == 'games' %}class="site-nav-active"{% endif %}>
-                            <a href="/games/">
-                                <svg class="icon icon-dice"><use xlink:href="#icon-dice"></use></svg>
-                                <span class="site-nav-link">Games</span>
+                        <li {% if section == 'gallery' %}class="site-nav-active"{% endif %}>
+                            <a href="/gallery/">
+                                <svg class="icon icon-pen"><use xlink:href="#icon-pen"></use></svg>
+                                <span class="site-nav-link">Gallery</span>
                             </a>
                         </li>
                         <li {% if section == 'recipes' %}class="site-nav-active"{% endif %}>
                             <a href="/recipes/">
                                 <svg class="icon icon-spoon-knife"><use xlink:href="#icon-spoon-knife"></use></svg>
                                 <span class="site-nav-link">Recipes</span>
+                            </a>
+                        </li>
+                        <li {% if section == 'games' %}class="site-nav-active"{% endif %}>
+                            <a href="/games/">
+                                <svg class="icon icon-dice"><use xlink:href="#icon-dice"></use></svg>
+                                <span class="site-nav-link">Games</span>
                             </a>
                         </li>
                     </ul>

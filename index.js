@@ -15,6 +15,7 @@ var layouts = require('metalsmith-layouts');
 var markdown = require('./custom_plugins/metalsmith-markdown-fork');
 var metadata = require('./custom_plugins/metalsmith-metadata-fork');
 var permalinks = require('metalsmith-permalinks');
+var photoswipe = require('./custom_plugins/metalsmith-photoswipe');
 var recipes_to_json = require('./custom_plugins/recipes_to_json/index.js');
 var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
@@ -86,6 +87,8 @@ Metalsmith(__dirname)
     .use(json_to_files({
         source_path: 'recipes/data/'
     }))
+    
+    .use(photoswipe())
     
     /* excerpts before inplace so we can use swig templates and data in excerpts */
     .use(excerpts())
