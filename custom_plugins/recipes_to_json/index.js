@@ -24,8 +24,6 @@ function plugin(options) {
     
     var recipes = [];
     return function(files, metalsmith, done) {
-        setImmediate(done);
-        
         if(Object.keys(files).indexOf(options.dest_path) > -1) {
             Object.keys(files).forEach(function(file) {
                 debug('checking file: %s', file);
@@ -42,6 +40,8 @@ function plugin(options) {
             data.contents = new Buffer(JSON.stringify(recipes));
             files[options.dest_path] = data;
         }
+        
+        setImmediate(done);
     };
 }
 
