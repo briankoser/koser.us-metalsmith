@@ -37,7 +37,6 @@ function plugin(opts){
 }
 
 /** todo
- * icon for nav bar
  * 'y' in nav font
  * auto get img height/width
  * generate gallery from json
