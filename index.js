@@ -86,6 +86,7 @@ Metalsmith(__dirname)
     }))
     
     .use(s3_to_json({
+        bucket: 'cdn.koser.us',
         dest_path: 'gallery/galleries.json'
     }))
     

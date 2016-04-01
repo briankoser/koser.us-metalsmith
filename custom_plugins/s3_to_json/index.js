@@ -1,6 +1,9 @@
 var debug = require('debug')('s3_to_json');
 var path = require('path');
 var slug = require('slug');
+var _ = require('underscore');
+var AWS = require('aws-sdk');
+var async = require('async');
 
 
 /**
@@ -28,9 +31,10 @@ function plugin(options) {
             // todo
             // read paths from s3
             // create json file: [ { 'title':'', 'date':'', images:[ { 'name':'image1.jpg', 'height':10, 'width':10 } ] } ]
+            var param = {};
             
-            
-            
+            var s3 = new AWS.S3();
+            ReadS3Objects();
             
         //     Object.keys(files).forEach(function(file) {
         //         debug('checking file: %s', file);
@@ -49,6 +53,82 @@ function plugin(options) {
         }
         
         setImmediate(done);
+        
+        function ReadS3Objects() {			
+			var filteritems = [];
+			var patternitems = {};
+
+			patternitems.prefix = '(^';
+			patternitems.suffix = '.*|.*\/$)';
+			patternitems.match = false;
+			
+			param.Bucket = options['bucket'];
+			
+            if ((options['ignore']) == null) {
+                options.ignore = [];
+            }
+            
+			if (!Array.isArray(options['ignore'])) {
+				filteritems = [options['ignore']];
+			} else {
+				filteritems = options['ignore'];
+			}
+			
+			async.waterfall([
+				function(next) {
+					s3.listObjects(param, next);
+				},
+				function(response, next) {
+					filterList(response, filteritems, patternitems, next);
+				},
+				function(response, next) {
+					listToJSON(response, next);
+				}
+				],
+				function(err, res) {
+					result(err, res);
+				}
+			);
+		}
+        
+        function filterList(response, filteritems, patternitems, next) {
+			var contents = response.Contents;
+			contents = _.filter(contents, function(obj) {
+				if (filteritems.some(function(item) {
+					var regx = new RegExp(patternitems.prefix + item + patternitems.suffix);
+					return regx.test(obj['Key']);
+				})) {
+					debug("filtering: " + obj['Key']);
+					return patternitems.match;
+				}
+				return !patternitems.match;
+			});
+			next(null, contents);			
+		}
+        
+        function listToJSON(list, next) {
+// 			async.each(list, function(obj, callback) {
+// 				param.Key = obj.Key
+// 				s3.getObject(param).on('success', function(response) {
+// 					var path = response.request.httpRequest.path;
+// 					var spath = "/".concat(response.request.params.Bucket).concat("/");
+// 					var data = response.data;
+// 					var parsed = front(data.Body.toString());
+// 					var file = {};
+
+// 					path = path.replace(spath, '');
+
+// 					file = parsed.attributes;
+// 					file.contents = new Buffer(parsed.body);
+// 					files[path] = file;
+// 					debug("adding file: ", path);
+// console.log(path);
+// 					callback();
+// 				}).send();
+// 			}, function(err) {
+// 				next(err, 'read from S3 done');
+// 			});
+		}
     };
 }
 
