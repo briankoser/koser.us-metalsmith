@@ -14,7 +14,15 @@
 {% endblock %}
 
 {% block body %}
+    <h1>{{title}}</h1>
+
     {{contents|safe}}
+    
+    <button class="view-gallery">View gallery</button>
+    
+    <script type="application/json" id="gallery-data">
+        {{pictures|safe|json}}
+    </script>
     
     <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="pswp__bg"></div>

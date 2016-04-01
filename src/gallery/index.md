@@ -27,10 +27,3 @@ pictures: [
     }
 ]
 ---
-# Photo Gallery
-
-<button class="view-gallery">View gallery</button>
-
-<script type="application/json" id="gallery-data">
-    {{pictures|safe|json}}
-</script>
