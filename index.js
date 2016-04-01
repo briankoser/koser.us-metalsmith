@@ -17,6 +17,8 @@ var metadata = require('./custom_plugins/metalsmith-metadata-fork');
 var permalinks = require('metalsmith-permalinks');
 var photoswipe = require('./custom_plugins/metalsmith-photoswipe');
 var recipes_to_json = require('./custom_plugins/recipes_to_json/index.js');
+// var s3 = require('metalsmith-s3');
+var s3_to_json = require('./custom_plugins/s3_to_json/index.js');
 var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
 
@@ -72,9 +74,19 @@ Metalsmith(__dirname)
         }
     }))
     
+    // .use(s3({
+    //     action: 'read',
+    //     bucket: 'cdn.koser.us',
+    //     ignore: ['pictures']
+    // }))
+    
     .use(recipes_to_json({
         src_path: 'recipes/data/',
         dest_path: 'recipes/data/recipes.json'
+    }))
+    
+    .use(s3_to_json({
+        dest_path: 'gallery/galleries.json'
     }))
     
     .use(metadata({
