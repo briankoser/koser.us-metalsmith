@@ -76,13 +76,14 @@ var build_filename = function build_filename (filename_pattern, entry, extension
 
 var options_schema = {
     source_path           : joi.string().required()
-  , properties_to_remove: joi.array()
+  , section               : joi.string() 
+  , properties_to_remove  : joi.array()
 };
 
 var metadata_schema = {
     source_file       : joi.string().required()
-  , filename_pattern: joi.string().required()
-  , as_permalink    : joi.boolean()
+  , filename_pattern  : joi.string().required()
+  , as_permalink      : joi.boolean()
 };
 
 var metadata_schema_options = {
@@ -131,6 +132,11 @@ var plugin = function plugin (options) {
                 log('No json_files metadata for %s', file);
                 return;
             }
+            
+            if (options.section == undefined || file_meta.section != options.section) {
+                log('%s is not the json file for this section', file);
+                return;
+            }
 
 			// Validate metadata params
             joi.validate(file_meta.json_files, metadata_schema, metadata_schema_options, function (err) {
@@ -141,16 +147,16 @@ var plugin = function plugin (options) {
             });
             
             var source_filepath = path.join(options.source_path, file_meta.json_files.source_file + '.json');
-
+            
             // TODO: Check file exists and provide warning    
             var json = JSON.parse(files[source_filepath].contents.toString());
-
+            
             // log('File json: %o', json);
             json.forEach(function (element) {
                 var defaults = {contents: ''};
                 var meta     = file_meta.json_files;
                 var data     = _.extend(defaults, meta, {data: element});
-
+                
                 // Take into account the parent in build filename
                 var filename = build_filename(data.filename_pattern, data, '.md');
 

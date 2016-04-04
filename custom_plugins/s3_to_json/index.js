@@ -32,8 +32,6 @@ function plugin(options) {
             ReadS3Objects();
         }
         
-        setImmediate(done);
-        
         function ReadS3Objects() {			
 			var filteritems = [];
 			var patternitems = {};
@@ -63,7 +61,10 @@ function plugin(options) {
 				},
 				function(response, next) {
 					listToJSON(response, next);
-				}
+				},
+                function(response, next) {
+                    setImmediate(done);
+                }
 				],
 				function(err, res) {
 					result(err, res);
@@ -83,7 +84,7 @@ function plugin(options) {
 				}
 				return !patternitems.match;
 			});
-			next(null, contents);			
+			next(null, contents);
 		}
         
         function listToJSON(list, next) {
@@ -127,7 +128,9 @@ function plugin(options) {
                         album.zip = file.path;
                     }
                     else {
-                        album.images.push(file.path);
+                        var image = { 'src': 'http://' + options.bucket + '/' + file.path,
+                    "w": 979, "h": 1306 };
+                        album.images.push(image);
                     }
                     
                     gallery[file.album] = album;
@@ -137,17 +140,48 @@ function plugin(options) {
                         gallery[file.album].zip = file.path;
                     }
                     else {
-                        gallery[file.album].images.push(file.path);
+                        var image = { 'src': 'http://' + options.bucket + '/'  + file.path,
+                        "w": 979, "h": 1306 };
+                        gallery[file.album].images.push(image);
                     }
                 }
+                
+// pictures: [
+//     {
+//         "src": "http://cdn.koser.us/pictures/2015-09-03-lydia-born/2015-09-03-lydia-born-001.jpg",
+//         "w": 384,
+//         "h": 512
+//     },
+//     {
+//         "src": "http://cdn.koser.us/pictures/2015-09-03-lydia-born/2015-09-03-lydia-born-002.jpg",
+//         "w": 979,
+//         "h": 1306
+//     },
+//     {
+//         "src": "http://cdn.koser.us/pictures/2015-09-03-lydia-born/2015-09-03-lydia-born-003.jpg",
+//         "w": 979,
+//         "h": 1306
+//     },
+//     {
+//         "src": "http://cdn.koser.us/pictures/2015-09-03-lydia-born/2015-09-03-lydia-born-005.jpg",
+//         "w": 1306,
+//         "h": 979
+//     }
+// ]
                 
                 return gallery;
             }, {});
             
+            json = _.map(json, function(value, key) { 
+                value.path = key;
+                return value; 
+            });
+            
             var data = files[options.dest_path];
             data.contents = new Buffer(JSON.stringify(json));
-            console.log(data);
             files[options.dest_path] = data;
+            
+            next(null, null);
 		}
     };
 }

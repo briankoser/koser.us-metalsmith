@@ -1,6 +1,6 @@
 {% extends "default.swig" %}
 
-{% block title %}{{title|striptags}} · Gallery · {{sitename}}{% endblock %}
+{% block title %}{{data.title|striptags}} · Gallery · {{sitename}}{% endblock %}
 
 {% block css %}
     <link rel="stylesheet" href="/css/vendor/photoswipe/photoswipe.css"> 
@@ -14,14 +14,15 @@
 {% endblock %}
 
 {% block body %}
-    <h1>{{title}}</h1>
-
-    {{contents|safe}}
+    <header>
+        <h1>{{data.title}}</h1>
+        <time datetime="{{data.date}}">{{data.date}}</time>
+    </header>
     
     <button class="view-gallery">View gallery</button>
     
     <script type="application/json" id="gallery-data">
-        {{pictures|safe|json}}
+        {{data.images|safe|json}}
     </script>
     
     <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">

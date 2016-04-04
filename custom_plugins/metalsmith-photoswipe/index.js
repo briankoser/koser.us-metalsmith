@@ -38,8 +38,7 @@ function plugin(opts){
 
 /** todo
  * 'y' in nav font
- * auto get img height/width
- * generate gallery from json
- * generate list of galleries
- * get thumbnails
+ * img height/width
+ * thumbnails
+ * humanized titles
  */
