@@ -24,28 +24,12 @@ function plugin(options) {
     options = options || {};
     options.dest_path = options.dest_path.replace(/\/$/, '').replace(/(\/|\\)/g, path.sep);
     
-    // var recipes = [];
     return function(files, metalsmith, done) {
         if(Object.keys(files).indexOf(options.dest_path) > -1) {
             var param = {};
             
             var s3 = new AWS.S3();
             ReadS3Objects();
-            
-        //     Object.keys(files).forEach(function(file) {
-        //         debug('checking file: %s', file);
-        //         if (path.dirname(file) != options.src_path) return;
-        //         if (!isTextFile(file)) return;
-    
-        //         debug('converting file: %s', file);
-        //         recipes.push(recipeToJson(files[file].contents.toString(), options));
-    
-        //         // delete files[file];
-        //     });
-    
-        //     var data = files[options.dest_path];
-        //     data.contents = new Buffer(JSON.stringify(recipes));
-        //     files[options.dest_path] = data;
         }
         
         setImmediate(done);
@@ -160,131 +144,32 @@ function plugin(options) {
                 return gallery;
             }, {});
             
-            console.log(json);
-            
-            // create json file: [ { 'title':'', 'date':'', images:[ { 'name':'image1.jpg', 'height':10, 'width':10 } ] } ]
-            
-			async.each(list, function(obj, callback) {
-				param.Key = obj.Key
-                
-// 				s3.getObject(param).on('success', function(response) {
-// 					var path = response.request.httpRequest.path;
-// 					var spath = "/".concat(response.request.params.Bucket).concat("/");
-// 					var data = response.data;
-// 					var parsed = front(data.Body.toString());
-// 					var file = {};
-
-// 					path = path.replace(spath, '');
-
-// 					file = parsed.attributes;
-// 					file.contents = new Buffer(parsed.body);
-// 					files[path] = file;
-// 					debug("adding file: ", path);
-// console.log(path);
-// 					callback();
-// 				}).send();
-			}, function(err) {
-				next(err, 'list to JSON done');
-			});
+            var data = files[options.dest_path];
+            data.contents = new Buffer(JSON.stringify(json));
+            console.log(data);
+            files[options.dest_path] = data;
 		}
     };
 }
 
 /**
- * Check if a `file` is a text file.
+ * Check if a `string` is a valid date.
  *
- * @param {String} file
+ * @param {String} date
  * @return {Boolean}
  */
-
-var isTextFile = function(file) {
-    return /\.txt/.test(path.extname(file));
-}
 
 var isValidDate = function (o) {
     return _.isDate(o) && !_.isNaN(o.getTime());
 }
 
-var isZipFileName = function(s) {
-    return /^.*\.zip$/.test(s);
-}
-
 /**
- * Convert a Koser Recipe `src` to a JSON object.
+ * Check if a `string` is a zip file name.
  *
- * @param {String} src
- * @param {Object} options (optional)
- * @return {Object}
+ * @param {String} fileName
+ * @return {Boolean}
  */
 
-var recipeToJson = function(src, options) {
-    if (src == '') return src;
-    
-    var json = {};
-    
-    json['datemodified'] = new Date();
-    
-    var name = src.match(/(Name: )([A-Za-z0-9&'",\- ]+)/);
-    if (name != undefined)
-    {
-        json['name'] = name[2];
-        json['urlname'] = slug(name[2], {lower: true});
-    }
-    
-    var keywords = src.match(/(Tags: )([A-Za-z0-9&'\- ]+)/);
-    if (keywords != undefined)
-    {
-        json['keywords'] = keywords[2].split(' ');
-    }
-    
-    var author = src.match(/(Author: )([A-Za-z0-9 ]+)/);
-    if (author != undefined)
-    {
-        json['author'] = author[2];
-    }
-    
-    var comments = src.match(/(Comments: )(.+)/);
-    if (comments != undefined)
-    {
-        json['comments'] = comments[2];
-    }
-    
-    var recipe_yield = src.match(/(Yield: )([A-Za-z0-9\-" ]+)/);
-    if (recipe_yield != undefined)
-    {
-        json['yield'] = recipe_yield[2];
-    }
-    
-    // ['Name', 'Author', 'Comments', 'Yield'].forEach(function(item, index) {
-        // var pattern = '/(' + item + ": )([A-Za-z0-9&'\\- ]+)/";
-        // var regex = new RegExp(pattern);
-        // var field = src.match(regex);
-        // json['koser'] = field;
-        // if(field != undefined)
-        // {
-            // json[item.toLowerCase()] = field[2];
-        // }
-    // });
-    
-    var ingredients = src.match(/(?:Ingredients:)([\s\S]*)(?=Directions)/);
-    if (ingredients != undefined)
-    {
-        ingredients = ingredients[1]
-            .split('\n- ')
-            .filter(function(n){ return n.trim() != '' });
-        ingredients.forEach(function(item, index){ ingredients[index] = item.trim()});
-        json['ingredients'] = ingredients;
-    }
-    
-    var directions = src.match(/(?:Directions:)([\s\S]*)(?=Yield)/);
-    if (directions != undefined)
-    {
-        directions = directions[1]
-            .split('\n- ')
-            .filter(function(n){ return n.trim() != '' });
-        directions.forEach(function(item, index){ directions[index] = item.trim()});
-        json['instructions'] = directions;
-    }
-    
-    return json;
+var isZipFileName = function(s) {
+    return /^.*\.zip$/.test(s);
 }
