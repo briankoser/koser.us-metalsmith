@@ -1,7 +1,7 @@
 var debug = require('debug')('s3_to_json');
 var path = require('path');
 var slug = require('slug');
-var _ = require('underscore');
+var _ = require('lodash');
 var AWS = require('aws-sdk');
 var async = require('async');
 
@@ -21,16 +21,12 @@ module.exports = plugin;
  */
 
 function plugin(options) {
-    // options = options || {};
-    // options.src_path = options.src_path.replace(/\/$/, '').replace(/(\/|\\)/g, path.sep);
-    // options.dest_path = options.dest_path.replace(/\/$/, '').replace(/(\/|\\)/g, path.sep);
+    options = options || {};
+    options.dest_path = options.dest_path.replace(/\/$/, '').replace(/(\/|\\)/g, path.sep);
     
     // var recipes = [];
     return function(files, metalsmith, done) {
         if(Object.keys(files).indexOf(options.dest_path) > -1) {
-            // todo
-            // read paths from s3
-            // create json file: [ { 'title':'', 'date':'', images:[ { 'name':'image1.jpg', 'height':10, 'width':10 } ] } ]
             var param = {};
             
             var s3 = new AWS.S3();
@@ -107,8 +103,58 @@ function plugin(options) {
 		}
         
         function listToJSON(list, next) {
-// 			async.each(list, function(obj, callback) {
-// 				param.Key = obj.Key
+            var paths = _.map(list, function(x) {
+                return x.Key;
+            });
+            
+            var json = _.map(paths, function(path) {
+                var obj = {};
+                obj.album = _.trim(path.match(/\/[^\/]+\//)[0], '/');
+                
+                obj.date = new Date(obj.album.slice(0, 10));
+                obj.title = obj.album.slice(11);
+                
+                if (!isValidDate(obj.date)) {
+                    obj.date = new Date(obj.album.slice(0, 7));
+                    obj.title = obj.album.slice(8);
+                    
+                    if (!isValidDate(obj.date)) {
+                        obj.date = new Date(obj.album.slice(0, 4));
+                        obj.title = obj.album.slice(5);
+                                
+                        if (!isValidDate(obj.date)) {
+                            return null;
+                        }
+                    }
+                }
+                
+                obj.path = path;
+                return obj;
+            });
+            
+            json = _.reduce(json, function(gallery, image) { 
+                if (_.find(gallery, { 'album' : image.album }) == null) {
+                    var album = {};
+                    album.title = image.title;
+                    album.date = image.date;
+                    album.images = [];
+                    album.images.push(image.path);
+                    gallery[image.album] = album;
+                }
+                else {
+                    gallery[image.album].images.push(image.path);
+                }
+                
+                return gallery;
+            }, {});
+            
+            console.log(json);
+            
+            // create json file: [ { 'title':'', 'date':'', images:[ { 'name':'image1.jpg', 'height':10, 'width':10 } ] } ]
+            
+			async.each(list, function(obj, callback) {
+				param.Key = obj.Key
+                
 // 				s3.getObject(param).on('success', function(response) {
 // 					var path = response.request.httpRequest.path;
 // 					var spath = "/".concat(response.request.params.Bucket).concat("/");
@@ -125,9 +171,9 @@ function plugin(options) {
 // console.log(path);
 // 					callback();
 // 				}).send();
-// 			}, function(err) {
-// 				next(err, 'read from S3 done');
-// 			});
+			}, function(err) {
+				next(err, 'list to JSON done');
+			});
 		}
     };
 }
@@ -141,6 +187,10 @@ function plugin(options) {
 
 var isTextFile = function(file) {
     return /\.txt/.test(path.extname(file));
+}
+
+var isValidDate = function (o) {
+    return _.isDate(o) && !_.isNaN(o.getTime());
 }
 
 /**
