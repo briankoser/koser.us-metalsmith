@@ -111,18 +111,18 @@ function plugin(options) {
                 var obj = {};
                 obj.album = _.trim(path.match(/\/[^\/]+\//)[0], '/');
                 
-                obj.date = new Date(obj.album.slice(0, 10));
+                obj.date = obj.album.slice(0, 10);
                 obj.title = obj.album.slice(11);
                 
-                if (!isValidDate(obj.date)) {
-                    obj.date = new Date(obj.album.slice(0, 7));
+                if (!isValidDate(new Date(obj.date))) {
+                    obj.date = obj.album.slice(0, 7);
                     obj.title = obj.album.slice(8);
                     
-                    if (!isValidDate(obj.date)) {
-                        obj.date = new Date(obj.album.slice(0, 4));
+                    if (!isValidDate(new Date(obj.date))) {
+                        obj.date = obj.album.slice(0, 4);
                         obj.title = obj.album.slice(5);
                                 
-                        if (!isValidDate(obj.date)) {
+                        if (!isValidDate(new Date(obj.date))) {
                             return null;
                         }
                     }
@@ -132,17 +132,29 @@ function plugin(options) {
                 return obj;
             });
             
-            json = _.reduce(json, function(gallery, image) { 
-                if (_.find(gallery, { 'album' : image.album }) == null) {
+            json = _.reduce(json, function(gallery, file) { 
+                if (gallery[file.album] == undefined) {
                     var album = {};
-                    album.title = image.title;
-                    album.date = image.date;
+                    album.title = file.title;
+                    album.date = file.date;
                     album.images = [];
-                    album.images.push(image.path);
-                    gallery[image.album] = album;
+                    
+                    if (isZipFileName(file.path)) {
+                        album.zip = file.path;
+                    }
+                    else {
+                        album.images.push(file.path);
+                    }
+                    
+                    gallery[file.album] = album;
                 }
                 else {
-                    gallery[image.album].images.push(image.path);
+                    if (isZipFileName(file.path)) {
+                        gallery[file.album].zip = file.path;
+                    }
+                    else {
+                        gallery[file.album].images.push(file.path);
+                    }
                 }
                 
                 return gallery;
@@ -191,6 +203,10 @@ var isTextFile = function(file) {
 
 var isValidDate = function (o) {
     return _.isDate(o) && !_.isNaN(o.getTime());
+}
+
+var isZipFileName = function(s) {
+    return /^.*\.zip$/.test(s);
 }
 
 /**
