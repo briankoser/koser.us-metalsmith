@@ -15,7 +15,6 @@
     "metalsmith-ignore": "0.1.x",
     "metalsmith-layouts": "1.4.x",
     "metalsmith-permalinks": "0.4.x",
-    "metalsmith-s3": "0.0.x",
     "metalsmith-serve": "0.0.x",
     "metalsmith-watch": "1.0.x",
     "multimatch": "2.1.x",
