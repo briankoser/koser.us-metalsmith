@@ -81,13 +81,15 @@ Metalsmith(__dirname)
     .use(s3_to_json({
         bucket: 'cdn.koser.us',
         dest_path: 'gallery/data/galleries.json',
-        ignore: ['index.html', 'pictures/memes', "2014-04-12 Brian's Birthday"]
+        ignore: ['index.html', 'pictures/memes', "2014-04-12 Brian's Birthday"],
+        get_dimensions: !dev
     }))
     
     .use(metadata({
         data_files: {
             recipes: 'recipes/data/recipes.json',
-            galleries: 'gallery/data/galleries.json'
+            galleries: 'gallery/data/galleries.json',
+            galleryTitles: 'gallery/data/galleryTitles.json'
         },
         delete_original: false
     }))

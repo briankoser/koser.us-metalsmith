@@ -14,7 +14,7 @@ json_files:
 
 <ul class="recipe-list">
     {% for gallery in galleries %}
-        <li>[{{gallery.title}}]({{gallery.path}})</li>
+        <li>[{{galleryTitles[gallery.title]}}]({{gallery.path}})</li>
     {% endfor %}
 </ul>
 
