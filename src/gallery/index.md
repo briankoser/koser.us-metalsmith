@@ -14,6 +14,11 @@ json_files:
 
 <ul class="recipe-list">
     {% for gallery in galleries %}
-        <li>[{{galleryTitles[gallery.path]}}]({{gallery.path}})</li>
+        <li>
+            <a href="{{gallery.path}}">
+                <span class="milli">({{gallery.date}})</span>
+                {{galleryTitles[gallery.path]|safe}}
+            </a>
+        </li>
     {% endfor %}
 </ul>
