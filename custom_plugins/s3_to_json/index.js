@@ -25,6 +25,12 @@ function plugin(options) {
     options = options || {};
     options.dest_path = options.dest_path.replace(/\/$/, '').replace(/(\/|\\)/g, path.sep);
     
+    if (!options.get_dimensions) {
+        probe = function (url, callback) {
+            callback(null, { 'width': 500, 'height': 500 });
+        };
+    }
+    
     return function(files, metalsmith, done) {
         if(Object.keys(files).indexOf(options.dest_path) > -1) {
             var param = {};
