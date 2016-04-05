@@ -10,7 +10,7 @@
 # TECHNOLOGY COLOPHON
 
     css: Normalize.css
-    js: jQuery
+    js: jQuery, PhotoSwipe
     node: metalsmith
     software: Github for Windows, Visual Studio Code, Notepad++, MarkdownPad2
     webhost: NearlyFreeSpeech.net

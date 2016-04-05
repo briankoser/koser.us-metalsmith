@@ -15,7 +15,9 @@ var layouts = require('metalsmith-layouts');
 var markdown = require('./custom_plugins/metalsmith-markdown-fork');
 var metadata = require('./custom_plugins/metalsmith-metadata-fork');
 var permalinks = require('metalsmith-permalinks');
+var photoswipe = require('./custom_plugins/metalsmith-photoswipe');
 var recipes_to_json = require('./custom_plugins/recipes_to_json/index.js');
+var s3_to_json = require('./custom_plugins/s3_to_json/index.js');
 var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
 
@@ -76,16 +78,31 @@ Metalsmith(__dirname)
         dest_path: 'recipes/data/recipes.json'
     }))
     
+    .use(s3_to_json({
+        bucket: 'cdn.koser.us',
+        dest_path: 'gallery/data/galleries.json',
+        ignore: ['index.html', 'pictures/memes', "2014-04-12 Brian's Birthday"]
+    }))
+    
     .use(metadata({
         data_files: {
             recipes: 'recipes/data/recipes.json',
+            galleries: 'gallery/data/galleries.json'
         },
         delete_original: false
     }))
     
     .use(json_to_files({
-        source_path: 'recipes/data/'
+        source_path: 'recipes/data/',
+        section: 'recipes'
     }))
+    
+    .use(json_to_files({
+        source_path: 'gallery/data/',
+        section: 'gallery'
+    }))
+    
+    .use(photoswipe())
     
     /* excerpts before inplace so we can use swig templates and data in excerpts */
     .use(excerpts())
@@ -127,7 +144,8 @@ Metalsmith(__dirname)
     }))
     
     .use(ignore([
-        'recipes/data/*'
+        'recipes/data/*',
+        'gallery/data/*'
     ]))
     
     .use(assets({

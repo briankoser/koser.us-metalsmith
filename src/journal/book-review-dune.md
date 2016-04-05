@@ -17,13 +17,13 @@ bookpubdate: 1965
 bookrating: ★★★★★
 openlibraryurl: 'https://openlibrary.org/books/OL3173729M/Dune'
 ---
-If you said, “Name a classic sci-fi novel”, I would probably say, “Dune”. I’ve felt obligated to read it for years, and did start it once only to quit about a hundred pages in. The same thing nearly happened again; in the middle of the book I lost interest and set it aside for a month or two. And yet, you can see that I’ve rated {{bookdisplay|raw}} five stars out of five. So what gives?
+If you said, “Name a classic sci-fi novel”, I would probably say, “Dune”. I’ve felt obligated to read it for years, and did start it once only to quit about a hundred pages in. The same thing nearly happened again; in the middle of the book I lost interest and set it aside for a month or two. And yet, you can see that I’ve rated {{bookdisplay|safe}} five stars out of five. So what gives?
 
-The number one strength of {{bookdisplay|raw}} is it’s setting. Save Tolkien, I can’t think of a book that builds a universe so convincingly. Herbert’s world-building—the Empire, the Bene Gessarit, and above all the ecology of the eponymous planet Dune—capture the imagination.
+The number one strength of {{bookdisplay|safe}} is it’s setting. Save Tolkien, I can’t think of a book that builds a universe so convincingly. Herbert’s world-building—the Empire, the Bene Gessarit, and above all the ecology of the eponymous planet Dune—capture the imagination.
 
 Herbert also writes “deeply”, causing you to ponder (among other themes) religion, morality, and destiny versus choice.
 
-I think the writing itself is good, not “clunky” as I’ve heard it described. I think it was Ben de Bono who observed that Herbert makes you feel both that you’re reading a novel, seeing character motivations, etc., while at the same time reading a history book and getting a “big picture” perspective. This method works effectively for {{bookdisplay|raw}}.
+I think the writing itself is good, not “clunky” as I’ve heard it described. I think it was Ben de Bono who observed that Herbert makes you feel both that you’re reading a novel, seeing character motivations, etc., while at the same time reading a history book and getting a “big picture” perspective. This method works effectively for {{bookdisplay|safe}}.
 
 So why did I have a hard time getting through the book?
 

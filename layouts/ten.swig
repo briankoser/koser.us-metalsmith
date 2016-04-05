@@ -20,9 +20,9 @@
                     {% if images %}
                     <img src="/img/journal/tens/tens-{{topten|lower|replace(' ', '-', 'g')}}-first-{{loop.index}}.jpg">
                     {% endif %}
-                    <p class="list-comment">{{item.comment|raw}}</p>
+                    <p class="list-comment">{{item.comment|safe}}</p>
                     {% if item.response %}
-                    <p class="list-response">{{item.response|raw}} –{{secondlistauthor|first}}</p>
+                    <p class="list-response">{{item.response|safe}} –{{secondlistauthor|first}}</p>
                     {% endif %}
                 </li>
             {% endfor %}
@@ -44,9 +44,9 @@
                     {% if images %}
                     <img src="/img/journal/tens/tens-{{topten|lower|replace(' ', '-', 'g')}}-second-{{loop.index}}.jpg">
                     {% endif %}
-                    <p class="list-comment">{{item.comment|raw}}</p>
+                    <p class="list-comment">{{item.comment|safe}}</p>
                     {% if item.response %}
-                    <p class="list-response">{{item.response|raw}} –{{firstlistauthor|first}}</p>
+                    <p class="list-response">{{item.response|safe}} –{{firstlistauthor|first}}</p>
                     {% endif %}
                 </li>
             {% endfor %}
