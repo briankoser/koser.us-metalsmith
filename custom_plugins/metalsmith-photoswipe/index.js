@@ -40,5 +40,4 @@ function plugin(opts){
  * 'y' in nav font
  * img height/width
  * thumbnails
- * humanized titles
  */

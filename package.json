@@ -19,6 +19,7 @@
     "metalsmith-watch": "1.0.x",
     "multimatch": "2.1.x",
     "path": "0.12.x",
+    "probe-image-size": "1.0.x",
     "slug": "0.9.x",
     "swig": "1.4.x"
   }

@@ -1,9 +1,10 @@
 var debug = require('debug')('s3_to_json');
-var path = require('path');
-var slug = require('slug');
 var _ = require('lodash');
-var AWS = require('aws-sdk');
 var async = require('async');
+var AWS = require('aws-sdk');
+var path = require('path');
+var probe = require('probe-image-size');
+var slug = require('slug');
 
 
 /**
@@ -23,6 +24,12 @@ module.exports = plugin;
 function plugin(options) {
     options = options || {};
     options.dest_path = options.dest_path.replace(/\/$/, '').replace(/(\/|\\)/g, path.sep);
+    
+    if (!options.get_dimensions) {
+        probe = function (url, callback) {
+            callback(null, { 'width': 500, 'height': 500 });
+        };
+    }
     
     return function(files, metalsmith, done) {
         if(Object.keys(files).indexOf(options.dest_path) > -1) {
@@ -74,6 +81,7 @@ function plugin(options) {
         
         function filterList(response, filteritems, patternitems, next) {
 			var contents = response.Contents;
+            
 			contents = _.filter(contents, function(obj) {
 				if (filteritems.some(function(item) {
 					var regx = new RegExp(patternitems.prefix + item + patternitems.suffix);
@@ -84,6 +92,7 @@ function plugin(options) {
 				}
 				return !patternitems.match;
 			});
+            
 			next(null, contents);
 		}
         
@@ -117,7 +126,7 @@ function plugin(options) {
                 return obj;
             });
             
-            json = _.reduce(json, function(gallery, file) { 
+            async.reduce(json, {}, function(gallery, file, callback) {
                 if (gallery[file.album] == undefined) {
                     var album = {};
                     album.title = file.title;
@@ -126,62 +135,44 @@ function plugin(options) {
                     
                     if (isZipFileName(file.path)) {
                         album.zip = file.path;
+                        callback(null, gallery);
                     }
                     else {
-                        var image = { 'src': 'http://' + options.bucket + '/' + file.path,
-                    "w": 979, "h": 1306 };
-                        album.images.push(image);
+                        var imageUrl = 'http://' + options.bucket + '/'  + file.path;
+                        probe(imageUrl, function (err, result) {
+                            var image = { 'src': imageUrl, 'w': result.width, 'h': result.height };
+                            album.images.push(image);
+                            gallery[file.album] = album;
+                            callback(null, gallery);
+                        });
                     }
-                    
-                    gallery[file.album] = album;
                 }
                 else {
                     if (isZipFileName(file.path)) {
                         gallery[file.album].zip = file.path;
+                        callback(null, gallery);
                     }
                     else {
-                        var image = { 'src': 'http://' + options.bucket + '/'  + file.path,
-                        "w": 979, "h": 1306 };
-                        gallery[file.album].images.push(image);
+                        var imageUrl = 'http://' + options.bucket + '/'  + file.path;
+                        probe(imageUrl, function (err, result) {
+                            var image = { 'src': imageUrl, 'w': result.width, 'h': result.height };
+                            gallery[file.album].images.push(image);
+                            callback(null, gallery);
+                        });
                     }
                 }
+            }, function(err, result) {
+                json = _.map(result, function(value, key) { 
+                    value.path = key;
+                    return value; 
+                });
                 
-// pictures: [
-//     {
-//         "src": "http://cdn.koser.us/pictures/2015-09-03-lydia-born/2015-09-03-lydia-born-001.jpg",
-//         "w": 384,
-//         "h": 512
-//     },
-//     {
-//         "src": "http://cdn.koser.us/pictures/2015-09-03-lydia-born/2015-09-03-lydia-born-002.jpg",
-//         "w": 979,
-//         "h": 1306
-//     },
-//     {
-//         "src": "http://cdn.koser.us/pictures/2015-09-03-lydia-born/2015-09-03-lydia-born-003.jpg",
-//         "w": 979,
-//         "h": 1306
-//     },
-//     {
-//         "src": "http://cdn.koser.us/pictures/2015-09-03-lydia-born/2015-09-03-lydia-born-005.jpg",
-//         "w": 1306,
-//         "h": 979
-//     }
-// ]
+                var data = files[options.dest_path];
+                data.contents = new Buffer(JSON.stringify(json));
+                files[options.dest_path] = data;
                 
-                return gallery;
-            }, {});
-            
-            json = _.map(json, function(value, key) { 
-                value.path = key;
-                return value; 
+                next(null, null);
             });
-            
-            var data = files[options.dest_path];
-            data.contents = new Buffer(JSON.stringify(json));
-            files[options.dest_path] = data;
-            
-            next(null, null);
 		}
     };
 }
