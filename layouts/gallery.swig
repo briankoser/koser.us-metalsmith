@@ -1,6 +1,6 @@
 {% extends "default.swig" %}
 
-{% block title %}{{galleryTitles[data.title]|striptags}} · Gallery · {{sitename}}{% endblock %}
+{% block title %}{{galleryTitles[data.path]}} · Gallery · {{sitename}}{% endblock %}
 
 {% block css %}
     <link rel="stylesheet" href="/css/vendor/photoswipe/photoswipe.css"> 
@@ -14,8 +14,9 @@
 {% endblock %}
 
 {% block body %}
+<article>
     <header>
-        <h1>{{galleryTitles[data.title]}}</h1>
+        <h1>{{galleryTitles[data.path]}}</h1>
         <time datetime="{{data.date}}">{{data.date}}</time>
     </header>
     
@@ -67,4 +68,5 @@
             </div>
         </div>
     </div>
+</article>
 {% endblock %}
