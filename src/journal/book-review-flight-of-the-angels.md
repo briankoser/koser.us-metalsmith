@@ -17,6 +17,5 @@ bookpubdate: 2014
 bookrating: ★★★★☆
 openlibraryurl: 
 ---
-{{bookdisplay|safe}} is Christian sci-fi, an uncrowded genre. The premise is that, with Christianity now illegal, a colony of Christians is trying to just stay alive while avoiding detection. Unknown to them, someone is starting to target Christians for death.
-
-The writing is solid, and the authors avoid being preachy, the biggest trap of Christian fiction. The world is fleshed out while leaving plenty to explore in future books. 
+{{bookdisplay|safe}} is Christian sci-fi, an uncrowded genre. The premise is that, with Christianity now illegal, a colony of Christians must remain hidden to stay alive. Some work to secretly help them, others to find and kill them.
+The writing is solid, and the authors avoid being preachy, the biggest trap of Christian fiction. The world is fleshed out while leaving plenty to explore in future books.
