@@ -19,7 +19,7 @@ openlibraryurl: 'https://openlibrary.org/books/OL25423437M/Dr._Who'
 ---
 I like Doctor Who, but just the new series, and not enough to read any books. I imagine compared to other Doctor Who books this is pretty good. 
 
-I actually read <i class="book-title">Shada</i> because I’m a big Douglas Adams fan, and this book is based on one of his TV scripts. Compared to Adams’s books, <i class="book-title">Shada</i> doesn’t impress. 
+I actually read {{bookdisplay|safe}} because I’m a big Douglas Adams fan, and this book is based on one of his TV scripts. Compared to Adams’s books, {{bookdisplay|safe}} doesn’t impress. 
 
 The plot has some interesting moments but is pretty standard classic Who. Many of the characters are precursors to characters in later Adams works, and the author does throw in some fun references to H2G2.
 
