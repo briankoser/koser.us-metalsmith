@@ -34,9 +34,11 @@ function plugin(options) {
     return function(files, metalsmith, done) {
         if(Object.keys(files).indexOf(options.dest_path) > -1) {
             var param = {};
-            
             var s3 = new AWS.S3();
             ReadS3Objects();
+        }
+        else {
+            setImmediate(done);
         }
         
         function ReadS3Objects() {			
