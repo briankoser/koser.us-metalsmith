@@ -18,8 +18,12 @@ bookpubdate: 2012
 bookrating: ★★★★☆
 openlibraryurl: "https://openlibrary.org/works/OL16714993W/Commander"
 ---
-Quick, name a British naval officer. Now, name someone other than Nelson.
+Quick, name a British naval officer. Now, name another, this time not Nelson.
 
-As with all of his contempories, Edward Pellew lived in the shadow of Nelson for much of his career. Today he is more known as a character in fictional works such as C. S. Forester’s <i class="book-title">Horatio Hornblower</i> novels than for anything he did in life. That’s unfortunate, for “the greatest seaman of his age” was an adventurous, acrobatic, tactical, accomplished man.
+If you recognize the name “Edward Pellew”, it’s probably as a character in fictional works such as C. S. Forester’s <i class="book-title">Horatio Hornblower</i> novels rather than as the real-life man. That’s unfortunate, for if any of Nelson’s contemporaries deserves to be remembered, it’s Pellew, “the greatest seaman of his age”.
 
-The book is a well-researched biography. The author’s comparisons of Pellew to Nelson are some of the most interesting sections. Taylor makes the case that the death of Pellew’s father at the age of seven defined his life. To the positive, Pellew was a loving husband, father, and brother; to the negative, he pushed his sons into a naval life as children, promoted his brother and sons beyond their abilities, and offended admirals with his constant pushing of their careers. 
+The book is a well-researched biography. Taylor makes good use of letters from the Pellew’s family, friends, rivals, and enemies.
+
+In some of the most interesting sections, the author compares and contrasts Pellew and Nelson, casting Pellew as the better family man, frigate captain, and seaman, while Nelson had political savvy, connections, and the good fortune to die gloriously in battle. 
+
+Taylor makes the case for the death of Pellew’s father, when Edward was just seven, as being a major influence on his life. To the positive, Pellew became very family-oriented and was a loving husband, father, and brother. To the negative, he pushed his sons into a naval life when they were just children. He also nepotistically pushed his brother and sons up through the ranks of the Navy far beyond their abilities. His desire for wealth was (at least in part) a desire to ensure his children didn’t grow up as poor as he had. It’s an interesting question to ponder: how far is too far to go for your family?
