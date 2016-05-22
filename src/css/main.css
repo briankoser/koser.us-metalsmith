@@ -200,6 +200,12 @@ blockquote:before {
     top: 0;
 }
 
+blockquote:after {
+    content: close-quote;
+    position: absolute;
+    visibility: hidden;
+}
+
 blockquote p {
     display: inline;
 }
