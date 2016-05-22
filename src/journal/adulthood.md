@@ -16,7 +16,7 @@ Children are always watching their parents. I remember watching my dad as he wat
     <figcaption>Looney Tunes title card</figcaption>
 </figure>
 
-That was many moons ago. The older I get, the more I look back at my past self and realize how immature I was. (I Cor. 13:11) But I’ve never thought that I was immature; it’s always past Brian that was immature. Of course, a few years later, I realize that what I thought was mature was still young and immature (this time I really am mature though!).
+That was many moons ago. The older I get, the more I look back at my past self and realize how immature I was (I Cor. 13:11). But I’ve never thought that I was immature; it’s always past Brian that was immature. Of course, a few years later, I realize that what I thought was mature was still young and immature (this time I really am mature though!).
 
 The same goes with “old”. There’s a direct correlation between my age and my definition of “old”. I remember in grade school thinking high schoolers were old. Now I lump high schoolers in to the “kids” designation. The same cycle with college students and college graduates. Now my definition of old is “has grandchildren”, but I’m pretty sure I’ll be changing that definition eventually.
 
