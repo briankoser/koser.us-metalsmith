@@ -673,6 +673,10 @@ hr.fleuron::after {
     margin-top: 1.4rem;
 }
 
+.bible-red-letter {
+    color: maroon;
+}
+
 .book-summary .media-figure {
     max-height: 5.3em;
 }
