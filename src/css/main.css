@@ -912,7 +912,7 @@ hr.fleuron::after {
     }
     
     a.menu-link {
-        
+        color: white;
         display: block;
         margin: 0;
         padding: .714em 0;
