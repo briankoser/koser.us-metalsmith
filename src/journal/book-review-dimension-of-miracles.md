@@ -17,4 +17,4 @@ bookpubdate: 1968
 bookrating: ★★★★★
 openlibraryurl: "https://openlibrary.org/books/OL18935308M/Dimension_of_miracles"
 ---
-{{bookdisplay|raw}} seems like an obvious influence on <i class="booktitle">Hitchhiker’s Guide to the Galaxy</i>…except for the fact that Douglas Adams didn’t even know of it until after he had written his story. When he did eventually read this book, he said, “It’s like reading myself.” I’d say it’s a little more philosophical, a little more measured, and nearly as much fun as H2G2. Apparently one of Neil Gaiman’s favorites (he introduced Sheckley and Douglas Adams to each other).
+{{bookdisplay|safe}} seems like an obvious influence on <i class="booktitle">Hitchhiker’s Guide to the Galaxy</i>…except for the fact that Douglas Adams didn’t even know of it until after he had written his story. When he did eventually read this book, he said, “It’s like reading myself.” I’d say it’s a little more philosophical, a little more measured, and nearly as much fun as H2G2. Apparently one of Neil Gaiman’s favorites (he introduced Sheckley and Douglas Adams to each other).

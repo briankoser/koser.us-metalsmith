@@ -7,7 +7,6 @@ pubdate: 2016-05-03
 section: journal
 tags: book reviews non-fiction history biography
 title: "Book Review: <i class='book-title'>Commander: The Life and Exploits of Britain’s Greatest Frigate Captain</i>"
-draft: true
 
 audiobook: false
 book: "Commander: The Life and Exploits of Britain’s Greatest Frigate Captain"
@@ -16,7 +15,7 @@ bookdisplay: '<i class="book-title">Commander: The Life and Exploits of Britain�
 bookisbn: 9780393071641
 bookpubdate: 2012
 bookrating: ★★★★☆
-openlibraryurl: "https://openlibrary.org/works/OL16714993W/Commander"
+openlibraryurl: "https://openlibrary.org/books/OL25384884M/Commander"
 ---
 Quick, name a historical British naval officer. Now name another, this time not Nelson.
 
