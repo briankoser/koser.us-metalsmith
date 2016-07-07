@@ -50,9 +50,10 @@ We have a podcast, [Ten to One](tto.koser.us). We try to make it as high-quality
     </p>
 
     <h3>Save Everything</h3>
-    <ul>
+    <ol>
         <li>Save the Audacity project (.aup file). This is what you'll use to edit the audio. Do this as soon as you have enough audio that you wouldn't want to have to re-record.
         <li>Export to WAV. This is your backup of the original recording. If something goes wrong during editing, you can always come back to this backup. Do this when you are done recording.
+    </ol>
 </p>
 
 <h2>Editing</h2>
