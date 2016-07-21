@@ -10,14 +10,17 @@
             <table class="table-vertical table-invisible">
                 <tr><td>
                     {% if openlibraryurl %}
-                    <a href="{{openlibraryurl}}">{{bookdisplay|safe}}</a>
+                    <a href="{{openlibraryurl}}" class="p-item h-item">{{bookdisplay|safe}}</a>
                     {% else %}
-                    {{bookdisplay|safe}}
+                    <span class="p-item h-item">{{bookdisplay|safe}}</span>
                     {% endif %}
                 </td></tr>
                 <tr><td>{{bookauthor}}</td></tr>
                 <tr><td>{{bookpubdate}}</td></tr>
-                <tr><td><span class="star-rating">{{bookrating}}</span></td></tr>
+                <tr><td><data class="star-rating p-rating" value="{{bookrating}}">
+                    {% set stars = ['☆☆☆☆☆', '★☆☆☆☆', '★★☆☆☆', '★★★☆☆', '★★★★☆', '★★★★★'] %}
+                    {{ stars[bookrating] }}
+                </data></td></tr>
             </table>
         </div>
     </div>
@@ -28,5 +31,7 @@
         {% endif %}
     </p>
     
+    <div class="e-content">
     {{contents|safe}}
+    </div>
 {% endblock %}

@@ -14,7 +14,7 @@ bookauthor: Allan and Aaron Reini
 bookdisplay: <i class="book-title">Flight of the Angels</i>
 bookisbn: 
 bookpubdate: 2014
-bookrating: ★★★★☆
+bookrating: 4
 openlibraryurl: 
 ---
 {{bookdisplay|safe}} is Christian sci-fi, an uncrowded genre. The premise is that, with Christianity now illegal, a colony of Christians must remain hidden to stay alive. Some work to secretly help them, others to find and kill them.

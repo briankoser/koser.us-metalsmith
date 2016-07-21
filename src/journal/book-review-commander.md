@@ -14,7 +14,7 @@ bookauthor: Stephen Taylor
 bookdisplay: '<i class="book-title">Commander: The Life and Exploits of Britain’s Greatest Frigate Captain</i>'
 bookisbn: 9780393071641
 bookpubdate: 2012
-bookrating: ★★★★☆
+bookrating: 4
 openlibraryurl: "https://openlibrary.org/books/OL25384884M/Commander"
 ---
 Quick, name a historical British naval officer. Now name another, this time not Nelson.

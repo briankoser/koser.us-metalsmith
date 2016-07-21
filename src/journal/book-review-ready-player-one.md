@@ -14,7 +14,7 @@ bookauthor: Ernest Cline
 bookdisplay: '<i class="book-title">Ready Player One</i>'
 bookisbn: 9780307887436
 bookpubdate: 2011
-bookrating: ★★☆☆☆
+bookrating: 2
 openlibraryurl: "https://openlibrary.org/books/OL24842593M/Ready_player_one"
 ---
 I’m not sure what I was expecting, but I was expecting better than juvenile nerd-fantasy fan fiction.

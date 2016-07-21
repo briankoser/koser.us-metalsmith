@@ -14,7 +14,7 @@ bookauthor: Neal Stephenson
 bookdisplay: <i class="book-title">Anathem</i>
 bookisbn: 9780061474101
 bookpubdate: 2008
-bookrating: ★★★★★
+bookrating: 5
 openlibraryurl: https://openlibrary.org/books/OL24087232M/Anathem
 ---
 Wow.

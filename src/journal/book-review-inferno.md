@@ -14,7 +14,7 @@ bookauthor: Dante Alighieri
 bookdisplay: Dante’s <i class="book-title">Inferno</i>
 bookisbn: 9780451208637
 bookpubdate: 1300
-bookrating: ★★★★★
+bookrating: 5
 openlibraryurl: https://openlibrary.org/works/OL15207978W/Divina_commedia
 ---
 To review {{bookdisplay|safe}} would be the height of arrogance. It’s 700 years old; it’s one of the most revered literary classics of all time; you should read it. 

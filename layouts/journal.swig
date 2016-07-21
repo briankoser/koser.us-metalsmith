@@ -28,10 +28,14 @@
 {% endblock %}
 
 {% block body %}
+    {% if book %}
+    <article class="h-review">
+    {% else %}
     <article class="h-entry">
+    {% endif %}
         <header>
             <h1 class="post-title p-name">{{title|safe}}</h1>
-            <span class="post-author p-author">by {{author}}</span>
+            <span class="post-author">by <span class="p-author">{{author}}</span></span>
             <time class="post-date dt-published" datetime="{{pubdate|date('Y-m-dTH:i:s\Z')}}">{{pubdate|date('Y-m-d')}}</time>
         </header>
         

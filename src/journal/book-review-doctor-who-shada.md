@@ -14,7 +14,7 @@ bookauthor: Gareth Roberts
 bookdisplay: "<i class='book-title'>Doctor Who: Shada</i>"
 bookisbn: '9781849903288'
 bookpubdate: 2013
-bookrating: ★★★☆☆
+bookrating: 3
 openlibraryurl: 'https://openlibrary.org/books/OL25423437M/Dr._Who'
 ---
 I like Doctor Who, but just the new series, and not enough to read any books. I imagine compared to other Doctor Who books this is pretty good. 
