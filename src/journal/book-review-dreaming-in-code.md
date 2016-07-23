@@ -14,7 +14,7 @@ bookauthor: Scott Rosenberg
 bookdisplay: <i class="book-title">Dreaming in Code</i>
 bookisbn: 9781400082476
 bookpubdate: 2007
-bookrating: ★★★★☆
+bookrating: 4
 openlibraryurl: https://openlibrary.org/books/OL9789411M/Dreaming_in_Code
 ---
 {{bookdisplay|safe}} is a glimpse at the world of computer programming, its culture and its history, through the story of the team that built Chandler. Chandler was supposed to be a revolutionary application; instead it cost millions of dollars, took years to build, and was barely used before the company shut down. 

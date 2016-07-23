@@ -14,7 +14,7 @@ bookauthor: Tim Powers
 bookdisplay: <i class="book-title">On Stranger Tides</i>
 bookisbn: '9781930235328'
 bookpubdate: 1987
-bookrating: ★★★★★
+bookrating: 5
 openlibraryurl: "https://openlibrary.org/books/OL8799090M/On_Stranger_Tides"
 ---
 
