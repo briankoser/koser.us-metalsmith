@@ -26,6 +26,9 @@
         {% if audiobook %}
             <span>(Listened to audiobook)</span><br>
         {% endif %}
+        {% if lydia %}
+            <span>(Read to Lydia)</span><br>
+        {% endif %}
     </p>
     
     {{contents|safe}}
