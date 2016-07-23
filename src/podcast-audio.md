@@ -79,16 +79,47 @@ We have a podcast, [Ten to One](tto.koser.us). We try to make it as high-quality
     </li>
     <li>
         <h2>Add other audio</h2>
-        File > Import > Audio (<kbd><kdb>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd><kbd>)
+        <kbd><samp>File</samp> > <samp>Import</samp> > <samp>Audio</samp></kbd> (<kbd><kdb>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd><kbd>)
     </li>
     <li>
         <h2>Export</h2>
     </li>
     <li>
         <h2>Create MP3 with iTunes</h2>
-        Import
-        Add metadata
-        Export as MP3
-        Lossless vs. lossy
+        <p>
+        <ol>
+            <li>Download and install [iTunes](https://www.apple.com/itunes/download/).
+            <li>Open iTunes and select <kbd><samp>File</samp> > <samp>Add File to Library</samp></kbd> (<kbd><kbd>Ctrl</kbd> + <kbd>O</kbd></kbd>). Select the WAV file you created with Audacity.
+            <li>Click the WAV file in iTunes, then select <kbd><samp>File</samp> > <samp>Convert</samp> > <samp>Create MP3 Version</samp></kbd>.
+            <li>Click the new MP3 file in iTunes, then select <kbd><samp>Get Info</samp></kbd>.
+            <li>Enter the following metadata. This information will be displayed by media players when they play your file.
+                <table>
+                    <tr>
+                        <th>song name</th>
+                        <td>Name of your podcast episode (e.g. “Episode 2: Musicals”)</td>
+                    </tr>
+                    <tr>
+                        <th>artist</th>
+                        <td>Your name</td>
+                    </tr>
+                    <tr>
+                        <th>album</th>
+                        <td>Name of your podcast</td>
+                    </tr>
+                    <tr>
+                        <th>genre</th>
+                        <td>“Podcast”</td>
+                    </tr>
+                    <tr>
+                        <th>year</th>
+                        <td>Current year</td>
+                    </tr>
+                    <tr>
+                        <th>comments</th>
+                        <td>Summary of your episode (e.g. “This week Brian and Melissa each pick their top ten movie musicals.”)</td>
+                    </tr>
+            <li>Explain Lossless vs. lossy
+        </ol>
+        </p>
     </li>
 </ol>
