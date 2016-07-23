@@ -206,8 +206,12 @@ blockquote:after {
     visibility: hidden;
 }
 
-blockquote p {
-    display: inline;
+blockquote p:first-child {
+    margin-top: 0;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
 }
 
 figure {
@@ -222,6 +226,10 @@ figcaption {
 
 address {
     font-style: normal;
+}
+
+summary {
+    cursor: pointer;
 }
 
 
