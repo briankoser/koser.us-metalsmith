@@ -677,6 +677,28 @@ hr.fleuron::after {
 /******************************************************************************
   STYLE CLASSES
 ******************************************************************************/
+.article-series-links {
+    float: right;
+    margin: 0 0 1em 2em;
+}
+
+.article-series-links ol {
+    list-style-type: none;
+}
+
+.article-series-links li {
+    font-weight: bold;
+}
+
+.article-series-links li a {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.article-series-links a[href="#"] {
+    color: inherit;
+}
+
 .ascii-art {
     margin-top: 1.4rem;
 }

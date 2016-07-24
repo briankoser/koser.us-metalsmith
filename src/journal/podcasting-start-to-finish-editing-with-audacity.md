@@ -3,7 +3,7 @@ author: Brian Koser
 collection: posts
 description: The software Brian and Melissa Koser use for their podcast, Ten to One, and other audio projects.
 layout: journal.swig
-pubdate: 2016-07-07
+pubdate: 2017-07-07
 section: journal
 tags: podcast
 title: "Podcasting, Start to Finish: Editing with Audacity"

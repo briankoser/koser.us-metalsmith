@@ -3,7 +3,7 @@ author: Brian Koser
 collection: posts
 description: How Brian and Melissa Koser use a mixer for their podcast, Ten to One, and other audio projects.
 layout: journal.swig
-pubdate: 2016-07-07
+pubdate: 2017-07-07
 section: journal
 tags: podcast
 title: "Podcasting, Start to Finish: How to use a mixer"
