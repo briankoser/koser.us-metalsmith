@@ -38,13 +38,15 @@ The [On Stage Microphone Clip (MY325)](https://www.amazon.com/gp/product/B0002ZO
 
 ## Pop filter
 
-To prevent plosives (“P” and “B” sounds, which are made with a burst of air from the mouth) from making a popping sound when they hit the mic. The [Dragonpad USA Pop filter](https://www.amazon.com/gp/product/B008AOH1O6) is big and cheap and works fine; I did have to rubber band the gooseneck to the stand to get it to stay in position though:
+To prevent plosives (“P” and “B” sounds, which are made with a burst of air from the mouth) from making a popping sound when they hit the mic. The [Dragonpad USA Pop filter](https://www.amazon.com/gp/product/B008AOH1O6) is big and cheap and works fine; I did have to rubber band the gooseneck to get it to stay in position:
 
-![]
+<img src="/img/journal/rubber-band-pop-filter.jpg" alt="How to rubber band this pop filter to ensure it stays up." />
 
 ## Headphones
 
-Not a necessity, but it does help you hear what all your mic is picking up. You can plug them directly into the ATR2100.
+Not a necessity, but it does help you know exactly what your mic is picking up. You can plug them directly into the ATR2100.
+
+<hr class="fleuron">
 
 The nice thing about the one-person setup is how easy it is to plug everything together:
 
@@ -52,7 +54,7 @@ The nice thing about the one-person setup is how easy it is to plug everything t
 
 Just plug the mic into the computer and you’re off to the races.
 
-However, with two people it’s a little awkward recording into one mic. The downside to adding a mic is that you can’t just plug it in to a second USB port. It’s important that the audio from both mics goes in simultaneously, but USB does not transfer at consistent speeds. You’ll need to plug the mics into a mixing board which will combine the audio and send it to the computer. Our new setup includes the existing equipment plus:
+However, with two people it’s a little awkward recording into one mic. The downside to adding a mic is that you can’t just plug it in to a second USB port. It’s important that the audio from both mics goes in simultaneously, but USB does not transfer at consistent speeds. You’ll need to plug the mics into a mixer which will combine the audio and send it to the computer. Our new setup includes the existing equipment plus:
 
 ## An additional mic, stand, clip, and pop filter
 
