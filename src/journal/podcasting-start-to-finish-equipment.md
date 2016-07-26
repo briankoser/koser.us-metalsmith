@@ -38,9 +38,7 @@ The [On Stage Microphone Clip (MY325)](https://www.amazon.com/gp/product/B0002ZO
 
 ## Pop filter
 
-To prevent plosives (“P” and “B” sounds, which are made with a burst of air from the mouth) from making a popping sound when they hit the mic. The [Dragonpad USA Pop filter](https://www.amazon.com/gp/product/B008AOH1O6) is big and cheap and works fine; I did have to rubber band the gooseneck to get it to stay in position:
-
-<img src="/img/journal/rubber-band-pop-filter.jpg" alt="How to rubber band this pop filter to ensure it stays up." />
+To prevent plosives (“P” and “B” sounds, which are made with a burst of air from the mouth) from making a popping sound when they hit the mic. The [Dragonpad USA Pop filter](https://www.amazon.com/gp/product/B008AOH1O6) is big and cheap and works.
 
 ## Headphones
 
