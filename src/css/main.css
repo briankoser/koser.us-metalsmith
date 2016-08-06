@@ -279,6 +279,10 @@ h6, .zeta {
     font-size: 1rem;
 }
 
+main h1 {
+    line-height: 1em;
+}
+
 
 
 /******************************************************************************
@@ -705,6 +709,10 @@ hr.fleuron::after {
 
 .bible-red-letter {
     color: maroon;
+}
+
+.book-spoilers {
+    margin-top: 0.7em;
 }
 
 .book-summary .media-figure {
