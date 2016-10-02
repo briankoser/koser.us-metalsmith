@@ -13,7 +13,7 @@ draft: false
 <section class="article-series-links paper">
     <ol>
         <li>Equipment
-        <li><a href="#">How to use a mixer</a>
+        <li><a href="/journal/podcasting-start-to-finish-mixer">How to use a mixer</a>
         <li><a href="#">Software</a>
         <li><a href="#">Recording with Audacity</a>
         <li><a href="#">Editing with Audacity</a>

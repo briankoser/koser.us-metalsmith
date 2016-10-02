@@ -12,7 +12,7 @@ section: home
     <img class="u-photo" src="" alt>
     <a class="u-url u-uid" rel="author" href></a>
     <p class="profile-bio">
-        <span class="p-name"><strong>Brian Koser</strong></span> is a Christian, husband, father, reader, software developer. (He has a lot of hats, but they’re all figurative.) Do you see this website? Brian built it. Do you see that tree outside? Brian climbed a tree once. Do you see that bagel? You don’t, because Brian already ate it. 😏
+        <span class="p-name">Christian. Husband. Father. Reader. Writer. Programmer. <strong>Brian Koser</strong></span> juggles many hats. When he’s not mixing metaphors, you might find him playing a modern board game, explaining why you’re wrong, or writing in the third person.
     </p>
     <div class="profile-aside">
         <h2 class="gamma no-margin">Also Brian</h2>
@@ -36,6 +36,20 @@ section: home
             <li>
                 <svg class="icon icon-google-plus2"><use xlink:href="#icon-google-plus2"></use></svg>
                 <a href="https://plus.google.com/+BrianKoser" rel="me">Google</a>
+            </li>
+            <li>
+                <svg id="icon-letterboxd" class="icon icon-letterboxd" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+                    <title>letterboxd-decal</title>
+                    <desc>Created with Sketch.</desc>
+                    <defs></defs>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                        <g id="letterboxd-decal" sketch:type="MSArtboardGroup" fill="#000000">
+                            <path d="M207.272727,418.8 L207.272727,180 L163.636364,180 L163.636364,120 L321.818182,120 L321.818182,180 L278.181818,180 L278.181818,419.345455 L376.309091,419.345455 L376.309091,353.890909 L447.272727,353.890909 L447.272727,480 L163.636364,480 L163.636364,418.8 L207.272727,418.8 L207.272727,418.8 Z M0,300 C0,465.709091 134.290909,600 300,600 C465.709091,600 600,465.709091 600,300 C600,134.290909 465.709091,0 300,0 C134.290909,0 0,134.290909 0,300 L0,300 L0,300 Z" id="Fill-1" sketch:type="MSShapeGroup"></path>
+                        </g>
+                    </g>
+                </svg>
+                <a href="https://letterboxd.com/bkoser/" rel="me">Letterboxd</a>
             </li>
             <li>
                 <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
@@ -86,6 +100,6 @@ section: home
 
 <section id="lydia">
     <p>
-        **Lydia** is the newest Koser, and arguably the cutest. She likes diaper changes, being carried, and raspberries (the mouth-blowing thing, not the fruit).
+        **Lydia** is the newest Koser, and ar­guably the cutest. Some of her favorite things are watermelon, remote controls, and rain.
     </p>
 </section>

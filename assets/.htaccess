@@ -329,7 +329,7 @@ AddDefaultCharset utf-8
     # Options +SymLinksIfOwnerMatch
 
     # (4)
-    # RewriteBase /
+    RewriteBase /
 
     # (5)
     # RewriteOptions <options>
@@ -340,6 +340,7 @@ AddDefaultCharset utf-8
     RewriteCond %{HTTPS} !=on
     RewriteRule ^ - [env=proto:http]
 
+    RewriteRule ^antonio$ http://briankoser.com/blog/antonio/ 
 </IfModule>
 
 # ----------------------------------------------------------------------
