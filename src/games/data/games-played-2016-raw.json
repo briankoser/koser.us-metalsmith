@@ -1,0 +1,5860 @@
+{
+  "plays": {
+    "-username": "briankoser",
+    "-userid": "836129",
+    "-total": "176",
+    "-page": "1",
+    "-termsofuse": "http://boardgamegeek.com/xmlapi/termsofuse",
+    "play": [
+      {
+        "-id": "20237844",
+        "-date": "2016-10-02",
+        "-quantity": "1",
+        "-length": "144",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Sherlock Holmes Consulting Detective",
+          "-objecttype": "thing",
+          "-objectid": "2511",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "comments": "Case 4: The Lionized Lions",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-score": "-60",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-score": "-60",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20166185",
+        "-date": "2016-09-25",
+        "-quantity": "1",
+        "-length": "90",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Road Trip",
+        "item": {
+          "-name": "Black Stories",
+          "-objecttype": "thing",
+          "-objectid": "18803",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20166182",
+        "-date": "2016-09-24",
+        "-quantity": "1",
+        "-length": "60",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Bremerton - Hotel",
+        "item": {
+          "-name": "Black Stories",
+          "-objecttype": "thing",
+          "-objectid": "18803",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Scott Clayton",
+              "-startposition": "3",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20165309",
+        "-date": "2016-09-24",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Bremerton - Hagstrom House",
+        "item": {
+          "-name": "FUSE",
+          "-objecttype": "thing",
+          "-objectid": "171273",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "47",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-score": "47",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Troy Voldseth",
+              "-startposition": "3",
+              "-score": "47",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Sandy Voldseth",
+              "-startposition": "4",
+              "-score": "47",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20138759",
+        "-date": "2016-09-22",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Washington - Binzel House",
+        "item": {
+          "-name": "FUSE",
+          "-objecttype": "thing",
+          "-objectid": "171273",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Breanna Binzel",
+              "-startposition": "1",
+              "-score": "40",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Dale Binzel",
+              "-startposition": "2",
+              "-score": "40",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Jonathan Binzel",
+              "-startposition": "3",
+              "-score": "40",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Joshua Binzel",
+              "-startposition": "4",
+              "-score": "40",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "5",
+              "-score": "40",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20138760",
+        "-date": "2016-09-22",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Washington - Binzel House",
+        "item": {
+          "-name": "FUSE",
+          "-objecttype": "thing",
+          "-objectid": "171273",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Breanna Binzel",
+              "-startposition": "1",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Dale Binzel",
+              "-startposition": "2",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Jonathan Binzel",
+              "-startposition": "3",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Joshua Binzel",
+              "-startposition": "4",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "5",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20138765",
+        "-date": "2016-09-22",
+        "-quantity": "1",
+        "-length": "27",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Washington - Binzel House",
+        "item": {
+          "-name": "Iron Man 2: Game of War",
+          "-objecttype": "thing",
+          "-objectid": "71304",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameimplementation" }
+            ]
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Black",
+              "-score": "4",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Joshua Binzel",
+              "-startposition": "2",
+              "-color": "Red",
+              "-score": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20138766",
+        "-date": "2016-09-22",
+        "-quantity": "1",
+        "-length": "15",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Washington - Binzel House",
+        "item": {
+          "-name": "Iron Man 2: Game of War",
+          "-objecttype": "thing",
+          "-objectid": "71304",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameimplementation" }
+            ]
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Black",
+              "-score": "3",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Joshua Binzel",
+              "-startposition": "2",
+              "-color": "Red",
+              "-score": "5",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20138761",
+        "-date": "2016-09-22",
+        "-quantity": "1",
+        "-length": "25",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Washington - Binzel House",
+        "item": {
+          "-name": "Mascarade",
+          "-objecttype": "thing",
+          "-objectid": "139030",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Andrea Binzel",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Breanna Binzel",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "3",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Dale Binzel",
+              "-startposition": "4",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Jonathan Binzel",
+              "-startposition": "5",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Joshua Binzel",
+              "-startposition": "6",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "7",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Rosie Binzel",
+              "-startposition": "8",
+              "-score": "16",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20138762",
+        "-date": "2016-09-22",
+        "-quantity": "1",
+        "-length": "31",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Washington - Binzel House",
+        "item": {
+          "-name": "Mascarade",
+          "-objecttype": "thing",
+          "-objectid": "139030",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Andrea Binzel",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Breanna Binzel",
+              "-score": "4",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-score": "10",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Dale Binzel",
+              "-score": "13",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Jonathan Binzel",
+              "-score": "3",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Joshua Binzel",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-score": "4",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Rosie Binzel",
+              "-score": "4",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20138763",
+        "-date": "2016-09-22",
+        "-quantity": "1",
+        "-length": "71",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Washington - Binzel House",
+        "item": {
+          "-name": "No Thanks!",
+          "-objecttype": "thing",
+          "-objectid": "12942",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "87",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-score": "154",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Joshua Binzel",
+              "-startposition": "3",
+              "-score": "153",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Breanna Binzel",
+              "-startposition": "4",
+              "-score": "169",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Jonathan Binzel",
+              "-startposition": "5",
+              "-score": "77",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20138767",
+        "-date": "2016-09-22",
+        "-quantity": "1",
+        "-length": "20",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Washington - Binzel House",
+        "item": {
+          "-name": "TacDex: Pirates",
+          "-objecttype": "thing",
+          "-objectid": "161743",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameimplementation" }
+            ]
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Black",
+              "-score": "41",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Rosie Binzel",
+              "-startposition": "2",
+              "-color": "Red",
+              "-score": "24",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20138764",
+        "-date": "2016-09-22",
+        "-quantity": "1",
+        "-length": "24",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Washington - Binzel House",
+        "item": {
+          "-name": "Tumblin-Dice",
+          "-objecttype": "thing",
+          "-objectid": "16747",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Jonathan Binzel",
+              "-color": "Green",
+              "-score": "167",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Yellow",
+              "-score": "203",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Joshua Binzel",
+              "-startposition": "2",
+              "-color": "Blue",
+              "-score": "158",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20138768",
+        "-date": "2016-09-22",
+        "-quantity": "1",
+        "-length": "30",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Washington - Binzel House",
+        "item": {
+          "-name": "Tumblin-Dice",
+          "-objecttype": "thing",
+          "-objectid": "16747",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Andrea Binzel",
+              "-color": "Black",
+              "-score": "64",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Breanna Binzel",
+              "-color": "White",
+              "-score": "52",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-color": "Orange",
+              "-score": "84",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Dale Binzel",
+              "-color": "Red",
+              "-score": "110",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Donita Binzel",
+              "-color": "Teal",
+              "-score": "127",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Jonathan Binzel",
+              "-color": "Green",
+              "-score": "102",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Joshua Binzel",
+              "-color": "Blue",
+              "-score": "35",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-color": "Yellow",
+              "-score": "71",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Rosie Binzel",
+              "-color": "Gold",
+              "-score": "71",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20138770",
+        "-date": "2016-09-21",
+        "-quantity": "1",
+        "-length": "90",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Road Trip",
+        "item": {
+          "-name": "Black Stories",
+          "-objecttype": "thing",
+          "-objectid": "18803",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20101045",
+        "-date": "2016-09-19",
+        "-quantity": "2",
+        "-length": "180",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Road Trip",
+        "item": {
+          "-name": "Black Stories",
+          "-objecttype": "thing",
+          "-objectid": "18803",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20088541",
+        "-date": "2016-09-18",
+        "-quantity": "1",
+        "-length": "40",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Fontana - Rhoades House",
+        "item": {
+          "-name": "Black Stories",
+          "-objecttype": "thing",
+          "-objectid": "18803",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Matt Rhoades",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20091718",
+        "-date": "2016-09-18",
+        "-quantity": "1",
+        "-length": "22",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Fontana - Rhoades House",
+        "item": {
+          "-name": "Codenames",
+          "-objecttype": "thing",
+          "-objectid": "178900",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "comments": "Brian and Melissa were spy masters",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Lindsey Rhoades",
+              "-startposition": "1",
+              "-color": "Red",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "1",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "2",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Matt Rhoades",
+              "-startposition": "2",
+              "-color": "Blue",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20091760",
+        "-date": "2016-09-18",
+        "-quantity": "1",
+        "-length": "9",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Fontana - Rhoades House",
+        "item": {
+          "-name": "Codenames",
+          "-objecttype": "thing",
+          "-objectid": "178900",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "comments": "
+Matt and Lindsey were spy masters. Brian chose the assassin
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Matt Rhoades",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Lindsey Rhoades",
+              "-startposition": "2",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20091843",
+        "-date": "2016-09-18",
+        "-quantity": "1",
+        "-length": "13",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Fontana - Rhoades House",
+        "item": {
+          "-name": "Codenames",
+          "-objecttype": "thing",
+          "-objectid": "178900",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "comments": "
+Matt and Lindsey were spy masters. Melissa chose the assassin
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Matt Rhoades",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Lindsey Rhoades",
+              "-startposition": "2",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20091935",
+        "-date": "2016-09-18",
+        "-quantity": "1",
+        "-length": "14",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Fontana - Rhoades House",
+        "item": {
+          "-name": "Codenames",
+          "-objecttype": "thing",
+          "-objectid": "178900",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "comments": "Brian and Matt were the clue givers.",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Lindsey Rhoades",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Matt Rhoades",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "2",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20092035",
+        "-date": "2016-09-18",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Fontana - Rhoades House",
+        "item": {
+          "-name": "Codenames",
+          "-objecttype": "thing",
+          "-objectid": "178900",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "comments": "
+Melissa and Lindsey were spy masters. Brian chose the assassin
+",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Lindsey Rhoades",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Matt Rhoades",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "2",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20092153",
+        "-date": "2016-09-18",
+        "-quantity": "1",
+        "-length": "17",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Fontana - Rhoades House",
+        "item": {
+          "-name": "Codenames",
+          "-objecttype": "thing",
+          "-objectid": "178900",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "comments": "Melissa and Lindsey were spy masters.",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Lindsey Rhoades",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Matt Rhoades",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "2",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20089897",
+        "-date": "2016-09-18",
+        "-quantity": "1",
+        "-length": "86",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Fontana - Rhoades House",
+        "item": {
+          "-name": "Ticket to Ride",
+          "-objecttype": "thing",
+          "-objectid": "9209",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-score": "111",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Lindsey Rhoades",
+              "-startposition": "2",
+              "-color": "Green",
+              "-score": "69",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Matt Rhoades",
+              "-startposition": "3",
+              "-color": "Black",
+              "-score": "113",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "4",
+              "-color": "Red",
+              "-score": "94",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20071827",
+        "-date": "2016-09-17",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Fontana - Rhoades House",
+        "item": {
+          "-name": "FUSE",
+          "-objecttype": "thing",
+          "-objectid": "171273",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Standard difficulty",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "69",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-score": "69",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Lindsey Rhoades",
+              "-startposition": "3",
+              "-score": "69",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20072514",
+        "-date": "2016-09-17",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Fontana - Rhoades House",
+        "item": {
+          "-name": "FUSE",
+          "-objecttype": "thing",
+          "-objectid": "171273",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Expert",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "49",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-score": "49",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Lindsey Rhoades",
+              "-startposition": "3",
+              "-score": "49",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20071911",
+        "-date": "2016-09-16",
+        "-quantity": "6",
+        "-length": "180",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Fontana - Rhoades House",
+        "item": {
+          "-name": "Black Stories",
+          "-objecttype": "thing",
+          "-objectid": "18803",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+Thanks, Deadly Meal, Foreboding Flickering, The Skyscraper, The Package, The Radio
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Lindsey Rhoades",
+              "-startposition": "3",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20071927",
+        "-date": "2016-09-15",
+        "-quantity": "1",
+        "-length": "90",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Los Angeles - Binzel House",
+        "item": {
+          "-name": "Black Stories",
+          "-objecttype": "thing",
+          "-objectid": "18803",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "A Cheap Porsche",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20049468",
+        "-date": "2016-09-15",
+        "-quantity": "1",
+        "-length": "148",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Los Angeles - Binzel House",
+        "item": {
+          "-name": "Caverna: The Cave Farmers",
+          "-objecttype": "thing",
+          "-objectid": "102794",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameimplementation" }
+            ]
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "1",
+              "-color": "Green",
+              "-score": "79",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "2",
+              "-color": "Blue",
+              "-score": "71",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Esther Binzel",
+              "-startposition": "3",
+              "-color": "Red",
+              "-score": "97",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "mdb2384",
+              "-userid": "820837",
+              "-name": "Michael Binzel",
+              "-startposition": "4",
+              "-color": "Teal",
+              "-score": "84",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20047155",
+        "-date": "2016-09-15",
+        "-quantity": "1",
+        "-length": "77",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Los Angeles - Binzel House",
+        "item": {
+          "-name": "Ticket to Ride",
+          "-objecttype": "thing",
+          "-objectid": "9209",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "comments": "
+India map. Brian got longest route. Esther completed 7 tickets to Melissa's five, winning with the tiebreaker.
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Black",
+              "-score": "77",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "mdb2384",
+              "-userid": "820837",
+              "-name": "Michael Binzel",
+              "-startposition": "2",
+              "-color": "Green",
+              "-score": "90",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Esther Binzel",
+              "-startposition": "3",
+              "-color": "Blue",
+              "-score": "110",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "4",
+              "-color": "Yellow",
+              "-score": "110",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20047328",
+        "-date": "2016-09-14",
+        "-quantity": "1",
+        "-length": "60",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Los Angeles - Binzel House",
+        "item": {
+          "-name": "Black Stories",
+          "-objecttype": "thing",
+          "-objectid": "18803",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Busy",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20041329",
+        "-date": "2016-09-14",
+        "-quantity": "1",
+        "-length": "151",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Los Angeles - Binzel House",
+        "item": {
+          "-name": "Caverna: The Cave Farmers",
+          "-objecttype": "thing",
+          "-objectid": "102794",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameimplementation" }
+            ]
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "mdb2384",
+              "-userid": "820837",
+              "-name": "Michael Binzel",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-score": "94",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Esther Binzel",
+              "-startposition": "2",
+              "-color": "Purple",
+              "-score": "75",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "3",
+              "-color": "Natural",
+              "-score": "91",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "4",
+              "-color": "Red",
+              "-score": "55",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20030330",
+        "-date": "2016-09-13",
+        "-quantity": "1",
+        "-length": "58",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Los Angeles - Binzel House",
+        "item": {
+          "-name": "Pandemic",
+          "-objecttype": "thing",
+          "-objectid": "30549",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Virulent strain",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Michael Binzel",
+              "-startposition": "1",
+              "-color": "Purple",
+              "-score": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "Green",
+              "-score": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "3",
+              "-color": "Pink",
+              "-score": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Esther Binzel",
+              "-startposition": "4",
+              "-color": "Red",
+              "-score": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20033200",
+        "-date": "2016-09-13",
+        "-quantity": "1",
+        "-length": "83",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Los Angeles - Binzel House",
+        "item": {
+          "-name": "Ticket to Ride: Europe",
+          "-objecttype": "thing",
+          "-objectid": "14996",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameimplementation" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "comments": "Brian got longest route and used no stations",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Yellow",
+              "-score": "127",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "Green",
+              "-score": "69",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Michael Binzel",
+              "-startposition": "3",
+              "-color": "Blue",
+              "-score": "115",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Esther Binzel",
+              "-startposition": "4",
+              "-color": "Blue",
+              "-score": "115",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20030335",
+        "-date": "2016-09-12",
+        "-quantity": "1",
+        "-length": "66",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Denver - Andrew Tijerina House",
+        "item": {
+          "-name": "Bring Your Own Book",
+          "-objecttype": "thing",
+          "-objectid": "173441",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "3",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-score": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melody Binzel",
+              "-startposition": "3",
+              "-score": "3",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Nate Tijerina",
+              "-startposition": "4",
+              "-score": "3",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Andrew Tijerina",
+              "-startposition": "5",
+              "-score": "1",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Maria Tijerina",
+              "-startposition": "6",
+              "-score": "2",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20030334",
+        "-date": "2016-09-12",
+        "-quantity": "1",
+        "-length": "92",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Denver - Nate Tijerina House",
+        "item": {
+          "-name": "Cosmic Encounter",
+          "-objecttype": "thing",
+          "-objectid": "39463",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameimplementation" }
+            ]
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Melody Binzel",
+              "-startposition": "1",
+              "-color": "Green",
+              "-score": "5",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Nate Tijerina",
+              "-startposition": "2",
+              "-color": "Blue",
+              "-score": "4",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "3",
+              "-color": "Red",
+              "-score": "4",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "4",
+              "-color": "Purple",
+              "-score": "5",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Josh Tijerina",
+              "-startposition": "5",
+              "-color": "Yellow",
+              "-score": "5",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "20030337",
+        "-date": "2016-09-11",
+        "-quantity": "1",
+        "-length": "45",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Denver - Andrew Tijerina House",
+        "item": {
+          "-name": "Munchkin",
+          "-objecttype": "thing",
+          "-objectid": "1927",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "10",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-score": "7",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melody Binzel",
+              "-startposition": "3",
+              "-score": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Nate Tijerina",
+              "-startposition": "4",
+              "-score": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Andrew Tijerina",
+              "-startposition": "5",
+              "-score": "7",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Maria Tijerina",
+              "-startposition": "6",
+              "-score": "9",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19950573",
+        "-date": "2016-09-05",
+        "-quantity": "1",
+        "-length": "95",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Seasons",
+          "-objecttype": "thing",
+          "-objectid": "108745",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "1",
+              "-color": "Green",
+              "-score": "139",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Zach Koser",
+              "-startposition": "3",
+              "-color": "Orange",
+              "-score": "94",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "2",
+              "-color": "Gray",
+              "-score": "157",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19929009",
+        "-date": "2016-09-04",
+        "-quantity": "1",
+        "-length": "59",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Bring Your Own Book",
+          "-objecttype": "thing",
+          "-objectid": "173441",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Luke Koser",
+              "-startposition": "4",
+              "-score": "2",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Sue Koser",
+              "-startposition": "6",
+              "-score": "3",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "1.5",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Megan Koser",
+              "-startposition": "5",
+              "-score": "2",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Zach Koser",
+              "-startposition": "3",
+              "-score": "2",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-score": "1.5",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19936257",
+        "-date": "2016-09-04",
+        "-quantity": "1",
+        "-length": "58",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Jamaica",
+          "-objecttype": "thing",
+          "-objectid": "28023",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Luke Koser",
+              "-startposition": "4",
+              "-color": "Green",
+              "-score": "-1",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-score": "15",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Zach Koser",
+              "-startposition": "3",
+              "-color": "Black",
+              "-score": "36",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "Purple",
+              "-score": "11",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19914231",
+        "-date": "2016-09-03",
+        "-quantity": "1",
+        "-length": "35",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Crossroads Baptist Church",
+        "item": {
+          "-name": "Deception: Murder in Hong Kong",
+          "-objecttype": "thing",
+          "-objectid": "156129",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "JorduSpeaks",
+              "-userid": "463876",
+              "-name": "Jay Champagne",
+              "-startposition": "3",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Wesley Stein",
+              "-startposition": "5",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Clint Patterson",
+              "-startposition": "4",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Luke Koser",
+              "-startposition": "7",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Holly Pratt",
+              "-startposition": "6",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Zach Koser",
+              "-startposition": "8",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Justus Smith",
+              "-startposition": "9",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Asher Smith",
+              "-startposition": "10",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19914239",
+        "-date": "2016-09-03",
+        "-quantity": "1",
+        "-length": "26",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Crossroads Baptist Church",
+        "item": {
+          "-name": "Deception: Murder in Hong Kong",
+          "-objecttype": "thing",
+          "-objectid": "156129",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "JorduSpeaks",
+              "-userid": "463876",
+              "-name": "Jay Champagne",
+              "-startposition": "3",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Wesley Stein",
+              "-startposition": "5",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Clint Patterson",
+              "-startposition": "4",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Luke Koser",
+              "-startposition": "7",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Holly Pratt",
+              "-startposition": "6",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Zach Koser",
+              "-startposition": "8",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Justus Smith",
+              "-startposition": "9",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Asher Smith",
+              "-startposition": "10",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19917514",
+        "-date": "2016-09-03",
+        "-quantity": "1",
+        "-length": "26",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Crossroads Baptist Church",
+        "item": {
+          "-name": "Deception: Murder in Hong Kong",
+          "-objecttype": "thing",
+          "-objectid": "156129",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "JorduSpeaks",
+              "-userid": "463876",
+              "-name": "Jay Champagne",
+              "-startposition": "3",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Wesley Stein",
+              "-startposition": "5",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Clint Patterson",
+              "-startposition": "4",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Luke Koser",
+              "-startposition": "7",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Holly Pratt",
+              "-startposition": "6",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Zach Koser",
+              "-startposition": "8",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Justus Smith",
+              "-startposition": "9",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Asher Smith",
+              "-startposition": "10",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19917513",
+        "-date": "2016-09-03",
+        "-quantity": "1",
+        "-length": "31",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Star Realms",
+          "-objecttype": "thing",
+          "-objectid": "147020",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Zach Koser",
+              "-score": "23",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19918753",
+        "-date": "2016-09-03",
+        "-quantity": "1",
+        "-length": "12",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Time 'n' Space",
+          "-objecttype": "thing",
+          "-objectid": "137238",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameimplementation" }
+            ]
+          }
+        },
+        "comments": "Introductory game",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-score": "16",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "3",
+              "-color": "Green",
+              "-score": "16",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Zach Koser",
+              "-startposition": "2",
+              "-color": "Red",
+              "-score": "14",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19905711",
+        "-date": "2016-09-02",
+        "-quantity": "1",
+        "-length": "38",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Smash Up",
+          "-objecttype": "thing",
+          "-objectid": "122522",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "comments": "
+Brian: Steampunk Ghosts Luke: Zombie Bear Cavalry Zach: Trickster Dinosaurs
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "18",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Zach Koser",
+              "-startposition": "3",
+              "-score": "10",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Luke Koser",
+              "-startposition": "2",
+              "-score": "7",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19879192",
+        "-date": "2016-08-30",
+        "-quantity": "1",
+        "-length": "24",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Gamers n Geeks",
+        "item": {
+          "-name": "Deception: Murder in Hong Kong",
+          "-objecttype": "thing",
+          "-objectid": "156129",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+Brian was the Forensic Scientist, Wes was the Murderer.
+",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Wesley Stein",
+              "-startposition": "4",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Clint Patterson",
+              "-startposition": "3",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19879191",
+        "-date": "2016-08-30",
+        "-quantity": "1",
+        "-length": "90",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Gamers n Geeks",
+        "item": {
+          "-name": "Shadows over Camelot",
+          "-objecttype": "thing",
+          "-objectid": "15062",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+It looked like the forces of Good had prevailed, but Jay was revealed to be a traitor after the last sword was placed, and flipped a white sword to black.
+",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Chris",
+              "-startposition": "4",
+              "-color": "Yellow",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Clint Patterson",
+              "-startposition": "6",
+              "-color": "Green",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "JorduSpeaks",
+              "-userid": "463876",
+              "-name": "Jay Champagne",
+              "-startposition": "5",
+              "-color": "White",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Wesley Stein",
+              "-startposition": "3",
+              "-color": "Purple",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "Black",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19854635",
+        "-date": "2016-08-28",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Stellar Conflict",
+          "-objecttype": "thing",
+          "-objectid": "179835",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameimplementation" }
+            ]
+          }
+        },
+        "comments": "Dispute",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-score": "14",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "Orange",
+              "-score": "8",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19768575",
+        "-date": "2016-08-20",
+        "-quantity": "1",
+        "-length": "123",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "The Lord of the Rings: The Card Game",
+          "-objecttype": "thing",
+          "-objectid": "77423",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Passage through Mirkwood",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19742859",
+        "-date": "2016-08-18",
+        "-quantity": "1",
+        "-length": "96",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Gamers n Geeks",
+        "item": {
+          "-name": "Five Tribes",
+          "-objecttype": "thing",
+          "-objectid": "157354",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "With Artisans of Naqala",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-color": "Orange",
+              "-score": "177",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Wesley Stein",
+              "-color": "Black",
+              "-score": "194",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-color": "Pink",
+              "-score": "186",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19688473",
+        "-date": "2016-08-13",
+        "-quantity": "1",
+        "-length": "88",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Niceville - Matt's Apartment",
+        "item": {
+          "-name": "Star Wars: Imperial Assault",
+          "-objecttype": "thing",
+          "-objectid": "164153",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameimplementation" }
+            ]
+          }
+        },
+        "comments": "Aftermath, Round 5",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-color": "Rebels",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Matt Koser",
+              "-color": "Rebels",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19633841",
+        "-date": "2016-08-08",
+        "-quantity": "1",
+        "-length": "52",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Bring Your Own Book",
+          "-objecttype": "thing",
+          "-objectid": "173441",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Charity Tolbert",
+              "-startposition": "4",
+              "-score": "3",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Ben Stith",
+              "-startposition": "6",
+              "-score": "2",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "1",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Kristy King",
+              "-startposition": "5",
+              "-score": "1",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Bethany Stith",
+              "-startposition": "7",
+              "-score": "1",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Justin Tolbert",
+              "-startposition": "3",
+              "-score": "4",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-score": "1",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19633189",
+        "-date": "2016-08-08",
+        "-quantity": "1",
+        "-length": "31",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Ca$h 'n Guns (Second Edition)",
+          "-objecttype": "thing",
+          "-objectid": "155362",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameimplementation" }
+            ]
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Charity Tolbert",
+              "-score": "115000",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Kristy King",
+              "-score": "28000",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Ben Stith",
+              "-score": "130000",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Justin Tolbert",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Bethany Stith",
+              "-score": "147000",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19602428",
+        "-date": "2016-08-04",
+        "-quantity": "1",
+        "-length": "65",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Gamers n Geeks",
+        "item": {
+          "-name": "Roll for the Galaxy",
+          "-objecttype": "thing",
+          "-objectid": "132531",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameimplementation" }
+            ]
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Wesley Stein",
+              "-startposition": "4",
+              "-color": "Orange",
+              "-score": "37",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-score": "47",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "JorduSpeaks",
+              "-userid": "463876",
+              "-name": "Jay Champagne",
+              "-startposition": "3",
+              "-color": "Red",
+              "-score": "35",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "Yellow",
+              "-score": "37",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19560321",
+        "-date": "2016-08-02",
+        "-quantity": "1",
+        "-length": "42",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Splendor",
+          "-objecttype": "thing",
+          "-objectid": "148228",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "1",
+              "-score": "15",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "2",
+              "-score": "8",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19550764",
+        "-date": "2016-08-01",
+        "-quantity": "1",
+        "-length": "97",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Tales of the Arabian Nights",
+          "-objecttype": "thing",
+          "-objectid": "34119",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameimplementation" }
+            ]
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-color": "Black",
+              "-score": "7",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-color": "Blue",
+              "-score": "13",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Justin Tolbert",
+              "-color": "Red",
+              "-score": "9",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Charity Tolbert",
+              "-color": "Green",
+              "-score": "16",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19520756",
+        "-date": "2016-07-30",
+        "-quantity": "1",
+        "-length": "43",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "T.I.M.E Stories",
+          "-objecttype": "thing",
+          "-objectid": "146508",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+Run-through 4: Started in the castle, this time picking up the magical amulet. Defeated the foe!
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-color": "Blue",
+              "-score": "24",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-color": "Pink",
+              "-score": "24",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Matt Koser",
+              "-color": "Orange",
+              "-score": "24",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19508913",
+        "-date": "2016-07-28",
+        "-quantity": "1",
+        "-length": "129",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Gamers n Geeks",
+        "item": {
+          "-name": "Scythe",
+          "-objecttype": "thing",
+          "-objectid": "169786",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "JorduSpeaks",
+              "-userid": "463876",
+              "-name": "Jay Champagne",
+              "-startposition": "4",
+              "-color": "Red",
+              "-score": "70",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Black",
+              "-score": "69",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Wesley Stein",
+              "-startposition": "5",
+              "-color": "White",
+              "-score": "71",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Clint Patterson",
+              "-startposition": "3",
+              "-color": "Yellow",
+              "-score": "63",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "Blue",
+              "-score": "28",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19367670",
+        "-date": "2016-07-16",
+        "-quantity": "1",
+        "-length": "77",
+        "-incomplete": "1",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "T.I.M.E Stories",
+          "-objecttype": "thing",
+          "-objectid": "146508",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+A Prophecy of Dragons: run-through 3. Did very well as the Paladin, Assassin, and Warrior. Had over twenty TUs left going into the final battle. Defeated Malyafin, ran to the temporal fault...and realized we need a receptacle that can do magic. >:( Not happy, Manuel.
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-color": "Green",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Matt Koser",
+              "-color": "Orange",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19361144",
+        "-date": "2016-07-15",
+        "-quantity": "1",
+        "-length": "78",
+        "-incomplete": "1",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "T.I.M.E Stories",
+          "-objecttype": "thing",
+          "-objectid": "146508",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+Prophecy of Dragons: continued third run. Made it through to last battle, but all died before landing a single blow.
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-color": "Green",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Matt Koser",
+              "-color": "Orange",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19351376",
+        "-date": "2016-07-14",
+        "-quantity": "1",
+        "-length": "145",
+        "-incomplete": "1",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "T.I.M.E Stories",
+          "-objecttype": "thing",
+          "-objectid": "146508",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+A Prophecy of Dragons: finished one run and paused halfway through the second.
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-color": "Green",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Matt Koser",
+              "-color": "Orange",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19295803",
+        "-date": "2016-07-09",
+        "-quantity": "1",
+        "-length": "74",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Castles of Mad King Ludwig",
+          "-objecttype": "thing",
+          "-objectid": "155426",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-color": "Blue",
+              "-score": "79",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-color": "Red",
+              "-score": "60",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19240996",
+        "-date": "2016-07-04",
+        "-quantity": "1",
+        "-length": "22",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Bottom of the 9th",
+          "-objecttype": "thing",
+          "-objectid": "166286",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19240960",
+        "-date": "2016-07-04",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Smith House",
+        "item": {
+          "-name": "Doctor Panic",
+          "-objecttype": "thing",
+          "-objectid": "171037",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Charity Tolbert",
+              "-startposition": "4",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Justin Tolbert",
+              "-startposition": "6",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Judy Herrington",
+              "-startposition": "5",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Dylan Herrington",
+              "-startposition": "8",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Rachel Smith",
+              "-startposition": "7",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Aaron Smith",
+              "-startposition": "3",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19240979",
+        "-date": "2016-07-04",
+        "-quantity": "1",
+        "-length": "7",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Smith House",
+        "item": {
+          "-name": "Doctor Panic",
+          "-objecttype": "thing",
+          "-objectid": "171037",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Standard difficulty",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Charity Tolbert",
+              "-startposition": "4",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Justin Tolbert",
+              "-startposition": "6",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Judy Herrington",
+              "-startposition": "5",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Dylan Herrington",
+              "-startposition": "8",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Rachel Smith",
+              "-startposition": "7",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Aaron Smith",
+              "-startposition": "3",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19227105",
+        "-date": "2016-07-03",
+        "-quantity": "1",
+        "-length": "12",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Doctor Panic",
+          "-objecttype": "thing",
+          "-objectid": "171037",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "On our last card when time expired",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19180912",
+        "-date": "2016-06-29",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - CTS",
+        "item": {
+          "-name": "FUSE",
+          "-objecttype": "thing",
+          "-objectid": "171273",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Standard, no 6's",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Mark Garrett",
+              "-startposition": "4",
+              "-score": "50",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "50",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Brandon Ellison",
+              "-startposition": "3",
+              "-score": "50",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Scott Hartwell",
+              "-startposition": "2",
+              "-score": "50",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19180926",
+        "-date": "2016-06-29",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - CTS",
+        "item": {
+          "-name": "FUSE",
+          "-objecttype": "thing",
+          "-objectid": "171273",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Standard, no 6's",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "James Hostick",
+              "-startposition": "4",
+              "-score": "75",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "75",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Brandon Ellison",
+              "-startposition": "3",
+              "-score": "75",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Scott Hartwell",
+              "-startposition": "2",
+              "-score": "75",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19180933",
+        "-date": "2016-06-29",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - CTS",
+        "item": {
+          "-name": "FUSE",
+          "-objecttype": "thing",
+          "-objectid": "171273",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Expert, 4 6's",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "James Hostick",
+              "-startposition": "4",
+              "-score": "74",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "74",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Brandon Ellison",
+              "-startposition": "3",
+              "-score": "74",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Scott Hartwell",
+              "-startposition": "2",
+              "-score": "74",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19180941",
+        "-date": "2016-06-29",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - CTS",
+        "item": {
+          "-name": "FUSE",
+          "-objecttype": "thing",
+          "-objectid": "171273",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Standard, no 6's",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "51",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Kristy King",
+              "-startposition": "3",
+              "-score": "51",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Scott Hartwell",
+              "-startposition": "2",
+              "-score": "51",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19118106",
+        "-date": "2016-06-23",
+        "-quantity": "1",
+        "-length": "92",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Targi",
+          "-objecttype": "thing",
+          "-objectid": "118048",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Blue",
+              "-score": "40",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "White",
+              "-score": "41",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19118045",
+        "-date": "2016-06-21",
+        "-quantity": "1",
+        "-length": "6",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Zombie 15'",
+          "-objecttype": "thing",
+          "-objectid": "144826",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+Scenario 1: Brian played as Will, Justin as Josh, Charity as Severity.
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Justin Tolbert",
+              "-startposition": "3",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Charity Tolbert",
+              "-startposition": "2",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19118061",
+        "-date": "2016-06-21",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Zombie 15'",
+          "-objecttype": "thing",
+          "-objectid": "144826",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Scenario 2: Melissa played as Hazel.",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Justin Tolbert",
+              "-startposition": "4",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Charity Tolbert",
+              "-startposition": "3",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19118095",
+        "-date": "2016-06-21",
+        "-quantity": "1",
+        "-length": "7",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Zombie 15'",
+          "-objecttype": "thing",
+          "-objectid": "144826",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+Scenario 3: Won easily because no Horde card came up.
+",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Justin Tolbert",
+              "-startposition": "4",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Charity Tolbert",
+              "-startposition": "3",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19050985",
+        "-date": "2016-06-16",
+        "-quantity": "1",
+        "-length": "54",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Gamers n Geeks",
+        "item": {
+          "-name": "Mysterium",
+          "-objecttype": "thing",
+          "-objectid": "181304",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameimplementation" }
+            ]
+          }
+        },
+        "comments": "
+Jay was the ghost. We lost when only Brian and Melissa guessed the murderer at the end, even though they had only one clue.
+",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Clint Patterson",
+              "-startposition": "4",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Jason Thunderhorse",
+              "-startposition": "6",
+              "-color": "White",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Black",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Wesley Stein",
+              "-startposition": "5",
+              "-color": "Yellow",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "JorduSpeaks",
+              "-userid": "463876",
+              "-name": "Jay Champagne",
+              "-startposition": "3",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "Purple",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19025666",
+        "-date": "2016-06-14",
+        "-quantity": "1",
+        "-length": "13",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Zombie 15'",
+          "-objecttype": "thing",
+          "-objectid": "144826",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+Scenario 4: Won first try. Found a Lucky Charm and a Cat.
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19025668",
+        "-date": "2016-06-14",
+        "-quantity": "1",
+        "-length": "15",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Zombie 15'",
+          "-objecttype": "thing",
+          "-objectid": "144826",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Scenario 5: Ran out of time.",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19025677",
+        "-date": "2016-06-14",
+        "-quantity": "1",
+        "-length": "9",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Zombie 15'",
+          "-objecttype": "thing",
+          "-objectid": "144826",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+Scenario 5: Found the keys easily this time. Found a Lucky Charm.
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19017107",
+        "-date": "2016-06-12",
+        "-quantity": "1",
+        "-length": "12",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Zombie 15'",
+          "-objecttype": "thing",
+          "-objectid": "144826",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+Scenario 3: Barely escaped the Horde; at one point we were all together with all but one character out of ammunition. Found a smoke grenade and a molotov cocktail.
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "19017111",
+        "-date": "2016-06-12",
+        "-quantity": "1",
+        "-length": "11",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Zombie 15'",
+          "-objecttype": "thing",
+          "-objectid": "144826",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+Scenario 3: Brian switched from Josh to Trevor. Both of Brian's characters fell unconscious near the end, and Melissa was unable to save him from the Horde.
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18977107",
+        "-date": "2016-06-10",
+        "-quantity": "1",
+        "-length": "6",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Zombie 15'",
+          "-objecttype": "thing",
+          "-objectid": "144826",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+Scenario 1. Brian will be playing Josh and Snow in our two-person campaign; Melissa is playing Verity and Vance.
+",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18977114",
+        "-date": "2016-06-10",
+        "-quantity": "1",
+        "-length": "15",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Zombie 15'",
+          "-objecttype": "thing",
+          "-objectid": "144826",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "
+Scenario 2. A difficult loss; both Verity and Vance were unconscious when time expired.
+",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18977116",
+        "-date": "2016-06-10",
+        "-quantity": "1",
+        "-length": "9",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Zombie 15'",
+          "-objecttype": "thing",
+          "-objectid": "144826",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Scenario 2. Easy win.",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18967310",
+        "-date": "2016-06-09",
+        "-quantity": "1",
+        "-length": "38",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Discworld: Ankh-Morpork",
+          "-objecttype": "thing",
+          "-objectid": "91312",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Brian was Lord Vetinari, Melissa was Lord de Worde",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-color": "Green",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18892819",
+        "-date": "2016-06-02",
+        "-quantity": "1",
+        "-length": "8",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Gamers n Geeks",
+        "item": {
+          "-name": "Spyfall",
+          "-objecttype": "thing",
+          "-objectid": "166384",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "JorduSpeaks",
+              "-userid": "463876",
+              "-name": "Jay Champagne",
+              "-startposition": "4",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Greg Olsen",
+              "-startposition": "6",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Wesley Stein",
+              "-startposition": "5",
+              "-color": "Spy",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Clint Patterson",
+              "-startposition": "3",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18892822",
+        "-date": "2016-06-02",
+        "-quantity": "1",
+        "-length": "8",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Gamers n Geeks",
+        "item": {
+          "-name": "Spyfall",
+          "-objecttype": "thing",
+          "-objectid": "166384",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "JorduSpeaks",
+              "-userid": "463876",
+              "-name": "Jay Champagne",
+              "-startposition": "4",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Greg Olsen",
+              "-startposition": "6",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Spy",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Wesley Stein",
+              "-startposition": "5",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Clint Patterson",
+              "-startposition": "3",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18892810",
+        "-date": "2016-06-02",
+        "-quantity": "1",
+        "-length": "61",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Gamers n Geeks",
+        "item": {
+          "-name": "Vault Wars",
+          "-objecttype": "thing",
+          "-objectid": "169704",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "JorduSpeaks",
+              "-userid": "463876",
+              "-name": "Jay Champagne",
+              "-startposition": "4",
+              "-score": "19",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "8",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Wesley Stein",
+              "-startposition": "5",
+              "-score": "11",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Clint Patterson",
+              "-startposition": "3",
+              "-score": "18",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-score": "14",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18862659",
+        "-date": "2016-05-29",
+        "-quantity": "1",
+        "-length": "17",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "King of Tokyo",
+          "-objecttype": "thing",
+          "-objectid": "70323",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Meka Dragon",
+              "-score": "20",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Micah Bucy",
+              "-startposition": "2",
+              "-color": "Cyber Bunny",
+              "-score": "11",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18792655",
+        "-date": "2016-05-24",
+        "-quantity": "1",
+        "-length": "84",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Seasons",
+          "-objecttype": "thing",
+          "-objectid": "108745",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-color": "Green",
+              "-score": "141",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Gray",
+              "-score": "145",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18782745",
+        "-date": "2016-05-21",
+        "-quantity": "1",
+        "-length": "43",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Pensacola - Cici's",
+        "item": {
+          "-name": "King of Tokyo",
+          "-objecttype": "thing",
+          "-objectid": "70323",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Matthew Morris",
+              "-startposition": "4",
+              "-color": "Pandakai",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-color": "Kraken",
+              "-score": "4",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "JJ Johnson",
+              "-startposition": "3",
+              "-color": "Meka Dragon",
+              "-score": "2",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Micah Bucy",
+              "-startposition": "2",
+              "-color": "Gigazaur",
+              "-score": "20",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18744434",
+        "-date": "2016-05-20",
+        "-quantity": "1",
+        "-length": "16",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Tolbert House",
+        "item": {
+          "-name": "Codenames",
+          "-objecttype": "thing",
+          "-objectid": "178900",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "comments": "
+Brian and Melissa were spy masters. Girls had two left.
+",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Charity Tolbert",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Judy Herrington",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Ben Harris",
+              "-color": "Blue",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Debby Harris",
+              "-color": "Red",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Justin Tolbert",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Britney Hopkins",
+              "-color": "Red",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Scott Hopkins",
+              "-color": "Blue",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Shane Herrington",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18782746",
+        "-date": "2016-05-20",
+        "-quantity": "1",
+        "-length": "36",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Tolbert House",
+        "item": {
+          "-name": "Codenames",
+          "-objecttype": "thing",
+          "-objectid": "178900",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "comments": "Men had 2 left",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Charity Tolbert",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Judy Herrington",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Ben Harris",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Debby Harris",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Justin Tolbert",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Britney Hopkins",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Scott Hopkins",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Shane Herrington",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18782747",
+        "-date": "2016-05-20",
+        "-quantity": "1",
+        "-length": "33",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Tolbert House",
+        "item": {
+          "-name": "Codenames",
+          "-objecttype": "thing",
+          "-objectid": "178900",
+          "subtypes": {
+            "subtype": [
+              { "-value": "boardgame" },
+              { "-value": "boardgameintegration" }
+            ]
+          }
+        },
+        "comments": "Men had 2 left",
+        "players": {
+          "player": [
+            {
+              "-userid": "0",
+              "-name": "Charity Tolbert",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Judy Herrington",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Ben Harris",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Debby Harris",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Justin Tolbert",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Britney Hopkins",
+              "-color": "Red",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "1"
+            },
+            {
+              "-userid": "0",
+              "-name": "Scott Hopkins",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Shane Herrington",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-color": "Blue",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18740129",
+        "-date": "2016-05-19",
+        "-quantity": "1",
+        "-length": "41",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Gamers n Geeks",
+        "item": {
+          "-name": "Baseball Highlights: 2045",
+          "-objecttype": "thing",
+          "-objectid": "151022",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Micah 5-3, Brian 5-1, Micah 6-3",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-color": "Blue",
+              "-score": "1",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Micah Bucy",
+              "-color": "Red",
+              "-score": "2",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18740125",
+        "-date": "2016-05-19",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Gamers n Geeks",
+        "item": {
+          "-name": "FUSE",
+          "-objecttype": "thing",
+          "-objectid": "171273",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Expert",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "73",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Micah Bucy",
+              "-startposition": "2",
+              "-score": "73",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18740126",
+        "-date": "2016-05-19",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Gamers n Geeks",
+        "item": {
+          "-name": "FUSE",
+          "-objecttype": "thing",
+          "-objectid": "171273",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Expert",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "60",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Micah Bucy",
+              "-startposition": "2",
+              "-score": "60",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18740127",
+        "-date": "2016-05-19",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Gamers n Geeks",
+        "item": {
+          "-name": "FUSE",
+          "-objecttype": "thing",
+          "-objectid": "171273",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Expert",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "45",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Micah Bucy",
+              "-startposition": "2",
+              "-score": "45",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18740128",
+        "-date": "2016-05-19",
+        "-quantity": "1",
+        "-length": "10",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Gamers n Geeks",
+        "item": {
+          "-name": "FUSE",
+          "-objecttype": "thing",
+          "-objectid": "171273",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "comments": "Expert",
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "46",
+              "-new": "0",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Micah Bucy",
+              "-startposition": "2",
+              "-score": "46",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            }
+          ]
+        }
+      },
+      {
+        "-id": "18654002",
+        "-date": "2016-05-12",
+        "-quantity": "1",
+        "-length": "101",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+          "-name": "Vault Wars",
+          "-objecttype": "thing",
+          "-objectid": "169704",
+          "subtypes": {
+            "subtype": { "-value": "boardgame" }
+          }
+        },
+        "players": {
+          "player": [
+            {
+              "-username": "briankoser",
+              "-userid": "836129",
+              "-name": "Brian Koser",
+              "-startposition": "1",
+              "-score": "31",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Megan Koser",
+              "-startposition": "3",
+              "-score": "36",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "0"
+            },
+            {
+              "-userid": "0",
+              "-name": "Melissa Koser",
+              "-startposition": "2",
+              "-score": "40",
+              "-new": "1",
+              "-rating": "0",
+              "-win": "1"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
