@@ -1,1 +1,367 @@
-{"total-played":106,"minutes-played":4638,"longest":{"-id":"20101045","-date":"2016-09-19","-quantity":"2","-length":"180","-incomplete":"0","-nowinstats":"0","-location":"Road Trip","item":{"-name":"Black Stories","-objecttype":"thing","-objectid":"18803","subtypes":{"subtype":{"-value":"boardgame"}}},"players":{"player":[{"-username":"briankoser","-userid":"836129","-name":"Brian Koser","-startposition":"1","-new":"0","-rating":"0","-win":"0"},{"-userid":"0","-name":"Melissa Koser","-startposition":"2","-new":"0","-rating":"0","-win":"0"}]}},"shortest":{"-id":"19118045","-date":"2016-06-21","-quantity":"1","-length":"6","-incomplete":"0","-nowinstats":"0","-location":"Mobile - Home","item":{"-name":"Zombie 15'","-objecttype":"thing","-objectid":"144826","subtypes":{"subtype":{"-value":"boardgame"}}},"comments":"Scenario 1: Brian played as Will, Justin as Josh, Charity as Severity.","players":{"player":[{"-username":"briankoser","-userid":"836129","-name":"Brian Koser","-startposition":"1","-new":"0","-rating":"0","-win":"0"},{"-userid":"0","-name":"Justin Tolbert","-startposition":"3","-new":"1","-rating":"0","-win":"1"},{"-userid":"0","-name":"Charity Tolbert","-startposition":"2","-new":"1","-rating":"0","-win":"1"}]}},"hindex":11,"played-by-month":{"labels":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"series":[[0,0,0,0,12,21,10,11,45,1,0,0]]},"played-by-day":{"labels":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"series":[[18,10,12,7,29,9,15]]}}
+{
+    "total-played": 106,
+    "minutes-played": 4638,
+    "longest": {
+        "-id": "20101045",
+        "-date": "2016-09-19",
+        "-quantity": "2",
+        "-length": "180",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Road Trip",
+        "item": {
+            "-name": "Black Stories",
+            "-objecttype": "thing",
+            "-objectid": "18803",
+            "subtypes": {
+                "subtype": {
+                    "-value": "boardgame"
+                }
+            }
+        },
+        "players": {
+            "player": [
+                {
+                    "-username": "briankoser",
+                    "-userid": "836129",
+                    "-name": "Brian Koser",
+                    "-startposition": "1",
+                    "-new": "0",
+                    "-rating": "0",
+                    "-win": "0"
+                },
+                {
+                    "-userid": "0",
+                    "-name": "Melissa Koser",
+                    "-startposition": "2",
+                    "-new": "0",
+                    "-rating": "0",
+                    "-win": "0"
+                }
+            ]
+        }
+    },
+    "shortest": {
+        "-id": "19118045",
+        "-date": "2016-06-21",
+        "-quantity": "1",
+        "-length": "6",
+        "-incomplete": "0",
+        "-nowinstats": "0",
+        "-location": "Mobile - Home",
+        "item": {
+            "-name": "Zombie 15'",
+            "-objecttype": "thing",
+            "-objectid": "144826",
+            "subtypes": {
+                "subtype": {
+                    "-value": "boardgame"
+                }
+            }
+        },
+        "comments": "Scenario 1: Brian played as Will, Justin as Josh, Charity as Severity.",
+        "players": {
+            "player": [
+                {
+                    "-username": "briankoser",
+                    "-userid": "836129",
+                    "-name": "Brian Koser",
+                    "-startposition": "1",
+                    "-new": "0",
+                    "-rating": "0",
+                    "-win": "0"
+                },
+                {
+                    "-userid": "0",
+                    "-name": "Justin Tolbert",
+                    "-startposition": "3",
+                    "-new": "1",
+                    "-rating": "0",
+                    "-win": "1"
+                },
+                {
+                    "-userid": "0",
+                    "-name": "Charity Tolbert",
+                    "-startposition": "2",
+                    "-new": "1",
+                    "-rating": "0",
+                    "-win": "1"
+                }
+            ]
+        }
+    },
+    "hindex": 11,
+    "unplayedOwned": 0,
+    "played-by-month": {
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ],
+        "series": [
+            [
+                0,
+                0,
+                0,
+                0,
+                12,
+                21,
+                10,
+                11,
+                45,
+                1,
+                0,
+                0
+            ]
+        ]
+    },
+    "played-by-day": {
+        "labels": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+        ],
+        "series": [
+            [
+                18,
+                10,
+                12,
+                7,
+                29,
+                9,
+                15
+            ]
+        ]
+    },
+    "played-by-player-count": {
+        "labels": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+        ],
+        "series": [
+            [
+                34,
+                17,
+                23,
+                6,
+                7,
+                2,
+                4,
+                1,
+                6
+            ]
+        ]
+    },
+    "listed-by-total-played": {
+        "labels": [
+            "FUSE",
+            "Zombie 15'",
+            "Codenames",
+            "Black Stories",
+            "Deception: Murder in Hong Kong",
+            "T.I.M.E Stories",
+            "Bring Your Own Book",
+            "Doctor Panic",
+            "Seasons",
+            "Mascarade",
+            "Tumblin-Dice",
+            "King of Tokyo",
+            "Ticket to Ride",
+            "Caverna: The Cave Farmers",
+            "Iron Man 2: Game of War",
+            "Spyfall",
+            "Vault Wars",
+            "Shadows over Camelot",
+            "Sherlock Holmes Consulting Detective",
+            "Star Realms",
+            "Time 'n' Space",
+            "Smash Up",
+            "Pandemic",
+            "Stellar Conflict",
+            "The Lord of the Rings: The Card Game",
+            "Five Tribes",
+            "Star Wars: Imperial Assault",
+            "Ca$h 'n Guns (Second Edition)",
+            "Roll for the Galaxy",
+            "Splendor",
+            "Tales of the Arabian Nights",
+            "Ticket to Ride: Europe",
+            "Scythe",
+            "Castles of Mad King Ludwig",
+            "Bottom of the 9th",
+            "No Thanks!",
+            "Targi",
+            "Cosmic Encounter",
+            "Mysterium",
+            "Discworld: Ankh-Morpork",
+            "Munchkin",
+            "TacDex: Pirates",
+            "Jamaica",
+            "Baseball Highlights: 2045"
+        ],
+        "series": [
+            [
+                13,
+                11,
+                9,
+                8,
+                4,
+                4,
+                3,
+                3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        ]
+    },
+    "listed-by-minutes": {
+        "labels": [
+            "Black Stories",
+            "T.I.M.E Stories",
+            "Caverna: The Cave Farmers",
+            "Seasons",
+            "Bring Your Own Book",
+            "Codenames",
+            "Ticket to Ride",
+            "Vault Wars",
+            "Sherlock Holmes Consulting Detective",
+            "FUSE",
+            "Scythe",
+            "The Lord of the Rings: The Card Game",
+            "Zombie 15'",
+            "Deception: Murder in Hong Kong",
+            "Tales of the Arabian Nights",
+            "Five Tribes",
+            "Cosmic Encounter",
+            "Targi",
+            "Shadows over Camelot",
+            "Star Wars: Imperial Assault",
+            "Ticket to Ride: Europe",
+            "Castles of Mad King Ludwig",
+            "No Thanks!",
+            "Roll for the Galaxy",
+            "King of Tokyo",
+            "Jamaica",
+            "Pandemic",
+            "Mascarade",
+            "Tumblin-Dice",
+            "Mysterium",
+            "Munchkin",
+            "Splendor",
+            "Iron Man 2: Game of War",
+            "Baseball Highlights: 2045",
+            "Discworld: Ankh-Morpork",
+            "Smash Up",
+            "Ca$h 'n Guns (Second Edition)",
+            "Star Realms",
+            "Doctor Panic",
+            "Bottom of the 9th",
+            "TacDex: Pirates",
+            "Spyfall",
+            "Time 'n' Space",
+            "Stellar Conflict"
+        ],
+        "series": [
+            [
+                790,
+                343,
+                299,
+                179,
+                177,
+                170,
+                163,
+                162,
+                144,
+                130,
+                129,
+                123,
+                113,
+                111,
+                97,
+                96,
+                92,
+                92,
+                90,
+                88,
+                83,
+                74,
+                71,
+                65,
+                60,
+                58,
+                58,
+                56,
+                54,
+                54,
+                45,
+                42,
+                42,
+                41,
+                38,
+                38,
+                31,
+                31,
+                29,
+                22,
+                20,
+                16,
+                12,
+                10
+            ]
+        ]
+    }
+}
