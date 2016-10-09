@@ -17,4 +17,4 @@ bookpubdate: 1922
 bookrating: 3
 openlibraryurl: "https://openlibrary.org/books/OL3684656M/The_man_who_knew_too_much"
 ---
-G. K. Chesterton is a wonderful writer. I've read and enjoyed his Father Brown mysteries. These short mysteries are OK; I prefer the Father Brown stories. 
+G. K. Chesterton is a wonderful writer. I’ve read and enjoyed his Father Brown mysteries. These short mysteries are OK; I prefer the Father Brown stories.
